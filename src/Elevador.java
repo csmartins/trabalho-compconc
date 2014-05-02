@@ -73,6 +73,7 @@ public class Elevador extends Thread{
 			for(int j = i+1; j<requisicoes.size();j++)
 			{
 				//testa as condições para trocar os elementos de lugar
+				//FIXME extrair as condições desse if para métodos, deixar mais legivel
 				if(((requisicoes.get(i) >requisicoes.get(j)) && sentido == SOBE) || ((requisicoes.get(i) <requisicoes.get(j)) && sentido == DESCE ) )
 				{
 					aux = requisicoes.get(i);
