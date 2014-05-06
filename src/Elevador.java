@@ -8,13 +8,17 @@ public class Elevador extends Thread{
 	
 	final int     DESCE 			= 0;
 	final int     SOBE 			    = 1;
-	int 	      id;
-	int 	      andarDeInicio;
-	String []     tarefasElevador;
+	
 	String        tarefaEscolhida;
+	
+	int 	      id;
+	int 	      andarDeInicio;	
 	int    	      andarDePartida;
 	int  	   	  sentido;
 	int 	   	  numRequisicoes;
+	//TODO quando andar para um andar este campo deve ser atualizado
+	int 		  andarAtual;
+	
 	List<Integer> requisicoes 		= new ArrayList<Integer>();	
 	
 	public Elevador(int id, int andarDeInicio) 
@@ -26,19 +30,22 @@ public class Elevador extends Thread{
 	public void run()
 	{
 		System.out.println("Thread "+id+" começou");
-		tarefaEscolhida = escolheTarefas(); 
+		tarefaEscolhida = pegarTarefa(); 
 		trataTarefas();
 	}
 
-	public String escolheTarefas()
+	public String pegarTarefa()
 	{
+		
+		String        tarefaElevador;
+		
 		synchronized (this) 
 		{
-			tarefasElevador = Main.tarefas;
+			tarefaElevador = Main.escolherTarefa(andarAtual);
 		}
 		//código para escolher melhor tarefa
 		//pensar em como excluir a tarefa esscolhida do vetor
-		return tarefasElevador[0];
+		return tarefaElevador;
 	}
 
 	public void trataTarefas()
@@ -74,7 +81,7 @@ public class Elevador extends Thread{
 			{
 				//testa as condições para trocar os elementos de lugar
 				//FIXME extrair as condições desse if para métodos, deixar mais legivel
-				if(((requisicoes.get(i) >requisicoes.get(j)) && sentido == SOBE) || ((requisicoes.get(i) <requisicoes.get(j)) && sentido == DESCE ) )
+				if(isElevadorSubindoEAndaresTrocados(i, j) || isElevadorDescendoEAndaresTrocados(i, j) )
 				{
 					aux = requisicoes.get(i);
 					requisicoes.set(i, requisicoes.get(j));
@@ -83,6 +90,16 @@ public class Elevador extends Thread{
 				}
 			}
 		}
+	}
+
+	private boolean isElevadorDescendoEAndaresTrocados(int i, int j) 
+	{
+		return (requisicoes.get(i) < requisicoes.get(j)) && sentido == DESCE;
+	}
+
+	private boolean isElevadorSubindoEAndaresTrocados(int i, int j) 
+	{
+		return (requisicoes.get(i) > requisicoes.get(j)) && sentido == SOBE;
 	}
 	
 }

@@ -12,12 +12,13 @@ public class Main {
 	static int 		numTarefas;
 	static String[] tarefas;
 
-	public static void leArquivo(String caminhoArq)
+	public static void lerArquivo(String caminhoArq)
 	{
 		
 		String[] separados = null;
 		
-		try {
+		try 
+		{
 			BufferedReader in = new BufferedReader(new FileReader(caminhoArq));
 			String str;
 			
@@ -45,14 +46,14 @@ public class Main {
 				
 				//leitura das demais linhas do arquivo, salvando as tarefas
 				tarefas = new String[numTarefas];
-				for(int j =0; j<numTarefas; j++){
+				for(int j = 0; j < numTarefas; j++){
 					str = in.readLine();
 					tarefas[j] = str;
 				}
 			}
 			
 			in.close();
-			} 
+		} 
 		catch (IOException e) 
 		{
 				System.out.println("Erro na leitura do arquivo");
@@ -64,7 +65,7 @@ public class Main {
 	{
 		
 		/*lê arquivos e salva nas variáveis as infos necessárias*/
-		leArquivo("C:/Users/Patrícia/Desktop/teste.txt");
+		lerArquivo("entrada.txt");
 		
 		/*criação das threads*/
 		Thread[] threads = new Thread[numElevadores];
@@ -85,6 +86,24 @@ public class Main {
 	          try { threads[i].join(); } catch (InterruptedException e) { return; }
 	      }
 	       System.out.println("A main terminou");
+	}
+
+	public static synchronized String escolherTarefa(int andarAtual) 
+	{
+		
+		String tarefa;
+		int    andarDeInicioDaTarefa;
+		
+		for(int i = 0; i < numTarefas; i++)
+		{
+			tarefa 				  = tarefas[i];
+			andarDeInicioDaTarefa = Integer.parseInt(tarefa.substring(0, 1));
+			
+			if(andarDeInicioDaTarefa == andarAtual)
+				return tarefa;
+		}
+		
+		return "null";
 	}
 
 }
