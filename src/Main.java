@@ -5,25 +5,24 @@ import java.io.IOException;
 
 public class Main {
 	
-	static int 		numAndares;
-	static int 		numElevadores;
-	static int 		numMaxUsuarios;
-	static int[] 	andaresDeInicio; //salvos na ordem dos elevadores
-	static int 		numTarefas;
-	static String[] tarefas;
+	static int	 	 numAndares;
+	static int 	 	 numElevadores;
+	static int   	 numMaxUsuarios;
+	static int[] 	 andaresDeInicio; //salvos na ordem dos elevadores
+	static int   	 numTarefas;
+	static String[]  tarefas;
+	
+	static MonitorDeTarefas central;
 
-	public static void lerArquivo(String caminhoArq)
-	{
+	public static void lerArquivo(String caminhoArq){
 		
 		String[] separados = null;
 		
-		try 
-		{
+		try {
 			BufferedReader in = new BufferedReader(new FileReader(caminhoArq));
 			String str;
 			
-			while (in.ready()) 
-			{
+			while (in.ready()) {
 				//leitura da primeira linha do arquivo
 				str = in.readLine();
 				separados = str.split(" ");
@@ -46,18 +45,16 @@ public class Main {
 				
 				//leitura das demais linhas do arquivo, salvando as tarefas
 				tarefas = new String[numTarefas];
-				for(int j = 0; j < numTarefas; j++){
+				for(int j =0; j<numTarefas; j++){
 					str = in.readLine();
 					tarefas[j] = str;
 				}
 			}
 			
 			in.close();
-		} 
-		catch (IOException e) 
-		{
+			} catch (IOException e) {
 				System.out.println("Erro na leitura do arquivo");
-		}
+			}
 
 	}
 	
@@ -66,6 +63,8 @@ public class Main {
 		
 		/*lê arquivos e salva nas variáveis as infos necessárias*/
 		lerArquivo("entrada.txt");
+		
+		central = new MonitorDeTarefas(tarefas);
 		
 		/*criação das threads*/
 		Thread[] threads = new Thread[numElevadores];
@@ -79,31 +78,13 @@ public class Main {
 	      for (int i=0; i<threads.length; i++) 
 	      {
 	          threads[i].start();
-	      }
+	       }
 
-	      for (int i=0; i<threads.length; i++) 
-	      {
+	       for (int i=0; i<threads.length; i++) 
+	       {
 	          try { threads[i].join(); } catch (InterruptedException e) { return; }
-	      }
+	       }
 	       System.out.println("A main terminou");
-	}
-
-	public static synchronized String escolherTarefa(int andarAtual) 
-	{
-		
-		String tarefa;
-		int    andarDeInicioDaTarefa;
-		
-		for(int i = 0; i < numTarefas; i++)
-		{
-			tarefa 				  = tarefas[i];
-			andarDeInicioDaTarefa = Integer.parseInt(tarefa.substring(0, 1));
-			
-			if(andarDeInicioDaTarefa == andarAtual)
-				return tarefa;
-		}
-		
-		return "null";
 	}
 
 }
