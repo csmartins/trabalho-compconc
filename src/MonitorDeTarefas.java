@@ -17,6 +17,15 @@ public class MonitorDeTarefas
 		this.listaDeTarefas = new ArrayList<Tarefa>();
 		this.tarefasBrutas = tarefas;
 		this.criarTarefas();
+		System.out.println("Quantidade de tarefas: "+listaDeTarefas.size());
+		for(int i =0 ; i < listaDeTarefas.size(); i++){
+			System.out.println("Tarefa "+listaDeTarefas.get(i).getIdTarefa());
+			System.out.println("Sentido da tarefa: "+listaDeTarefas.get(i).getSentido());
+			List<Integer> reqtemp = listaDeTarefas.get(i).getRequisicoes();
+			for(int j =0; j<reqtemp.size(); j++){
+				System.out.println(" "+reqtemp.get(j)+" ");
+			}
+		}
 	}
 
 	private void tratarTarefas(String tarefaBruta, Tarefa tarefa)
@@ -64,7 +73,6 @@ public class MonitorDeTarefas
 					aux = requisicoes.get(i);
 					requisicoes.set(i, requisicoes.get(j));
 					requisicoes.set(j, aux);
-					
 				}
 			}
 		}
