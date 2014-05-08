@@ -72,7 +72,7 @@ public class Main {
 	      for (int i=0; i<threads.length; i++) 
 	      {
 	         System.out.println("--Cria a thread " + i);
-	         threads[i] = new Elevador(i, andaresDeInicio[i]);
+	         threads[i] = new Elevador(i, andaresDeInicio[i], central);
 	      }
 	      
 	      for (int i=0; i<threads.length; i++) 

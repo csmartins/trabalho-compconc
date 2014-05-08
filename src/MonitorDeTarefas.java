@@ -95,8 +95,12 @@ public class MonitorDeTarefas
 		}
 	}
 
-	public static Tarefa escolherTarefa(Integer andarAtual) {
-		// TODO Auto-generated method stub
+	public static synchronized Tarefa escolherTarefa(Integer andarAtual) {
+		// lógica para escolher melhor tarefa
 		return null;
+	}
+	
+	public synchronized void finalizaTarefa(Tarefa f){
+		listaDeTarefas.remove(f.getIdTarefa());
 	}
 }
