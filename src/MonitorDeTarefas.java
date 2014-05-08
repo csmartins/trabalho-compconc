@@ -48,6 +48,7 @@ public class MonitorDeTarefas
 		{
 			Tarefa tarefa = new Tarefa(i);
 			tratarTarefas(tarefasBrutas[i], tarefa);
+			//comitando qq coisa
 			listaDeTarefas.add(tarefa);
 		}
 		
