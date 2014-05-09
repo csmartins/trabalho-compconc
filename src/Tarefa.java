@@ -2,8 +2,6 @@ import java.util.List;
 
 public class Tarefa 
 {
-	private String 		  tarefaBruta;
-
 	private Integer 	  andarDeInicio;
 	private Integer 	  sentido;
 	private Integer 	  numeroRequisicoes;
@@ -12,19 +10,12 @@ public class Tarefa
 	private final int 	  SOBE = 1;
 
 	private List<Integer> requisicoes;
+	private List<Integer> requisicaoBruta;
 
 	private int 		  idTarefa;
 
 	public Tarefa(int id) {
 		this.idTarefa = id;
-	}
-
-	public String getTarefaBruta() {
-		return tarefaBruta;
-	}
-
-	public void setTarefaBruta(String tarefaBruta) {
-		this.tarefaBruta = tarefaBruta;
 	}
 
 	public Integer getAndarDeInicio() {
@@ -66,6 +57,12 @@ public class Tarefa
 	public void setIdTarefa(int idTarefa) {
 		this.idTarefa = idTarefa;
 	}
-	
-	
+
+	public List<Integer> getRequisicaoBruta() {
+		return requisicaoBruta;
+	}
+
+	public void setRequisicaoBruta(List<Integer> requisicaoBruta) {
+		this.requisicaoBruta = requisicaoBruta;
+	}	
 }
