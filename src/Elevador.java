@@ -29,7 +29,12 @@ public class Elevador extends Thread{
 		
 		while(true)
 		{
-			tarefaElevador = monitor.escolherTarefa(andarAtual);
+			tarefaElevador = monitor.escolherTarefa(andarAtual, id);
+			
+			if(tarefaElevador == null){
+				//kill thread
+				break;
+			}
 			
 			this.idTarefaElevador = tarefaElevador.getIdTarefa();
 			this.andarDeInicio = tarefaElevador.getAndarDeInicio();
@@ -37,12 +42,10 @@ public class Elevador extends Thread{
 			this.requisicoes = tarefaElevador.getRequisicoes();
 			
 			imprimeStatusTarefa(tarefaElevador.getRequisicaoBruta());
-				
+			
 			processaTarefa();
 			
-			this.andarDeInicio = this.andarAtual;
-			
-			monitor.finalizaTarefa(tarefaElevador);
+			monitor.finalizaTarefa(id, tarefaElevador.getIdTarefa());
 		}
 	}
 	
@@ -67,7 +70,9 @@ public class Elevador extends Thread{
 	
 	public void processaTarefa(){
 		
+		andarAtual = andarDeInicio;
 		imprimeStatusTarefa(requisicoes);
+		
 		while(requisicoes.size()>0){
 			Integer andando = requisicoes.get(0);
 			andarAtual = andando;

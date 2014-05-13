@@ -10,13 +10,18 @@ public class MonitorDeTarefas
 	
 	private final int DESCE = 0;
 	private final int SOBE = 1;
-
+	
+	private int count;
+	
 	public MonitorDeTarefas(String [] tarefas)
 	{
 		this.listaDeTarefas = new ArrayList<Tarefa>();
 		this.tarefasBrutas = tarefas;
 		this.criarTarefas();
+		
+		this.count= 0;
 	}
+	
 	
 	private void criarTarefas() 
 	{
@@ -90,68 +95,70 @@ public boolean trocarPosicao(int i,int j, int sentido, String[] separado)
 	}
 
 
-	public synchronized Tarefa escolherTarefa(Integer andarAtual) 
-	{
-		int andarAbaixoDoAtual;
-		int andarAcimaDoAtual;
-		int distanciaParaBaixo;
-		int distanciaParaCima;
-		
-		int andarTarefa;
-		int menorDistancia = 0;
-		int distanciaAtual;
-		Tarefa candidataTarefa = new Tarefa(40);
-		
-		for(int tarefa = 0; tarefa < listaDeTarefas.size(); tarefa++)
-		{
-			System.out.println("rodando "+ tarefa + " vezes");
+	public synchronized Tarefa escolherTarefa(Integer andarAtual, int idElevador) 
+	{		
+		Tarefa candidataTarefa = null;
+		try{
+			
+			if(listaDeTarefas.size() == 0){
+				return null;
+			}
+			
+			while(count > 0){
+				System.out.println("Elevador "+idElevador+" bloqueado");
+				wait();
+			}
 
-			andarTarefa = listaDeTarefas.get(tarefa).getAndarDeInicio();
+			++count;
+			int andarTarefa;
+			int menorDistancia = 0;
+			int distanciaAtual;
+			candidataTarefa = new Tarefa(40);
 			
-			if(andarTarefa == andarAtual)
+			for(int tarefa = 0; tarefa < listaDeTarefas.size(); tarefa++)
 			{
-				Tarefa tarefaEscolhida = listaDeTarefas.get(tarefa);
-				listaDeTarefas.remove(tarefaEscolhida);
-				return tarefaEscolhida;
-			}
-			
-			else{
-				distanciaAtual = Math.abs(andarAtual - listaDeTarefas.get(tarefa).getAndarDeInicio());
-				if(tarefa == 0){
-					candidataTarefa = listaDeTarefas.get(0);
-					menorDistancia = distanciaAtual;
+				andarTarefa = listaDeTarefas.get(tarefa).getAndarDeInicio();
+				
+				if(andarTarefa == andarAtual)
+				{
+					candidataTarefa = listaDeTarefas.get(tarefa);
+					listaDeTarefas.remove(candidataTarefa);
+					System.out.println("Elevador "+idElevador+" escolheu a tarefa "+candidataTarefa.getIdTarefa());
+					--count;
+					return candidataTarefa;
 				}
+				
 				else{
-					if(menorDistancia > distanciaAtual)
-						candidataTarefa = listaDeTarefas.get(tarefa);
+					distanciaAtual = Math.abs(andarAtual - listaDeTarefas.get(tarefa).getAndarDeInicio());
+					if(tarefa == 0){
+						candidataTarefa = listaDeTarefas.get(0);
 						menorDistancia = distanciaAtual;
-				}
+					}
+					else{
+						if(menorDistancia > distanciaAtual)
+							candidataTarefa = listaDeTarefas.get(tarefa);
+							menorDistancia = distanciaAtual;
+					}
+				}		
 			}
-			//andarAbaixoDoAtual = listaDeTarefas.get(tarefa).getAndarDeInicio();
-			//andarAcimaDoAtual = listaDeTarefas.get(tarefa + 1).getAndarDeInicio();
 			
-//			if(listaDeTarefas.get(tarefa).getAndarDeInicio().equals(andarAtual))
-//				return listaDeTarefas.get(tarefa);
-//			
-//			if(andarAbaixoDoAtual < andarAtual && andarAcimaDoAtual > andarAtual)
-//			{
-//				distanciaParaBaixo = andarAtual - andarAbaixoDoAtual;
-//				distanciaParaCima = andarAcimaDoAtual - andarAtual;
-//				
-//				if(distanciaParaBaixo < distanciaParaCima)
-//					return listaDeTarefas.get(tarefa);
-//				
-//				if(distanciaParaBaixo >= distanciaParaCima)
-//					return listaDeTarefas.get(tarefa + 1);
-//			}		
+			System.out.println("Elevador "+idElevador+" escolheu a tarefa "+candidataTarefa.getIdTarefa());
+			
+			listaDeTarefas.remove(candidataTarefa);
+			
+			--count;
+			
+			return candidataTarefa;
+			
+		} catch(Exception e){
+			System.out.println("Deu erro");
 		}
-		
-		listaDeTarefas.remove(candidataTarefa);
-		return candidataTarefa;
+		return null;
 	}
 	
-	public synchronized void finalizaTarefa(Tarefa f)
+	public synchronized void finalizaTarefa(int id, int idTarefa)
 	{
-		listaDeTarefas.remove(f.getIdTarefa());
+		System.out.println("Elevador "+id+" finalizou a tarefa "+idTarefa);
+		notify();
 	}
 }

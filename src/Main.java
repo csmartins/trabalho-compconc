@@ -27,8 +27,7 @@ public class Main {
 				str = in.readLine();
 				separados = str.split(" ");
 				numAndares = Integer.parseInt(separados[0]);
-		//		numElevadores = Integer.parseInt(separados[1]);
-				numElevadores =1;
+				numElevadores = Integer.parseInt(separados[1]);
 				numMaxUsuarios = Integer.parseInt(separados[2]);
 				
 				//leitura da segunda linha do arquivo
