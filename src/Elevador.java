@@ -25,26 +25,25 @@ public class Elevador extends Thread{
 	
 	public void run()
 	{
+		System.out.println("Elevador "+id+" começou no andar "+andarDeInicio);
 		
-		System.out.println("Elevador "+id+" começou");
-		
-		tarefaElevador = monitor.escolherTarefa(andarAtual);
-		
-		this.idTarefaElevador = tarefaElevador.getIdTarefa();
-		this.andarDeInicio = tarefaElevador.getAndarDeInicio();
-		this.sentido = tarefaElevador.getSentido();
-		this.requisicoes = tarefaElevador.getRequisicoes();
-		
-		synchronized (this) {
-			imprimeStatusTarefa(tarefaElevador.getRequisicaoBruta());
+		while(true)
+		{
+			tarefaElevador = monitor.escolherTarefa(andarAtual);
 			
+			this.idTarefaElevador = tarefaElevador.getIdTarefa();
+			this.andarDeInicio = tarefaElevador.getAndarDeInicio();
+			this.sentido = tarefaElevador.getSentido();
+			this.requisicoes = tarefaElevador.getRequisicoes();
+			
+			imprimeStatusTarefa(tarefaElevador.getRequisicaoBruta());
+				
 			processaTarefa();
+			
+			this.andarDeInicio = this.andarAtual;
+			
+			monitor.finalizaTarefa(tarefaElevador);
 		}
-		
-		this.andarDeInicio = this.andarAtual;
-		
-		monitor.finalizaTarefa(tarefaElevador);
-		
 	}
 	
 	public void imprimeStatusTarefa(List<Integer> requisicao){
@@ -62,7 +61,7 @@ public class Elevador extends Thread{
 		else{
 			status += "))";
 		}
-		System.out.println(status);
+		System.out.println("Elevador " + id+ ": " +status);
 		
 	}
 	

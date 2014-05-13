@@ -11,7 +11,6 @@ public class MonitorDeTarefas
 	private final int DESCE = 0;
 	private final int SOBE = 1;
 
-	
 	public MonitorDeTarefas(String [] tarefas)
 	{
 		this.listaDeTarefas = new ArrayList<Tarefa>();
@@ -93,8 +92,62 @@ public boolean trocarPosicao(int i,int j, int sentido, String[] separado)
 
 	public synchronized Tarefa escolherTarefa(Integer andarAtual) 
 	{
-		// lógica para escolher melhor tarefa
-		return listaDeTarefas.get(0);
+		int andarAbaixoDoAtual;
+		int andarAcimaDoAtual;
+		int distanciaParaBaixo;
+		int distanciaParaCima;
+		
+		int andarTarefa;
+		int menorDistancia = 0;
+		int distanciaAtual;
+		Tarefa candidataTarefa = new Tarefa(40);
+		
+		for(int tarefa = 0; tarefa < listaDeTarefas.size(); tarefa++)
+		{
+			System.out.println("rodando "+ tarefa + " vezes");
+
+			andarTarefa = listaDeTarefas.get(tarefa).getAndarDeInicio();
+			
+			if(andarTarefa == andarAtual)
+			{
+				Tarefa tarefaEscolhida = listaDeTarefas.get(tarefa);
+				listaDeTarefas.remove(tarefaEscolhida);
+				return tarefaEscolhida;
+			}
+			
+			else{
+				distanciaAtual = Math.abs(andarAtual - listaDeTarefas.get(tarefa).getAndarDeInicio());
+				if(tarefa == 0){
+					candidataTarefa = listaDeTarefas.get(0);
+					menorDistancia = distanciaAtual;
+				}
+				else{
+					if(menorDistancia > distanciaAtual)
+						candidataTarefa = listaDeTarefas.get(tarefa);
+						menorDistancia = distanciaAtual;
+				}
+			}
+			//andarAbaixoDoAtual = listaDeTarefas.get(tarefa).getAndarDeInicio();
+			//andarAcimaDoAtual = listaDeTarefas.get(tarefa + 1).getAndarDeInicio();
+			
+//			if(listaDeTarefas.get(tarefa).getAndarDeInicio().equals(andarAtual))
+//				return listaDeTarefas.get(tarefa);
+//			
+//			if(andarAbaixoDoAtual < andarAtual && andarAcimaDoAtual > andarAtual)
+//			{
+//				distanciaParaBaixo = andarAtual - andarAbaixoDoAtual;
+//				distanciaParaCima = andarAcimaDoAtual - andarAtual;
+//				
+//				if(distanciaParaBaixo < distanciaParaCima)
+//					return listaDeTarefas.get(tarefa);
+//				
+//				if(distanciaParaBaixo >= distanciaParaCima)
+//					return listaDeTarefas.get(tarefa + 1);
+//			}		
+		}
+		
+		listaDeTarefas.remove(candidataTarefa);
+		return candidataTarefa;
 	}
 	
 	public synchronized void finalizaTarefa(Tarefa f)
