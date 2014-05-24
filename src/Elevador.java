@@ -29,11 +29,27 @@ public class Elevador extends Thread{
 		
 		while(true)
 		{
-			tarefaElevador = monitor.escolherTarefa(andarAtual, id);
-			
-			if(tarefaElevador == null){
-				//kill thread
-				break;
+			synchronized (monitor) 
+			{
+				try 
+				{
+					while(monitor.listaDeTarefas.isEmpty())
+					{
+						System.out.println("Elevador "+ this.id + " esperando");
+						this.wait();
+					}
+					
+					tarefaElevador = monitor.escolherTarefa(andarAtual, id);
+					
+				} catch (InterruptedException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				
+				if(tarefaElevador.equals(null)){
+					//kill thread
+					break;
+				}
 			}
 			
 			this.idTarefaElevador = tarefaElevador.getIdTarefa();

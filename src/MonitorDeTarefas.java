@@ -13,7 +13,7 @@ public class MonitorDeTarefas
 	
 	private int count;
 	
-	public MonitorDeTarefas(String [] tarefas)
+	public void iniciarMonitor(String[] tarefas)
 	{
 		this.listaDeTarefas = new ArrayList<Tarefa>();
 		this.tarefasBrutas = tarefas;
@@ -22,14 +22,20 @@ public class MonitorDeTarefas
 		this.count= 0;
 	}
 	
-	
 	private void criarTarefas() 
 	{
 		for(int i = 0; i < tarefasBrutas.length; i++)
 		{
-			Tarefa tarefa = new Tarefa(i);
-			tratarTarefas(tarefasBrutas[i], tarefa);
-			listaDeTarefas.add(tarefa);
+			synchronized (this) 
+			{
+				System.out.println("Criando tarefa " + i);
+				
+				Tarefa tarefa = new Tarefa(i);
+				tratarTarefas(tarefasBrutas[i], tarefa);
+				listaDeTarefas.add(tarefa);
+				
+				this.notifyAll();
+			}
 		}
 		
 	}
@@ -42,8 +48,10 @@ public class MonitorDeTarefas
 		tarefa.setNumeroRequisicoes(Integer.parseInt(separado[2]));
 		
 		List<Integer> requisicoes = new ArrayList<Integer>();
+		
 		ordenarRequisicoes(separado, tarefa.getSentido());
 		excluirRepeticoes(separado, requisicoes, tarefa);
+		
 		tarefa.setRequisicoes(requisicoes);
 		
 	}
@@ -64,7 +72,7 @@ public class MonitorDeTarefas
 		}
 	}
 	
-public boolean trocarPosicao(int i,int j, int sentido, String[] separado)
+	public boolean trocarPosicao(int i,int j, int sentido, String[] separado)
 	{
 		Integer sepi = Integer.decode(separado[i]);
 		Integer sepj = Integer.decode(separado[j]);
@@ -85,10 +93,12 @@ public boolean trocarPosicao(int i,int j, int sentido, String[] separado)
 	public void excluirRepeticoes(String[] separado, List<Integer> requisicoes, Tarefa tarefa)
 	{
 			tarefa.setRequisicaoBruta(new ArrayList<Integer>());
-			for(int i =3; i< separado.length; i++){
+			for(int i =3; i< separado.length; i++)
+			{
 				Integer elemento = Integer.decode(separado[i]);
 				tarefa.getRequisicaoBruta().add(elemento); //seta o vetor da string bruta antes de remover repeticao
-				if(!requisicoes.contains(elemento)){
+				if(!requisicoes.contains(elemento))
+				{
 					requisicoes.add(elemento);
 				}
 		}	
@@ -98,13 +108,16 @@ public boolean trocarPosicao(int i,int j, int sentido, String[] separado)
 	public synchronized Tarefa escolherTarefa(Integer andarAtual, int idElevador) 
 	{		
 		Tarefa candidataTarefa = null;
-		try{
-			
-			if(listaDeTarefas.size() == 0){
-				return null;
+		
+		try
+		{
+			if(listaDeTarefas.isEmpty())
+			{
+				wait();
 			}
 			
-			while(count > 0){
+			while(count > 0)
+			{
 				System.out.println("Elevador "+idElevador+" bloqueado");
 				wait();
 			}
@@ -128,16 +141,21 @@ public boolean trocarPosicao(int i,int j, int sentido, String[] separado)
 					return candidataTarefa;
 				}
 				
-				else{
+				else
+				{
 					distanciaAtual = Math.abs(andarAtual - listaDeTarefas.get(tarefa).getAndarDeInicio());
-					if(tarefa == 0){
+					if(tarefa == 0)
+					{
 						candidataTarefa = listaDeTarefas.get(0);
 						menorDistancia = distanciaAtual;
 					}
-					else{
+					else
+					{
 						if(menorDistancia > distanciaAtual)
+						{							
 							candidataTarefa = listaDeTarefas.get(tarefa);
 							menorDistancia = distanciaAtual;
+						}
 					}
 				}		
 			}
@@ -159,6 +177,6 @@ public boolean trocarPosicao(int i,int j, int sentido, String[] separado)
 	public synchronized void finalizaTarefa(int id, int idTarefa)
 	{
 		System.out.println("Elevador "+id+" finalizou a tarefa "+idTarefa);
-		notify();
+		this.notify();
 	}
 }

@@ -64,8 +64,8 @@ public class Main {
 		/*lê arquivos e salva nas variáveis as infos necessárias*/
 		lerArquivo("entrada.txt");
 		
-		central = new MonitorDeTarefas(tarefas);
-		
+		central = new MonitorDeTarefas();
+
 		/*criação das threads*/
 		Thread[] threads = new Thread[numElevadores];
 		
@@ -78,13 +78,15 @@ public class Main {
 	      for (int i=0; i<threads.length; i++) 
 	      {
 	          threads[i].start();
-	       }
-
-	       for (int i=0; i<threads.length; i++) 
-	       {
-	          try { threads[i].join(); } catch (InterruptedException e) { return; }
-	       }
-	       System.out.println("A main terminou");
+	      }
+	      
+	      central.iniciarMonitor(tarefas);
+	      
+	      for (int i=0; i<threads.length; i++) 
+	      {
+	         try { threads[i].join(); } catch (InterruptedException e) { return; }
+	      }
+	      System.out.println("A main terminou");
 	}
 
 }
