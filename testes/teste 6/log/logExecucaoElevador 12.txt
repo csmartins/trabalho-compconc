@@ -1,0 +1,15 @@
+--Cria a thread 12
+Elevador 12 começou no andar 20
+Elevador 12 vai escolher
+Elevador 12 escolheu a tarefa 33
+Elevador 12: 20 (33, 11, 1 (12, 13, 13, 14, 15, 19, 20))
+Elevador 12: 11 (33, 11, 1 (12, 13, 14, 15, 19, 20))
+Elevador 12: 12 (33, 11, 1 (13, 14, 15, 19, 20))
+Elevador 12: 13 (33, 11, 1 (14, 15, 19, 20))
+Elevador 12: 14 (33, 11, 1 (15, 19, 20))
+Elevador 12: 15 (33, 11, 1 (19, 20))
+Elevador 12: 19 (33, 11, 1 (20))
+Elevador 12: 20 (33, 11, 1 ())
+Elevador 12 finalizou a tarefa 33
+Elevador 12 vai escolher
+Elevador 12 morreu

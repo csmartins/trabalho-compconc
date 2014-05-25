@@ -1,0 +1,103 @@
+--Cria a thread 13
+Elevador 13 começou no andar 7
+Elevador 13 vai escolher
+Elevador 13 escolheu a tarefa 17
+Elevador 13: 7 (17, 8, 1 (9, 11, 11, 13, 13, 13, 13, 13, 14, 19))
+Elevador 13: 8 (17, 8, 1 (9, 11, 13, 14, 19))
+Elevador 13: 9 (17, 8, 1 (11, 13, 14, 19))
+Elevador 13: 11 (17, 8, 1 (13, 14, 19))
+Elevador 13: 13 (17, 8, 1 (14, 19))
+Elevador 13: 14 (17, 8, 1 (19))
+Elevador 13: 19 (17, 8, 1 ())
+Elevador 13 finalizou a tarefa 17
+Elevador 13 vai escolher
+Elevador 13 escolheu a tarefa 15
+Elevador 13: 19 (15, 18, 1 (19, 19, 20, 20))
+Elevador 13: 18 (15, 18, 1 (19, 20))
+Elevador 13: 19 (15, 18, 1 (20))
+Elevador 13: 20 (15, 18, 1 ())
+Elevador 13 finalizou a tarefa 15
+Elevador 13 vai escolher
+Elevador 13 escolheu a tarefa 47
+Elevador 13: 20 (47, 20, 0 (18, 14, 13, 11, 8, 8, 5, 4))
+Elevador 13: 20 (47, 20, 0 (18, 14, 13, 11, 8, 5, 4))
+Elevador 13: 18 (47, 20, 0 (14, 13, 11, 8, 5, 4))
+Elevador 13: 14 (47, 20, 0 (13, 11, 8, 5, 4))
+Elevador 13: 13 (47, 20, 0 (11, 8, 5, 4))
+Elevador 13: 11 (47, 20, 0 (8, 5, 4))
+Elevador 13: 8 (47, 20, 0 (5, 4))
+Elevador 13: 5 (47, 20, 0 (4))
+Elevador 13: 4 (47, 20, 0 ())
+Elevador 13 finalizou a tarefa 47
+Elevador 13 vai escolher
+Elevador 13 escolheu a tarefa 20
+Elevador 13: 4 (20, 8, 1 (13, 15, 20))
+Elevador 13: 8 (20, 8, 1 (13, 15, 20))
+Elevador 13: 13 (20, 8, 1 (15, 20))
+Elevador 13: 15 (20, 8, 1 (20))
+Elevador 13: 20 (20, 8, 1 ())
+Elevador 13 finalizou a tarefa 20
+Elevador 13 vai escolher
+Elevador 13 escolheu a tarefa 26
+Elevador 13: 20 (26, 18, 1 (19, 19))
+Elevador 13: 18 (26, 18, 1 (19))
+Elevador 13: 19 (26, 18, 1 ())
+Elevador 13 finalizou a tarefa 26
+Elevador 13 vai escolher
+Elevador 13 escolheu a tarefa 34
+Elevador 13: 19 (34, 18, 0 (17, 15, 11, 11, 10, 9, 7))
+Elevador 13: 18 (34, 18, 0 (17, 15, 11, 10, 9, 7))
+Elevador 13: 17 (34, 18, 0 (15, 11, 10, 9, 7))
+Elevador 13: 15 (34, 18, 0 (11, 10, 9, 7))
+Elevador 13: 11 (34, 18, 0 (10, 9, 7))
+Elevador 13: 10 (34, 18, 0 (9, 7))
+Elevador 13: 9 (34, 18, 0 (7))
+Elevador 13: 7 (34, 18, 0 ())
+Elevador 13 finalizou a tarefa 34
+Elevador 13 vai escolher
+Elevador 13 escolheu a tarefa 24
+Elevador 13: 7 (24, 9, 1 (12))
+Elevador 13: 9 (24, 9, 1 (12))
+Elevador 13: 12 (24, 9, 1 ())
+Elevador 13 finalizou a tarefa 24
+Elevador 13 vai escolher
+Elevador 13 escolheu a tarefa 27
+Elevador 13: 12 (27, 13, 1 (17, 18, 19))
+Elevador 13: 13 (27, 13, 1 (17, 18, 19))
+Elevador 13: 17 (27, 13, 1 (18, 19))
+Elevador 13: 18 (27, 13, 1 (19))
+Elevador 13: 19 (27, 13, 1 ())
+Elevador 13 finalizou a tarefa 27
+Elevador 13 vai escolher
+Elevador 13 escolheu a tarefa 49
+Elevador 13: 19 (49, 18, 1 (20))
+Elevador 13: 18 (49, 18, 1 (20))
+Elevador 13: 20 (49, 18, 1 ())
+Elevador 13 finalizou a tarefa 49
+Elevador 13 vai escolher
+Elevador 13 escolheu a tarefa 25
+Elevador 13: 20 (25, 17, 1 (18, 18, 19, 19, 19, 20, 20, 20))
+Elevador 13: 17 (25, 17, 1 (18, 19, 20))
+Elevador 13: 18 (25, 17, 1 (19, 20))
+Elevador 13: 19 (25, 17, 1 (20))
+Elevador 13: 20 (25, 17, 1 ())
+Elevador 13 finalizou a tarefa 25
+Elevador 13 vai escolher
+Elevador 13 escolheu a tarefa 14
+Elevador 13: 20 (14, 16, 0 (12, 10))
+Elevador 13: 16 (14, 16, 0 (12, 10))
+Elevador 13: 12 (14, 16, 0 (10))
+Elevador 13: 10 (14, 16, 0 ())
+Elevador 13 finalizou a tarefa 14
+Elevador 13 vai escolher
+Elevador 13 escolheu a tarefa 11
+Elevador 13: 10 (11, 10, 0 (8, 7, 4, 1, 0))
+Elevador 13: 10 (11, 10, 0 (8, 7, 4, 1, 0))
+Elevador 13: 8 (11, 10, 0 (7, 4, 1, 0))
+Elevador 13: 7 (11, 10, 0 (4, 1, 0))
+Elevador 13: 4 (11, 10, 0 (1, 0))
+Elevador 13: 1 (11, 10, 0 (0))
+Elevador 13: 0 (11, 10, 0 ())
+Elevador 13 finalizou a tarefa 11
+Elevador 13 vai escolher
+Elevador 13 morreu

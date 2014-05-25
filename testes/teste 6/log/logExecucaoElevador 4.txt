@@ -1,0 +1,83 @@
+--Cria a thread 4
+Elevador 4 começou no andar 15
+Elevador 4 vai escolher
+Elevador 4 escolheu a tarefa 35
+Elevador 4: 15 (35, 15, 1 (17, 17, 17, 18, 18, 18, 19, 19, 19))
+Elevador 4: 15 (35, 15, 1 (17, 18, 19))
+Elevador 4: 17 (35, 15, 1 (18, 19))
+Elevador 4: 18 (35, 15, 1 (19))
+Elevador 4: 19 (35, 15, 1 ())
+Elevador 4 finalizou a tarefa 35
+Elevador 4 vai escolher
+Elevador 4 escolheu a tarefa 37
+Elevador 4: 19 (37, 19, 0 (1))
+Elevador 4: 19 (37, 19, 0 (1))
+Elevador 4: 1 (37, 19, 0 ())
+Elevador 4 finalizou a tarefa 37
+Elevador 4 vai escolher
+Elevador 4 escolheu a tarefa 2
+Elevador 4: 1 (2, 1, 1 (4, 5, 5, 6, 9, 9, 13, 15, 18))
+Elevador 4: 1 (2, 1, 1 (4, 5, 6, 9, 13, 15, 18))
+Elevador 4: 4 (2, 1, 1 (5, 6, 9, 13, 15, 18))
+Elevador 4: 5 (2, 1, 1 (6, 9, 13, 15, 18))
+Elevador 4: 6 (2, 1, 1 (9, 13, 15, 18))
+Elevador 4: 9 (2, 1, 1 (13, 15, 18))
+Elevador 4: 13 (2, 1, 1 (15, 18))
+Elevador 4: 15 (2, 1, 1 (18))
+Elevador 4: 18 (2, 1, 1 ())
+Elevador 4 finalizou a tarefa 2
+Elevador 4 vai escolher
+Elevador 4 escolheu a tarefa 1
+Elevador 4: 18 (1, 18, 0 (17, 12, 12, 10, 10, 8, 3))
+Elevador 4: 18 (1, 18, 0 (17, 12, 10, 8, 3))
+Elevador 4: 17 (1, 18, 0 (12, 10, 8, 3))
+Elevador 4: 12 (1, 18, 0 (10, 8, 3))
+Elevador 4: 10 (1, 18, 0 (8, 3))
+Elevador 4: 8 (1, 18, 0 (3))
+Elevador 4: 3 (1, 18, 0 ())
+Elevador 4 finalizou a tarefa 1
+Elevador 4 vai escolher
+Elevador 4 escolheu a tarefa 36
+Elevador 4: 3 (36, 3, 1 (9, 10, 14))
+Elevador 4: 3 (36, 3, 1 (9, 10, 14))
+Elevador 4: 9 (36, 3, 1 (10, 14))
+Elevador 4: 10 (36, 3, 1 (14))
+Elevador 4: 14 (36, 3, 1 ())
+Elevador 4 finalizou a tarefa 36
+Elevador 4 vai escolher
+Elevador 4 escolheu a tarefa 18
+Elevador 4: 14 (18, 14, 0 (6, 3, 3))
+Elevador 4: 14 (18, 14, 0 (6, 3))
+Elevador 4: 6 (18, 14, 0 (3))
+Elevador 4: 3 (18, 14, 0 ())
+Elevador 4 finalizou a tarefa 18
+Elevador 4 vai escolher
+Elevador 4 escolheu a tarefa 5
+Elevador 4: 3 (5, 4, 1 (7, 8, 17, 19, 19))
+Elevador 4: 4 (5, 4, 1 (7, 8, 17, 19))
+Elevador 4: 7 (5, 4, 1 (8, 17, 19))
+Elevador 4: 8 (5, 4, 1 (17, 19))
+Elevador 4: 17 (5, 4, 1 (19))
+Elevador 4: 19 (5, 4, 1 ())
+Elevador 4 finalizou a tarefa 5
+Elevador 4 vai escolher
+Elevador 4 escolheu a tarefa 46
+Elevador 4: 19 (46, 19, 0 (17, 14, 11, 7, 6, 6, 4, 0))
+Elevador 4: 19 (46, 19, 0 (17, 14, 11, 7, 6, 4, 0))
+Elevador 4: 17 (46, 19, 0 (14, 11, 7, 6, 4, 0))
+Elevador 4: 14 (46, 19, 0 (11, 7, 6, 4, 0))
+Elevador 4: 11 (46, 19, 0 (7, 6, 4, 0))
+Elevador 4: 7 (46, 19, 0 (6, 4, 0))
+Elevador 4: 6 (46, 19, 0 (4, 0))
+Elevador 4: 4 (46, 19, 0 (0))
+Elevador 4: 0 (46, 19, 0 ())
+Elevador 4 finalizou a tarefa 46
+Elevador 4 vai escolher
+Elevador 4 escolheu a tarefa 30
+Elevador 4: 0 (30, 0, 1 (8, 9))
+Elevador 4: 0 (30, 0, 1 (8, 9))
+Elevador 4: 8 (30, 0, 1 (9))
+Elevador 4: 9 (30, 0, 1 ())
+Elevador 4 finalizou a tarefa 30
+Elevador 4 vai escolher
+Elevador 4 morreu

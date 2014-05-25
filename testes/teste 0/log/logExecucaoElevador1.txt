@@ -1,0 +1,36 @@
+--Cria a thread 1
+
+Elevador 1 começou no andar 11
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 7
+Elevador 1: 11 (7, 11, 0 (8, 5))
+Elevador 1: 11 (7, 11, 0 (8, 5))
+Elevador 1: 8 (7, 11, 0 (5))
+Elevador 1: 5 (7, 11, 0 ())
+Elevador 1 finalizou a tarefa 7
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 32
+Elevador 1: 5 (32, 5, 1 (7, 8, 8, 11, 11, 13, 14, 15, 16, 18))
+Elevador 1: 5 (32, 5, 1 (7, 8, 11, 13, 14, 15, 16, 18))
+Elevador 1: 7 (32, 5, 1 (8, 11, 13, 14, 15, 16, 18))
+Elevador 1: 8 (32, 5, 1 (11, 13, 14, 15, 16, 18))
+Elevador 1: 11 (32, 5, 1 (13, 14, 15, 16, 18))
+Elevador 1: 13 (32, 5, 1 (14, 15, 16, 18))
+Elevador 1: 14 (32, 5, 1 (15, 16, 18))
+Elevador 1: 15 (32, 5, 1 (16, 18))
+Elevador 1: 16 (32, 5, 1 (18))
+Elevador 1: 18 (32, 5, 1 ())
+Elevador 1 finalizou a tarefa 32
+Elevador 1 vai escolher
+Elevador 1 morreu
+--Cria a thread 1
+Elevador 1 começou no andar 11
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 7
+Elevador 1: 11 (7, 11, 0 (8, 5))
+Elevador 1: 11 (7, 11, 0 (8, 5))
+Elevador 1: 8 (7, 11, 0 (5))
+Elevador 1: 5 (7, 11, 0 ())
+Elevador 1 finalizou a tarefa 7
+Elevador 1 vai escolher
+Elevador 1 morreu

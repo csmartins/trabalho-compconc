@@ -1,0 +1,4 @@
+--Cria a thread 5
+Elevador 5 começou no andar 7
+Elevador 5 vai escolher
+Elevador 5 morreu

@@ -1,0 +1,12 @@
+--Cria a thread 2
+Elevador 2 começou no andar 11
+Elevador 2 vai escolher
+Elevador 2 escolheu a tarefa 12
+Elevador 2: 11 (12, 11, 1 (12, 17, 17, 18))
+Elevador 2: 11 (12, 11, 1 (12, 17, 18))
+Elevador 2: 12 (12, 11, 1 (17, 18))
+Elevador 2: 17 (12, 11, 1 (18))
+Elevador 2: 18 (12, 11, 1 ())
+Elevador 2 finalizou a tarefa 12
+Elevador 2 vai escolher
+Elevador 2 morreu

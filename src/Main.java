@@ -1,7 +1,7 @@
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
-
 
 public class Main {
 	
@@ -68,15 +68,23 @@ public class Main {
 	 * 
 	 * Método responsável por chamar a leitura do arquivo, criar as threads, iniciá-las, iniciar a criação de tarefas e,
 	 * por fim, esperar pelo fim de todas as threads para finalizar o programa.
-	 * @see leArquivo
-	 * @see iniciaMonitor
+	 * 
+	 * @see Main#lerArquivo(String) lerArquivo
+	 * @see Main#criarArquivosDeSaida(int) criarArquivosDeSaida
+	 * @see MonitorDeTarefas#iniciarMonitor(String[]) iniciarMonitor
+	 * @see MonitorDeTarefas#escreverNoArquivo(String, int) escreverNoArquivo
+	 * 
 	 * @param args
+	 * 
+	 * @throws IOException 
 	 */
-	public static void main(String[] args) 
+	public static void main(String[] args) throws IOException 
 	{
 		
 		/*lê arquivos e salva nas variáveis as infos necessárias*/
 		lerArquivo("entrada.txt");
+		
+		criarArquivosDeSaida(numElevadores);
 		
 		central = new MonitorDeTarefas();
 
@@ -85,6 +93,7 @@ public class Main {
 		
 	      for (int i=0; i<threads.length; i++) 
 	      {
+	         central.escreverNoArquivo("--Cria a thread " + i, i);
 	         System.out.println("--Cria a thread " + i);
 	         threads[i] = new Elevador(i, andaresDeInicio[i], central);
 	      }
@@ -101,6 +110,36 @@ public class Main {
 	         try { threads[i].join(); } catch (InterruptedException e) { return; }
 	      }
 	      System.out.println("A main terminou");
+	}
+
+	/**
+	 * Método responsável por criar os arquivos de log para cada elevador. O método também cria uma pasta para armazenar
+	 * esses arquivos de log. Se a pasta log já existir por conta de uma execução anterior, o método apaga-a e cria uma nova.
+	 * 
+	 * @param numElevadores número de elevadores executando
+	 * 
+	 * @throws IOException
+	 */
+	public static void criarArquivosDeSaida(int numElevadores) throws IOException  
+	{
+		File saida = new File("log");
+		
+		if(saida.exists())
+		{
+			for(File logs: saida.listFiles())
+				logs.delete();
+			
+			saida.delete();
+		}
+		
+		saida.mkdir();
+		
+		for(int i = 0; i < numElevadores; i++)
+		{
+			File saidaElevador = new File("log/logExecucaoElevador "+i+".txt");
+			saidaElevador.createNewFile();			
+		}
+		
 	}
 
 }

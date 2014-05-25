@@ -1,0 +1,33 @@
+--Cria a thread 0
+Elevador 0 começou no andar 0
+Elevador 0 vai escolher
+Elevador 0 escolheu a tarefa 0
+Elevador 0: 0 (0, 0, 1 (2, 3, 3, 4))
+Elevador 0: 0 (0, 0, 1 (2, 3, 4))
+Elevador 0: 2 (0, 0, 1 (3, 4))
+Elevador 0: 3 (0, 0, 1 (4))
+Elevador 0: 4 (0, 0, 1 ())
+Elevador 0 finalizou a tarefa 0
+Elevador 0 vai escolher
+Elevador 0 escolheu a tarefa 1
+Elevador 0: 4 (1, 3, 0 (1, 0))
+Elevador 0: 3 (1, 3, 0 (1, 0))
+Elevador 0: 1 (1, 3, 0 (0))
+Elevador 0: 0 (1, 3, 0 ())
+Elevador 0 finalizou a tarefa 1
+Elevador 0 vai escolher
+Elevador 0 escolheu a tarefa 2
+Elevador 0: 0 (2, 2, 1 (3, 3, 4, 4, 5, 5))
+Elevador 0: 2 (2, 2, 1 (3, 4, 5))
+Elevador 0: 3 (2, 2, 1 (4, 5))
+Elevador 0: 4 (2, 2, 1 (5))
+Elevador 0: 5 (2, 2, 1 ())
+Elevador 0 finalizou a tarefa 2
+Elevador 0 vai escolher
+Elevador 0 escolheu a tarefa 3
+Elevador 0: 5 (3, 5, 0 (0, 0, 0))
+Elevador 0: 5 (3, 5, 0 (0))
+Elevador 0: 0 (3, 5, 0 ())
+Elevador 0 finalizou a tarefa 3
+Elevador 0 vai escolher
+Elevador 0 morreu

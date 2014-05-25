@@ -1,0 +1,33 @@
+--Cria a thread 3
+Elevador 3 começou no andar 7
+Elevador 3 vai escolher
+Elevador 3 escolheu a tarefa 0
+Elevador 3: 7 (0, 7, 0 (4, 2))
+Elevador 3: 7 (0, 7, 0 (4, 2))
+Elevador 3: 4 (0, 7, 0 (2))
+Elevador 3: 2 (0, 7, 0 ())
+Elevador 3 finalizou a tarefa 0
+Elevador 3 vai escolher
+Elevador 3 escolheu a tarefa 2
+Elevador 3: 2 (2, 5, 0 (4, 4, 4, 3, 3, 0))
+Elevador 3: 5 (2, 5, 0 (4, 3, 0))
+Elevador 3: 4 (2, 5, 0 (3, 0))
+Elevador 3: 3 (2, 5, 0 (0))
+Elevador 3: 0 (2, 5, 0 ())
+Elevador 3 finalizou a tarefa 2
+Elevador 3 vai escolher
+Elevador 3 escolheu a tarefa 1
+Elevador 3: 0 (1, 7, 0 (5, 3, 2))
+Elevador 3: 7 (1, 7, 0 (5, 3, 2))
+Elevador 3: 5 (1, 7, 0 (3, 2))
+Elevador 3: 3 (1, 7, 0 (2))
+Elevador 3: 2 (1, 7, 0 ())
+Elevador 3 finalizou a tarefa 1
+Elevador 3 vai escolher
+Elevador 3 escolheu a tarefa 4
+Elevador 3: 2 (4, 7, 0 (4, 4))
+Elevador 3: 7 (4, 7, 0 (4))
+Elevador 3: 4 (4, 7, 0 ())
+Elevador 3 finalizou a tarefa 4
+Elevador 3 vai escolher
+Elevador 3 morreu

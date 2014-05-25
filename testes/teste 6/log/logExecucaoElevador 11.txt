@@ -1,0 +1,33 @@
+--Cria a thread 11
+Elevador 11 começou no andar 20
+Elevador 11 vai escolher
+Elevador 11 escolheu a tarefa 43
+Elevador 11: 20 (43, 20, 0 (19, 12, 12, 7, 6, 5))
+Elevador 11: 20 (43, 20, 0 (19, 12, 7, 6, 5))
+Elevador 11: 19 (43, 20, 0 (12, 7, 6, 5))
+Elevador 11: 12 (43, 20, 0 (7, 6, 5))
+Elevador 11: 7 (43, 20, 0 (6, 5))
+Elevador 11: 6 (43, 20, 0 (5))
+Elevador 11: 5 (43, 20, 0 ())
+Elevador 11 finalizou a tarefa 43
+Elevador 11 vai escolher
+Elevador 11 escolheu a tarefa 40
+Elevador 11: 5 (40, 7, 0 (6, 5, 5, 2, 1, 1, 0))
+Elevador 11: 7 (40, 7, 0 (6, 5, 2, 1, 0))
+Elevador 11: 6 (40, 7, 0 (5, 2, 1, 0))
+Elevador 11: 5 (40, 7, 0 (2, 1, 0))
+Elevador 11: 2 (40, 7, 0 (1, 0))
+Elevador 11: 1 (40, 7, 0 (0))
+Elevador 11: 0 (40, 7, 0 ())
+Elevador 11 finalizou a tarefa 40
+Elevador 11 vai escolher
+Elevador 11 escolheu a tarefa 7
+Elevador 11: 0 (7, 8, 0 (7, 4, 4, 3, 2, 2))
+Elevador 11: 8 (7, 8, 0 (7, 4, 3, 2))
+Elevador 11: 7 (7, 8, 0 (4, 3, 2))
+Elevador 11: 4 (7, 8, 0 (3, 2))
+Elevador 11: 3 (7, 8, 0 (2))
+Elevador 11: 2 (7, 8, 0 ())
+Elevador 11 finalizou a tarefa 7
+Elevador 11 vai escolher
+Elevador 11 morreu

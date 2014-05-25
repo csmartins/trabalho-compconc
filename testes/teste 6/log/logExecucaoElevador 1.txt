@@ -1,0 +1,38 @@
+--Cria a thread 1
+Elevador 1 começou no andar 14
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 48
+Elevador 1: 14 (48, 14, 0 (9, 7, 5, 5, 5))
+Elevador 1: 14 (48, 14, 0 (9, 7, 5))
+Elevador 1: 9 (48, 14, 0 (7, 5))
+Elevador 1: 7 (48, 14, 0 (5))
+Elevador 1: 5 (48, 14, 0 ())
+Elevador 1 finalizou a tarefa 48
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 0
+Elevador 1: 5 (0, 5, 1 (12, 14, 19))
+Elevador 1: 5 (0, 5, 1 (12, 14, 19))
+Elevador 1: 12 (0, 5, 1 (14, 19))
+Elevador 1: 14 (0, 5, 1 (19))
+Elevador 1: 19 (0, 5, 1 ())
+Elevador 1 finalizou a tarefa 0
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 8
+Elevador 1: 19 (8, 20, 0 (5))
+Elevador 1: 20 (8, 20, 0 (5))
+Elevador 1: 5 (8, 20, 0 ())
+Elevador 1 finalizou a tarefa 8
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 13
+Elevador 1: 5 (13, 5, 1 (6, 7, 8, 11, 12, 17, 20))
+Elevador 1: 5 (13, 5, 1 (6, 7, 8, 11, 12, 17, 20))
+Elevador 1: 6 (13, 5, 1 (7, 8, 11, 12, 17, 20))
+Elevador 1: 7 (13, 5, 1 (8, 11, 12, 17, 20))
+Elevador 1: 8 (13, 5, 1 (11, 12, 17, 20))
+Elevador 1: 11 (13, 5, 1 (12, 17, 20))
+Elevador 1: 12 (13, 5, 1 (17, 20))
+Elevador 1: 17 (13, 5, 1 (20))
+Elevador 1: 20 (13, 5, 1 ())
+Elevador 1 finalizou a tarefa 13
+Elevador 1 vai escolher
+Elevador 1 morreu

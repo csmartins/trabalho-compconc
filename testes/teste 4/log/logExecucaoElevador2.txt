@@ -1,0 +1,4 @@
+--Cria a thread 2
+Elevador 2 começou no andar 4
+Elevador 2 vai escolher
+Elevador 2 morreu

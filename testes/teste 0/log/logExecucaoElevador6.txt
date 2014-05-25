@@ -1,0 +1,204 @@
+--Cria a thread 6
+
+Elevador 6 começou no andar 2
+Elevador 6 vai escolher
+Elevador 6 escolheu a tarefa 24
+Elevador 6: 2 (24, 2, 0 (1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0))
+Elevador 6: 2 (24, 2, 0 (1, 0))
+Elevador 6: 1 (24, 2, 0 (0))
+Elevador 6: 0 (24, 2, 0 ())
+Elevador 6 finalizou a tarefa 24
+Elevador 6 vai escolher
+Elevador 6 escolheu a tarefa 73
+Elevador 6: 0 (73, 2, 0 (1, 0))
+Elevador 6: 2 (73, 2, 0 (1, 0))
+Elevador 6: 1 (73, 2, 0 (0))
+Elevador 6: 0 (73, 2, 0 ())
+Elevador 6 finalizou a tarefa 73
+Elevador 6 vai escolher
+Elevador 6 escolheu a tarefa 69
+Elevador 6: 0 (69, 3, 0 (2, 2, 1, 1, 0))
+Elevador 6: 3 (69, 3, 0 (2, 1, 0))
+Elevador 6: 2 (69, 3, 0 (1, 0))
+Elevador 6: 1 (69, 3, 0 (0))
+Elevador 6: 0 (69, 3, 0 ())
+Elevador 6 finalizou a tarefa 69
+Elevador 6 vai escolher
+Elevador 6 escolheu a tarefa 78
+Elevador 6: 0 (78, 3, 0 (2, 2, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0))
+Elevador 6: 3 (78, 3, 0 (2, 1, 0))
+Elevador 6: 2 (78, 3, 0 (1, 0))
+Elevador 6: 1 (78, 3, 0 (0))
+Elevador 6: 0 (78, 3, 0 ())
+Elevador 6 finalizou a tarefa 78
+Elevador 6 vai escolher
+Elevador 6 escolheu a tarefa 12
+Elevador 6: 0 (12, 4, 0 (3, 3))
+Elevador 6: 4 (12, 4, 0 (3))
+Elevador 6: 3 (12, 4, 0 ())
+Elevador 6 finalizou a tarefa 12
+Elevador 6 vai escolher
+Elevador 6 escolheu a tarefa 22
+Elevador 6: 3 (22, 4, 1 (8, 9, 11, 12, 13, 14, 20, 20))
+Elevador 6: 4 (22, 4, 1 (8, 9, 11, 12, 13, 14, 20))
+Elevador 6: 8 (22, 4, 1 (9, 11, 12, 13, 14, 20))
+Elevador 6: 9 (22, 4, 1 (11, 12, 13, 14, 20))
+Elevador 6: 11 (22, 4, 1 (12, 13, 14, 20))
+Elevador 6: 12 (22, 4, 1 (13, 14, 20))
+Elevador 6: 13 (22, 4, 1 (14, 20))
+Elevador 6: 14 (22, 4, 1 (20))
+Elevador 6: 20 (22, 4, 1 ())
+Elevador 6 finalizou a tarefa 22
+Elevador 6 vai escolher
+Elevador 6 escolheu a tarefa 46
+Elevador 6: 20 (46, 18, 0 (16, 14, 13, 10, 8, 7, 3, 2, 1))
+Elevador 6: 18 (46, 18, 0 (16, 14, 13, 10, 8, 7, 3, 2, 1))
+Elevador 6: 16 (46, 18, 0 (14, 13, 10, 8, 7, 3, 2, 1))
+Elevador 6: 14 (46, 18, 0 (13, 10, 8, 7, 3, 2, 1))
+Elevador 6: 13 (46, 18, 0 (10, 8, 7, 3, 2, 1))
+Elevador 6: 10 (46, 18, 0 (8, 7, 3, 2, 1))
+Elevador 6: 8 (46, 18, 0 (7, 3, 2, 1))
+Elevador 6: 7 (46, 18, 0 (3, 2, 1))
+Elevador 6: 3 (46, 18, 0 (2, 1))
+Elevador 6: 2 (46, 18, 0 (1))
+Elevador 6: 1 (46, 18, 0 ())
+Elevador 6 finalizou a tarefa 46
+Elevador 6 vai escolher
+Elevador 6 morreu
+--Cria a thread 6
+Elevador 6 começou no andar 2
+Elevador 6 vai escolher
+Elevador 6 escolheu a tarefa 10
+Elevador 6: 2 (10, 2, 1 (4, 4))
+Elevador 6: 2 (10, 2, 1 (4))
+Elevador 6: 4 (10, 2, 1 ())
+Elevador 6 finalizou a tarefa 10
+Elevador 6 vai escolher
+Elevador 6 escolheu a tarefa 2
+Elevador 6: 4 (2, 4, 0 (0))
+Elevador 6: 4 (2, 4, 0 (0))
+Elevador 6: 0 (2, 4, 0 ())
+Elevador 6 finalizou a tarefa 2
+Elevador 6 vai escolher
+Elevador 6 escolheu a tarefa 20
+Elevador 6: 0 (20, 0, 1 (4, 12, 19, 19))
+Elevador 6: 0 (20, 0, 1 (4, 12, 19))
+Elevador 6: 4 (20, 0, 1 (12, 19))
+Elevador 6: 12 (20, 0, 1 (19))
+Elevador 6: 19 (20, 0, 1 ())
+Elevador 6 finalizou a tarefa 20
+Elevador 6 vai escolher
+Elevador 6 escolheu a tarefa 50
+Elevador 6: 19 (50, 19, 0 (12, 9, 8, 4, 2, 2))
+Elevador 6: 19 (50, 19, 0 (12, 9, 8, 4, 2))
+Elevador 6: 12 (50, 19, 0 (9, 8, 4, 2))
+Elevador 6: 9 (50, 19, 0 (8, 4, 2))
+Elevador 6: 8 (50, 19, 0 (4, 2))
+Elevador 6: 4 (50, 19, 0 (2))
+Elevador 6: 2 (50, 19, 0 ())
+Elevador 6 finalizou a tarefa 50
+Elevador 6 vai escolher
+Elevador 6 escolheu a tarefa 23
+Elevador 6: 2 (23, 2, 0 (1, 1, 0, 0, 0, 0))
+Elevador 6: 2 (23, 2, 0 (1, 0))
+Elevador 6: 1 (23, 2, 0 (0))
+Elevador 6: 0 (23, 2, 0 ())
+Elevador 6 finalizou a tarefa 23
+Elevador 6 vai escolher
+Elevador 6 escolheu a tarefa 28
+Elevador 6: 0 (28, 0, 1 (12))
+Elevador 6: 0 (28, 0, 1 (12))
+Elevador 6: 12 (28, 0, 1 ())
+Elevador 6 finalizou a tarefa 28
+Elevador 6 vai escolher
+Elevador 6 escolheu a tarefa 6
+Elevador 6: 12 (6, 12, 1 (13, 15, 17))
+Elevador 6: 12 (6, 12, 1 (13, 15, 17))
+Elevador 6: 13 (6, 12, 1 (15, 17))
+Elevador 6: 15 (6, 12, 1 (17))
+Elevador 6: 17 (6, 12, 1 ())
+Elevador 6 finalizou a tarefa 6
+Elevador 6 vai escolher
+Elevador 6 escolheu a tarefa 82
+Elevador 6: 17 (82, 17, 1 (18, 18, 18, 19, 19))
+Elevador 6: 17 (82, 17, 1 (18, 19))
+Elevador 6: 18 (82, 17, 1 (19))
+Elevador 6: 19 (82, 17, 1 ())
+Elevador 6 finalizou a tarefa 82
+Elevador 6 vai escolher
+Elevador 6 escolheu a tarefa 65
+Elevador 6: 19 (65, 18, 1 (19, 19, 19, 20, 20))
+Elevador 6: 18 (65, 18, 1 (19, 20))
+Elevador 6: 19 (65, 18, 1 (20))
+Elevador 6: 20 (65, 18, 1 ())
+Elevador 6 finalizou a tarefa 65
+Elevador 6 vai escolher
+Elevador 6 escolheu a tarefa 86
+Elevador 6: 20 (86, 17, 1 (18, 20, 20))
+Elevador 6: 17 (86, 17, 1 (18, 20))
+Elevador 6: 18 (86, 17, 1 (20))
+Elevador 6: 20 (86, 17, 1 ())
+Elevador 6 finalizou a tarefa 86
+Elevador 6 vai escolher
+Elevador 6 escolheu a tarefa 30
+Elevador 6: 20 (30, 16, 1 (18, 18, 19, 19, 19, 19, 20, 20, 20))
+Elevador 6: 16 (30, 16, 1 (18, 19, 20))
+Elevador 6: 18 (30, 16, 1 (19, 20))
+Elevador 6: 19 (30, 16, 1 (20))
+Elevador 6: 20 (30, 16, 1 ())
+Elevador 6 finalizou a tarefa 30
+Elevador 6 vai escolher
+Elevador 6 escolheu a tarefa 36
+Elevador 6: 20 (36, 16, 1 (17, 17, 18, 18, 20))
+Elevador 6: 16 (36, 16, 1 (17, 18, 20))
+Elevador 6: 17 (36, 16, 1 (18, 20))
+Elevador 6: 18 (36, 16, 1 (20))
+Elevador 6: 20 (36, 16, 1 ())
+Elevador 6 finalizou a tarefa 36
+Elevador 6 vai escolher
+Elevador 6 escolheu a tarefa 72
+Elevador 6: 20 (72, 16, 0 (15, 14, 12, 9, 3, 0))
+Elevador 6: 16 (72, 16, 0 (15, 14, 12, 9, 3, 0))
+Elevador 6: 15 (72, 16, 0 (14, 12, 9, 3, 0))
+Elevador 6: 14 (72, 16, 0 (12, 9, 3, 0))
+Elevador 6: 12 (72, 16, 0 (9, 3, 0))
+Elevador 6: 9 (72, 16, 0 (3, 0))
+Elevador 6: 3 (72, 16, 0 (0))
+Elevador 6: 0 (72, 16, 0 ())
+Elevador 6 finalizou a tarefa 72
+Elevador 6 vai escolher
+Elevador 6 escolheu a tarefa 57
+Elevador 6: 0 (57, 5, 1 (9, 11, 15, 20))
+Elevador 6: 5 (57, 5, 1 (9, 11, 15, 20))
+Elevador 6: 9 (57, 5, 1 (11, 15, 20))
+Elevador 6: 11 (57, 5, 1 (15, 20))
+Elevador 6: 15 (57, 5, 1 (20))
+Elevador 6: 20 (57, 5, 1 ())
+Elevador 6 finalizou a tarefa 57
+Elevador 6 vai escolher
+Elevador 6 escolheu a tarefa 21
+Elevador 6: 20 (21, 15, 0 (6, 2))
+Elevador 6: 15 (21, 15, 0 (6, 2))
+Elevador 6: 6 (21, 15, 0 (2))
+Elevador 6: 2 (21, 15, 0 ())
+Elevador 6 finalizou a tarefa 21
+Elevador 6 vai escolher
+Elevador 6 escolheu a tarefa 74
+Elevador 6: 2 (74, 5, 0 (4, 4, 3, 2, 2, 1, 1, 1, 0))
+Elevador 6: 5 (74, 5, 0 (4, 3, 2, 1, 0))
+Elevador 6: 4 (74, 5, 0 (3, 2, 1, 0))
+Elevador 6: 3 (74, 5, 0 (2, 1, 0))
+Elevador 6: 2 (74, 5, 0 (1, 0))
+Elevador 6: 1 (74, 5, 0 (0))
+Elevador 6: 0 (74, 5, 0 ())
+Elevador 6 finalizou a tarefa 74
+Elevador 6 vai escolher
+Elevador 6 escolheu a tarefa 76
+Elevador 6: 0 (76, 5, 0 (4, 2, 0))
+Elevador 6: 5 (76, 5, 0 (4, 2, 0))
+Elevador 6: 4 (76, 5, 0 (2, 0))
+Elevador 6: 2 (76, 5, 0 (0))
+Elevador 6: 0 (76, 5, 0 ())
+Elevador 6 finalizou a tarefa 76
+Elevador 6 vai escolher
+Elevador 6 morreu

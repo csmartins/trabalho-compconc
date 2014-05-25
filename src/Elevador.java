@@ -1,3 +1,4 @@
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -20,11 +21,11 @@ public class Elevador extends Thread{
 	
 	/**
 	 * Construtor da classe Elevador, responsável por instanciar suas variáveis locais.
+	 * 
 	 * @param id identificador do elevador
 	 * @param andarDeInicio andar de início do elevador
 	 * @param monitor instância única do monitor (é necessário que seja a mesma instância para todas
 	 * as threads (elevadores) em execução.
-	 * 
 	 */
 	public Elevador(int id, int andarDeInicio, MonitorDeTarefas monitor) 
 	{
@@ -39,23 +40,39 @@ public class Elevador extends Thread{
 	 * Método que pede tarefas ao monitor (através do método escolheTarefas)até que uma tarefa venha como null (ocorreu um erro na escolha ou acabaram as tarefas),
 	 * processa tais tarefas e finaliza-as.
 	 * 
-	 * @see processaTarefa
-	 * @see finalizaTarefa
-	 * @see escolheTarefas
-	 * 
+	 * @see Elevador#processarTarefa() processarTarefa
+	 * @see Elevador#imprimirStatusTarefa(List) imprimirStatusTarefa
+	 * @see MonitorDeTarefas#finalizarTarefa(int, int) finalizarTarefa
+	 * @see MonitorDeTarefas#escolherTarefa(Elevador) escolherTarefas
+	 * @see MonitorDeTarefas#escreverNoArquivo(String, int) escreverNoArquivo 
 	 */
 	public void run()
 	{
-		System.out.println("Elevador "+id+" começou no andar "+andarDeInicio);
+		try {
+			System.out.println("Elevador "+id+" começou no andar "+andarDeInicio);
+			monitor.escreverNoArquivo("Elevador "+id+" começou no andar "+andarDeInicio, id);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 		
 		while(true)
 		{
-			System.out.println("Elevador "+id+" vai escolher");
-			tarefaElevador = monitor.escolherTarefa(this);
+			try {
+				System.out.println("Elevador "+id+" vai escolher");
+				monitor.escreverNoArquivo("Elevador "+id+" vai escolher", id);
+				tarefaElevador = monitor.escolherTarefa(this);
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
 					
 				
 			if(tarefaElevador == null){
-				System.out.println("Elevador "+id+" morreu");
+				try {
+					System.out.println("Elevador "+id+" morreu");
+					monitor.escreverNoArquivo("Elevador "+id+" morreu", id);
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
 				break;
 			}
 			
@@ -64,15 +81,28 @@ public class Elevador extends Thread{
 			this.sentido = tarefaElevador.getSentido();
 			this.requisicoes = tarefaElevador.getRequisicoes();
 			
-			imprimeStatusTarefa(tarefaElevador.getRequisicaoBruta());
+			imprimirStatusTarefa(tarefaElevador.getRequisicaoBruta());
 			
-			processaTarefa();
+			processarTarefa();
 			
-			monitor.finalizaTarefa(id, tarefaElevador.getIdTarefa());
+			try {
+				monitor.finalizarTarefa(id, tarefaElevador.getIdTarefa());
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
 		}
 	}
 	
-	public void imprimeStatusTarefa(List<Integer> requisicao){
+	
+	/**
+	 * Método responsável por imprimir e escrever no arquivo de log o status da tarefa passada como argumento.
+	 * 
+	 * @param requisicao lista com os andares requisitados
+	 * 
+	 * @see MonitorDeTarefas#escreverNoArquivo(String, int) escreverNoArquivo
+	 */
+	public void imprimirStatusTarefa(List<Integer> requisicao)
+	{
 		String status = andarAtual+" ("+idTarefaElevador+", "+andarDeInicio+", "+sentido+" (";
 		if(requisicao.size() > 0){
 			for(int i=0; i< requisicao.size(); i++){
@@ -87,23 +117,30 @@ public class Elevador extends Thread{
 		else{
 			status += "))";
 		}
-		System.out.println("Elevador " + id+ ": " +status);
+		try {
+			System.out.println("Elevador " + id+ ": " +status);
+			monitor.escreverNoArquivo("Elevador " + id+ ": " +status, id);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 		
 	}
 	
 	/**
 	 * Método responsável por fazer o elevador atender a todas as requisições, movendo-se de um andar para o outro.
+	 * 
+	 * @see Elevador#imprimirStatusTarefa(List) imprimirStatusTarefa
 	 */
-	public void processaTarefa(){
-		
+	public void processarTarefa()
+	{
 		andarAtual = andarDeInicio;
-		imprimeStatusTarefa(requisicoes);
+		imprimirStatusTarefa(requisicoes);
 		
 		while(requisicoes.size()>0){
 			Integer andando = requisicoes.get(0);
 			andarAtual = andando;
 			requisicoes.remove(0);
-			imprimeStatusTarefa(requisicoes);
+			imprimirStatusTarefa(requisicoes);
 		}
 		
 		

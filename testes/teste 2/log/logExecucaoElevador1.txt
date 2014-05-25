@@ -1,0 +1,4426 @@
+--Cria a thread 1
+Elevador 1 começou no andar 1
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 4
+Elevador 1: 1 (4, 4, 1 (5, 7, 7, 7, 8, 9, 9, 10, 10, 10))
+Elevador 1: 4 (4, 4, 1 (5, 7, 8, 9, 10))
+Elevador 1: 5 (4, 4, 1 (7, 8, 9, 10))
+Elevador 1: 7 (4, 4, 1 (8, 9, 10))
+Elevador 1: 8 (4, 4, 1 (9, 10))
+Elevador 1: 9 (4, 4, 1 (10))
+Elevador 1: 10 (4, 4, 1 ())
+Elevador 1 finalizou a tarefa 4
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 9
+Elevador 1: 10 (9, 10, 0 (9, 8, 8, 8, 7, 7, 6, 6, 6, 5, 5, 5, 4, 3, 1))
+Elevador 1: 10 (9, 10, 0 (9, 8, 7, 6, 5, 4, 3, 1))
+Elevador 1: 9 (9, 10, 0 (8, 7, 6, 5, 4, 3, 1))
+Elevador 1: 8 (9, 10, 0 (7, 6, 5, 4, 3, 1))
+Elevador 1: 7 (9, 10, 0 (6, 5, 4, 3, 1))
+Elevador 1: 6 (9, 10, 0 (5, 4, 3, 1))
+Elevador 1: 5 (9, 10, 0 (4, 3, 1))
+Elevador 1: 4 (9, 10, 0 (3, 1))
+Elevador 1: 3 (9, 10, 0 (1))
+Elevador 1: 1 (9, 10, 0 ())
+Elevador 1 finalizou a tarefa 9
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 25
+Elevador 1: 1 (25, 1, 1 (5, 6, 6, 7, 9, 9, 9))
+Elevador 1: 1 (25, 1, 1 (5, 6, 7, 9))
+Elevador 1: 5 (25, 1, 1 (6, 7, 9))
+Elevador 1: 6 (25, 1, 1 (7, 9))
+Elevador 1: 7 (25, 1, 1 (9))
+Elevador 1: 9 (25, 1, 1 ())
+Elevador 1 finalizou a tarefa 25
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 5
+Elevador 1: 9 (5, 9, 0 (6, 5, 5, 5, 4, 2, 0))
+Elevador 1: 9 (5, 9, 0 (6, 5, 4, 2, 0))
+Elevador 1: 6 (5, 9, 0 (5, 4, 2, 0))
+Elevador 1: 5 (5, 9, 0 (4, 2, 0))
+Elevador 1: 4 (5, 9, 0 (2, 0))
+Elevador 1: 2 (5, 9, 0 (0))
+Elevador 1: 0 (5, 9, 0 ())
+Elevador 1 finalizou a tarefa 5
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 32
+Elevador 1: 0 (32, 0, 1 (1, 1, 2, 2, 2, 3, 4, 4, 4, 5, 5, 7, 7, 8, 8, 10, 10))
+Elevador 1: 0 (32, 0, 1 (1, 2, 3, 4, 5, 7, 8, 10))
+Elevador 1: 1 (32, 0, 1 (2, 3, 4, 5, 7, 8, 10))
+Elevador 1: 2 (32, 0, 1 (3, 4, 5, 7, 8, 10))
+Elevador 1: 3 (32, 0, 1 (4, 5, 7, 8, 10))
+Elevador 1: 4 (32, 0, 1 (5, 7, 8, 10))
+Elevador 1: 5 (32, 0, 1 (7, 8, 10))
+Elevador 1: 7 (32, 0, 1 (8, 10))
+Elevador 1: 8 (32, 0, 1 (10))
+Elevador 1: 10 (32, 0, 1 ())
+Elevador 1 finalizou a tarefa 32
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 27
+Elevador 1: 10 (27, 10, 0 (9, 9, 8, 7, 6, 6, 5, 4, 4, 3, 3, 3, 3, 2, 2, 2, 2, 1, 0, 0))
+Elevador 1: 10 (27, 10, 0 (9, 8, 7, 6, 5, 4, 3, 2, 1, 0))
+Elevador 1: 9 (27, 10, 0 (8, 7, 6, 5, 4, 3, 2, 1, 0))
+Elevador 1: 8 (27, 10, 0 (7, 6, 5, 4, 3, 2, 1, 0))
+Elevador 1: 7 (27, 10, 0 (6, 5, 4, 3, 2, 1, 0))
+Elevador 1: 6 (27, 10, 0 (5, 4, 3, 2, 1, 0))
+Elevador 1: 5 (27, 10, 0 (4, 3, 2, 1, 0))
+Elevador 1: 4 (27, 10, 0 (3, 2, 1, 0))
+Elevador 1: 3 (27, 10, 0 (2, 1, 0))
+Elevador 1: 2 (27, 10, 0 (1, 0))
+Elevador 1: 1 (27, 10, 0 (0))
+Elevador 1: 0 (27, 10, 0 ())
+Elevador 1 finalizou a tarefa 27
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 36
+Elevador 1: 0 (36, 0, 1 (1, 1, 2, 2, 3, 3, 5, 7, 8, 9, 10, 10, 10))
+Elevador 1: 0 (36, 0, 1 (1, 2, 3, 5, 7, 8, 9, 10))
+Elevador 1: 1 (36, 0, 1 (2, 3, 5, 7, 8, 9, 10))
+Elevador 1: 2 (36, 0, 1 (3, 5, 7, 8, 9, 10))
+Elevador 1: 3 (36, 0, 1 (5, 7, 8, 9, 10))
+Elevador 1: 5 (36, 0, 1 (7, 8, 9, 10))
+Elevador 1: 7 (36, 0, 1 (8, 9, 10))
+Elevador 1: 8 (36, 0, 1 (9, 10))
+Elevador 1: 9 (36, 0, 1 (10))
+Elevador 1: 10 (36, 0, 1 ())
+Elevador 1 finalizou a tarefa 36
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 30
+Elevador 1: 10 (30, 10, 0 (9, 8, 7, 7, 6, 5, 4, 3, 3, 3, 2, 1, 1))
+Elevador 1: 10 (30, 10, 0 (9, 8, 7, 6, 5, 4, 3, 2, 1))
+Elevador 1: 9 (30, 10, 0 (8, 7, 6, 5, 4, 3, 2, 1))
+Elevador 1: 8 (30, 10, 0 (7, 6, 5, 4, 3, 2, 1))
+Elevador 1: 7 (30, 10, 0 (6, 5, 4, 3, 2, 1))
+Elevador 1: 6 (30, 10, 0 (5, 4, 3, 2, 1))
+Elevador 1: 5 (30, 10, 0 (4, 3, 2, 1))
+Elevador 1: 4 (30, 10, 0 (3, 2, 1))
+Elevador 1: 3 (30, 10, 0 (2, 1))
+Elevador 1: 2 (30, 10, 0 (1))
+Elevador 1: 1 (30, 10, 0 ())
+Elevador 1 finalizou a tarefa 30
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 26
+Elevador 1: 1 (26, 1, 1 (2, 5, 7, 8))
+Elevador 1: 1 (26, 1, 1 (2, 5, 7, 8))
+Elevador 1: 2 (26, 1, 1 (5, 7, 8))
+Elevador 1: 5 (26, 1, 1 (7, 8))
+Elevador 1: 7 (26, 1, 1 (8))
+Elevador 1: 8 (26, 1, 1 ())
+Elevador 1 finalizou a tarefa 26
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 6
+Elevador 1: 8 (6, 8, 0 (4, 4, 4, 3, 3, 3, 3, 2, 1, 1, 0))
+Elevador 1: 8 (6, 8, 0 (4, 3, 2, 1, 0))
+Elevador 1: 4 (6, 8, 0 (3, 2, 1, 0))
+Elevador 1: 3 (6, 8, 0 (2, 1, 0))
+Elevador 1: 2 (6, 8, 0 (1, 0))
+Elevador 1: 1 (6, 8, 0 (0))
+Elevador 1: 0 (6, 8, 0 ())
+Elevador 1 finalizou a tarefa 6
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 54
+Elevador 1: 0 (54, 0, 1 (2, 6))
+Elevador 1: 0 (54, 0, 1 (2, 6))
+Elevador 1: 2 (54, 0, 1 (6))
+Elevador 1: 6 (54, 0, 1 ())
+Elevador 1 finalizou a tarefa 54
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 58
+Elevador 1: 6 (58, 6, 0 (5, 4, 2, 2, 0))
+Elevador 1: 6 (58, 6, 0 (5, 4, 2, 0))
+Elevador 1: 5 (58, 6, 0 (4, 2, 0))
+Elevador 1: 4 (58, 6, 0 (2, 0))
+Elevador 1: 2 (58, 6, 0 (0))
+Elevador 1: 0 (58, 6, 0 ())
+Elevador 1 finalizou a tarefa 58
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 64
+Elevador 1: 0 (64, 0, 1 (1, 2, 2, 4, 5, 7, 8, 9, 9, 10))
+Elevador 1: 0 (64, 0, 1 (1, 2, 4, 5, 7, 8, 9, 10))
+Elevador 1: 1 (64, 0, 1 (2, 4, 5, 7, 8, 9, 10))
+Elevador 1: 2 (64, 0, 1 (4, 5, 7, 8, 9, 10))
+Elevador 1: 4 (64, 0, 1 (5, 7, 8, 9, 10))
+Elevador 1: 5 (64, 0, 1 (7, 8, 9, 10))
+Elevador 1: 7 (64, 0, 1 (8, 9, 10))
+Elevador 1: 8 (64, 0, 1 (9, 10))
+Elevador 1: 9 (64, 0, 1 (10))
+Elevador 1: 10 (64, 0, 1 ())
+Elevador 1 finalizou a tarefa 64
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 50
+Elevador 1: 10 (50, 10, 0 (6, 1))
+Elevador 1: 10 (50, 10, 0 (6, 1))
+Elevador 1: 6 (50, 10, 0 (1))
+Elevador 1: 1 (50, 10, 0 ())
+Elevador 1 finalizou a tarefa 50
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 31
+Elevador 1: 1 (31, 1, 0 (0, 0, 0, 0, 0, 0, 0))
+Elevador 1: 1 (31, 1, 0 (0))
+Elevador 1: 0 (31, 1, 0 ())
+Elevador 1 finalizou a tarefa 31
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 81
+Elevador 1: 0 (81, 0, 1 (1, 2, 8))
+Elevador 1: 0 (81, 0, 1 (1, 2, 8))
+Elevador 1: 1 (81, 0, 1 (2, 8))
+Elevador 1: 2 (81, 0, 1 (8))
+Elevador 1: 8 (81, 0, 1 ())
+Elevador 1 finalizou a tarefa 81
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 20
+Elevador 1: 8 (20, 8, 1 (9, 9, 9, 9, 9, 9, 9, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10))
+Elevador 1: 8 (20, 8, 1 (9, 10))
+Elevador 1: 9 (20, 8, 1 (10))
+Elevador 1: 10 (20, 8, 1 ())
+Elevador 1 finalizou a tarefa 20
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 185
+Elevador 1: 10 (185, 10, 0 (7, 3))
+Elevador 1: 10 (185, 10, 0 (7, 3))
+Elevador 1: 7 (185, 10, 0 (3))
+Elevador 1: 3 (185, 10, 0 ())
+Elevador 1 finalizou a tarefa 185
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 7
+Elevador 1: 3 (7, 3, 1 (4, 4, 5, 5, 5, 6, 6, 6, 7, 8, 8, 8, 9, 10, 10))
+Elevador 1: 3 (7, 3, 1 (4, 5, 6, 7, 8, 9, 10))
+Elevador 1: 4 (7, 3, 1 (5, 6, 7, 8, 9, 10))
+Elevador 1: 5 (7, 3, 1 (6, 7, 8, 9, 10))
+Elevador 1: 6 (7, 3, 1 (7, 8, 9, 10))
+Elevador 1: 7 (7, 3, 1 (8, 9, 10))
+Elevador 1: 8 (7, 3, 1 (9, 10))
+Elevador 1: 9 (7, 3, 1 (10))
+Elevador 1: 10 (7, 3, 1 ())
+Elevador 1 finalizou a tarefa 7
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 215
+Elevador 1: 10 (215, 10, 0 (9, 9, 7, 7, 7, 6, 5, 4, 3, 2, 2, 1))
+Elevador 1: 10 (215, 10, 0 (9, 7, 6, 5, 4, 3, 2, 1))
+Elevador 1: 9 (215, 10, 0 (7, 6, 5, 4, 3, 2, 1))
+Elevador 1: 7 (215, 10, 0 (6, 5, 4, 3, 2, 1))
+Elevador 1: 6 (215, 10, 0 (5, 4, 3, 2, 1))
+Elevador 1: 5 (215, 10, 0 (4, 3, 2, 1))
+Elevador 1: 4 (215, 10, 0 (3, 2, 1))
+Elevador 1: 3 (215, 10, 0 (2, 1))
+Elevador 1: 2 (215, 10, 0 (1))
+Elevador 1: 1 (215, 10, 0 ())
+Elevador 1 finalizou a tarefa 215
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 42
+Elevador 1: 1 (42, 1, 0 (0))
+Elevador 1: 1 (42, 1, 0 (0))
+Elevador 1: 0 (42, 1, 0 ())
+Elevador 1 finalizou a tarefa 42
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 109
+Elevador 1: 0 (109, 0, 1 (2, 2, 4, 5, 5, 6, 7, 7, 8, 9, 9, 10, 10))
+Elevador 1: 0 (109, 0, 1 (2, 4, 5, 6, 7, 8, 9, 10))
+Elevador 1: 2 (109, 0, 1 (4, 5, 6, 7, 8, 9, 10))
+Elevador 1: 4 (109, 0, 1 (5, 6, 7, 8, 9, 10))
+Elevador 1: 5 (109, 0, 1 (6, 7, 8, 9, 10))
+Elevador 1: 6 (109, 0, 1 (7, 8, 9, 10))
+Elevador 1: 7 (109, 0, 1 (8, 9, 10))
+Elevador 1: 8 (109, 0, 1 (9, 10))
+Elevador 1: 9 (109, 0, 1 (10))
+Elevador 1: 10 (109, 0, 1 ())
+Elevador 1 finalizou a tarefa 109
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 239
+Elevador 1: 10 (239, 10, 0 (9, 9, 8, 8, 8, 5, 3, 3, 3, 2, 1, 0))
+Elevador 1: 10 (239, 10, 0 (9, 8, 5, 3, 2, 1, 0))
+Elevador 1: 9 (239, 10, 0 (8, 5, 3, 2, 1, 0))
+Elevador 1: 8 (239, 10, 0 (5, 3, 2, 1, 0))
+Elevador 1: 5 (239, 10, 0 (3, 2, 1, 0))
+Elevador 1: 3 (239, 10, 0 (2, 1, 0))
+Elevador 1: 2 (239, 10, 0 (1, 0))
+Elevador 1: 1 (239, 10, 0 (0))
+Elevador 1: 0 (239, 10, 0 ())
+Elevador 1 finalizou a tarefa 239
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 150
+Elevador 1: 0 (150, 0, 1 (7))
+Elevador 1: 0 (150, 0, 1 (7))
+Elevador 1: 7 (150, 0, 1 ())
+Elevador 1 finalizou a tarefa 150
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 11
+Elevador 1: 7 (11, 7, 1 (8, 8, 9, 10, 10, 10, 10))
+Elevador 1: 7 (11, 7, 1 (8, 9, 10))
+Elevador 1: 8 (11, 7, 1 (9, 10))
+Elevador 1: 9 (11, 7, 1 (10))
+Elevador 1: 10 (11, 7, 1 ())
+Elevador 1 finalizou a tarefa 11
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 249
+Elevador 1: 10 (249, 10, 0 (8, 8, 8, 7, 7, 6, 6, 5, 5, 4, 4, 3, 2, 1, 1, 1, 1))
+Elevador 1: 10 (249, 10, 0 (8, 7, 6, 5, 4, 3, 2, 1))
+Elevador 1: 8 (249, 10, 0 (7, 6, 5, 4, 3, 2, 1))
+Elevador 1: 7 (249, 10, 0 (6, 5, 4, 3, 2, 1))
+Elevador 1: 6 (249, 10, 0 (5, 4, 3, 2, 1))
+Elevador 1: 5 (249, 10, 0 (4, 3, 2, 1))
+Elevador 1: 4 (249, 10, 0 (3, 2, 1))
+Elevador 1: 3 (249, 10, 0 (2, 1))
+Elevador 1: 2 (249, 10, 0 (1))
+Elevador 1: 1 (249, 10, 0 ())
+Elevador 1 finalizou a tarefa 249
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 72
+Elevador 1: 1 (72, 1, 1 (3, 7))
+Elevador 1: 1 (72, 1, 1 (3, 7))
+Elevador 1: 3 (72, 1, 1 (7))
+Elevador 1: 7 (72, 1, 1 ())
+Elevador 1 finalizou a tarefa 72
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 13
+Elevador 1: 7 (13, 7, 1 (8, 8, 8, 8, 8, 8, 9, 9, 10, 10))
+Elevador 1: 7 (13, 7, 1 (8, 9, 10))
+Elevador 1: 8 (13, 7, 1 (9, 10))
+Elevador 1: 9 (13, 7, 1 (10))
+Elevador 1: 10 (13, 7, 1 ())
+Elevador 1 finalizou a tarefa 13
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 255
+Elevador 1: 10 (255, 10, 0 (9, 7, 7, 5, 4, 3, 2, 1, 1))
+Elevador 1: 10 (255, 10, 0 (9, 7, 5, 4, 3, 2, 1))
+Elevador 1: 9 (255, 10, 0 (7, 5, 4, 3, 2, 1))
+Elevador 1: 7 (255, 10, 0 (5, 4, 3, 2, 1))
+Elevador 1: 5 (255, 10, 0 (4, 3, 2, 1))
+Elevador 1: 4 (255, 10, 0 (3, 2, 1))
+Elevador 1: 3 (255, 10, 0 (2, 1))
+Elevador 1: 2 (255, 10, 0 (1))
+Elevador 1: 1 (255, 10, 0 ())
+Elevador 1 finalizou a tarefa 255
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 77
+Elevador 1: 1 (77, 1, 0 (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0))
+Elevador 1: 1 (77, 1, 0 (0))
+Elevador 1: 0 (77, 1, 0 ())
+Elevador 1 finalizou a tarefa 77
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 161
+Elevador 1: 0 (161, 0, 1 (1, 3, 3, 5, 5, 5, 6, 6, 6, 7, 7, 8, 8, 9, 9, 9, 10, 10, 10, 10))
+Elevador 1: 0 (161, 0, 1 (1, 3, 5, 6, 7, 8, 9, 10))
+Elevador 1: 1 (161, 0, 1 (3, 5, 6, 7, 8, 9, 10))
+Elevador 1: 3 (161, 0, 1 (5, 6, 7, 8, 9, 10))
+Elevador 1: 5 (161, 0, 1 (6, 7, 8, 9, 10))
+Elevador 1: 6 (161, 0, 1 (7, 8, 9, 10))
+Elevador 1: 7 (161, 0, 1 (8, 9, 10))
+Elevador 1: 8 (161, 0, 1 (9, 10))
+Elevador 1: 9 (161, 0, 1 (10))
+Elevador 1: 10 (161, 0, 1 ())
+Elevador 1 finalizou a tarefa 161
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 256
+Elevador 1: 10 (256, 10, 0 (9, 8, 8, 7, 7, 5, 5, 5, 4, 4, 4, 3, 2, 2, 2, 1, 0, 0))
+Elevador 1: 10 (256, 10, 0 (9, 8, 7, 5, 4, 3, 2, 1, 0))
+Elevador 1: 9 (256, 10, 0 (8, 7, 5, 4, 3, 2, 1, 0))
+Elevador 1: 8 (256, 10, 0 (7, 5, 4, 3, 2, 1, 0))
+Elevador 1: 7 (256, 10, 0 (5, 4, 3, 2, 1, 0))
+Elevador 1: 5 (256, 10, 0 (4, 3, 2, 1, 0))
+Elevador 1: 4 (256, 10, 0 (3, 2, 1, 0))
+Elevador 1: 3 (256, 10, 0 (2, 1, 0))
+Elevador 1: 2 (256, 10, 0 (1, 0))
+Elevador 1: 1 (256, 10, 0 (0))
+Elevador 1: 0 (256, 10, 0 ())
+Elevador 1 finalizou a tarefa 256
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 202
+Elevador 1: 0 (202, 0, 1 (3, 3, 6, 6, 7, 8, 10))
+Elevador 1: 0 (202, 0, 1 (3, 6, 7, 8, 10))
+Elevador 1: 3 (202, 0, 1 (6, 7, 8, 10))
+Elevador 1: 6 (202, 0, 1 (7, 8, 10))
+Elevador 1: 7 (202, 0, 1 (8, 10))
+Elevador 1: 8 (202, 0, 1 (10))
+Elevador 1: 10 (202, 0, 1 ())
+Elevador 1 finalizou a tarefa 202
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 260
+Elevador 1: 10 (260, 10, 0 (8, 8, 8, 7, 7, 6, 6, 5, 4, 4, 3, 2, 1, 1, 0))
+Elevador 1: 10 (260, 10, 0 (8, 7, 6, 5, 4, 3, 2, 1, 0))
+Elevador 1: 8 (260, 10, 0 (7, 6, 5, 4, 3, 2, 1, 0))
+Elevador 1: 7 (260, 10, 0 (6, 5, 4, 3, 2, 1, 0))
+Elevador 1: 6 (260, 10, 0 (5, 4, 3, 2, 1, 0))
+Elevador 1: 5 (260, 10, 0 (4, 3, 2, 1, 0))
+Elevador 1: 4 (260, 10, 0 (3, 2, 1, 0))
+Elevador 1: 3 (260, 10, 0 (2, 1, 0))
+Elevador 1: 2 (260, 10, 0 (1, 0))
+Elevador 1: 1 (260, 10, 0 (0))
+Elevador 1: 0 (260, 10, 0 ())
+Elevador 1 finalizou a tarefa 260
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 233
+Elevador 1: 0 (233, 0, 1 (5))
+Elevador 1: 0 (233, 0, 1 (5))
+Elevador 1: 5 (233, 0, 1 ())
+Elevador 1 finalizou a tarefa 233
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 1
+Elevador 1: 5 (1, 5, 0 (4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 2, 2, 2, 1, 1, 1, 0))
+Elevador 1: 5 (1, 5, 0 (4, 3, 2, 1, 0))
+Elevador 1: 4 (1, 5, 0 (3, 2, 1, 0))
+Elevador 1: 3 (1, 5, 0 (2, 1, 0))
+Elevador 1: 2 (1, 5, 0 (1, 0))
+Elevador 1: 1 (1, 5, 0 (0))
+Elevador 1: 0 (1, 5, 0 ())
+Elevador 1 finalizou a tarefa 1
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 266
+Elevador 1: 0 (266, 0, 1 (1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 5, 6, 7, 8, 9, 9, 9, 9, 10, 10))
+Elevador 1: 0 (266, 0, 1 (1, 2, 3, 4, 5, 6, 7, 8, 9, 10))
+Elevador 1: 1 (266, 0, 1 (2, 3, 4, 5, 6, 7, 8, 9, 10))
+Elevador 1: 2 (266, 0, 1 (3, 4, 5, 6, 7, 8, 9, 10))
+Elevador 1: 3 (266, 0, 1 (4, 5, 6, 7, 8, 9, 10))
+Elevador 1: 4 (266, 0, 1 (5, 6, 7, 8, 9, 10))
+Elevador 1: 5 (266, 0, 1 (6, 7, 8, 9, 10))
+Elevador 1: 6 (266, 0, 1 (7, 8, 9, 10))
+Elevador 1: 7 (266, 0, 1 (8, 9, 10))
+Elevador 1: 8 (266, 0, 1 (9, 10))
+Elevador 1: 9 (266, 0, 1 (10))
+Elevador 1: 10 (266, 0, 1 ())
+Elevador 1 finalizou a tarefa 266
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 365
+Elevador 1: 10 (365, 10, 0 (9, 9, 8, 8, 8, 8, 8, 7, 6, 5, 5, 4, 4, 3, 2, 2, 2, 1, 0, 0))
+Elevador 1: 10 (365, 10, 0 (9, 8, 7, 6, 5, 4, 3, 2, 1, 0))
+Elevador 1: 9 (365, 10, 0 (8, 7, 6, 5, 4, 3, 2, 1, 0))
+Elevador 1: 8 (365, 10, 0 (7, 6, 5, 4, 3, 2, 1, 0))
+Elevador 1: 7 (365, 10, 0 (6, 5, 4, 3, 2, 1, 0))
+Elevador 1: 6 (365, 10, 0 (5, 4, 3, 2, 1, 0))
+Elevador 1: 5 (365, 10, 0 (4, 3, 2, 1, 0))
+Elevador 1: 4 (365, 10, 0 (3, 2, 1, 0))
+Elevador 1: 3 (365, 10, 0 (2, 1, 0))
+Elevador 1: 2 (365, 10, 0 (1, 0))
+Elevador 1: 1 (365, 10, 0 (0))
+Elevador 1: 0 (365, 10, 0 ())
+Elevador 1 finalizou a tarefa 365
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 361
+Elevador 1: 0 (361, 0, 1 (1, 1, 1, 2, 3, 4, 4, 5, 5, 7, 7, 8, 9, 10, 10))
+Elevador 1: 0 (361, 0, 1 (1, 2, 3, 4, 5, 7, 8, 9, 10))
+Elevador 1: 1 (361, 0, 1 (2, 3, 4, 5, 7, 8, 9, 10))
+Elevador 1: 2 (361, 0, 1 (3, 4, 5, 7, 8, 9, 10))
+Elevador 1: 3 (361, 0, 1 (4, 5, 7, 8, 9, 10))
+Elevador 1: 4 (361, 0, 1 (5, 7, 8, 9, 10))
+Elevador 1: 5 (361, 0, 1 (7, 8, 9, 10))
+Elevador 1: 7 (361, 0, 1 (8, 9, 10))
+Elevador 1: 8 (361, 0, 1 (9, 10))
+Elevador 1: 9 (361, 0, 1 (10))
+Elevador 1: 10 (361, 0, 1 ())
+Elevador 1 finalizou a tarefa 361
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 379
+Elevador 1: 10 (379, 10, 0 (7, 7, 4, 2, 2, 1, 1, 0))
+Elevador 1: 10 (379, 10, 0 (7, 4, 2, 1, 0))
+Elevador 1: 7 (379, 10, 0 (4, 2, 1, 0))
+Elevador 1: 4 (379, 10, 0 (2, 1, 0))
+Elevador 1: 2 (379, 10, 0 (1, 0))
+Elevador 1: 1 (379, 10, 0 (0))
+Elevador 1: 0 (379, 10, 0 ())
+Elevador 1 finalizou a tarefa 379
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 367
+Elevador 1: 0 (367, 0, 1 (1, 1, 3, 4, 5, 5, 6, 6, 7, 7, 7, 8, 9, 9, 10, 10, 10))
+Elevador 1: 0 (367, 0, 1 (1, 3, 4, 5, 6, 7, 8, 9, 10))
+Elevador 1: 1 (367, 0, 1 (3, 4, 5, 6, 7, 8, 9, 10))
+Elevador 1: 3 (367, 0, 1 (4, 5, 6, 7, 8, 9, 10))
+Elevador 1: 4 (367, 0, 1 (5, 6, 7, 8, 9, 10))
+Elevador 1: 5 (367, 0, 1 (6, 7, 8, 9, 10))
+Elevador 1: 6 (367, 0, 1 (7, 8, 9, 10))
+Elevador 1: 7 (367, 0, 1 (8, 9, 10))
+Elevador 1: 8 (367, 0, 1 (9, 10))
+Elevador 1: 9 (367, 0, 1 (10))
+Elevador 1: 10 (367, 0, 1 ())
+Elevador 1 finalizou a tarefa 367
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 383
+Elevador 1: 10 (383, 10, 0 (8, 6, 2, 1))
+Elevador 1: 10 (383, 10, 0 (8, 6, 2, 1))
+Elevador 1: 8 (383, 10, 0 (6, 2, 1))
+Elevador 1: 6 (383, 10, 0 (2, 1))
+Elevador 1: 2 (383, 10, 0 (1))
+Elevador 1: 1 (383, 10, 0 ())
+Elevador 1 finalizou a tarefa 383
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 163
+Elevador 1: 1 (163, 1, 1 (2, 3, 3, 5, 5, 5, 6, 6, 6, 7, 8, 8, 9, 9, 9, 9, 9, 10, 10))
+Elevador 1: 1 (163, 1, 1 (2, 3, 5, 6, 7, 8, 9, 10))
+Elevador 1: 2 (163, 1, 1 (3, 5, 6, 7, 8, 9, 10))
+Elevador 1: 3 (163, 1, 1 (5, 6, 7, 8, 9, 10))
+Elevador 1: 5 (163, 1, 1 (6, 7, 8, 9, 10))
+Elevador 1: 6 (163, 1, 1 (7, 8, 9, 10))
+Elevador 1: 7 (163, 1, 1 (8, 9, 10))
+Elevador 1: 8 (163, 1, 1 (9, 10))
+Elevador 1: 9 (163, 1, 1 (10))
+Elevador 1: 10 (163, 1, 1 ())
+Elevador 1 finalizou a tarefa 163
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 386
+Elevador 1: 10 (386, 10, 0 (9, 7, 6, 6, 6, 5, 5, 4, 2, 2, 2, 1, 1, 1, 1, 0, 0, 0))
+Elevador 1: 10 (386, 10, 0 (9, 7, 6, 5, 4, 2, 1, 0))
+Elevador 1: 9 (386, 10, 0 (7, 6, 5, 4, 2, 1, 0))
+Elevador 1: 7 (386, 10, 0 (6, 5, 4, 2, 1, 0))
+Elevador 1: 6 (386, 10, 0 (5, 4, 2, 1, 0))
+Elevador 1: 5 (386, 10, 0 (4, 2, 1, 0))
+Elevador 1: 4 (386, 10, 0 (2, 1, 0))
+Elevador 1: 2 (386, 10, 0 (1, 0))
+Elevador 1: 1 (386, 10, 0 (0))
+Elevador 1: 0 (386, 10, 0 ())
+Elevador 1 finalizou a tarefa 386
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 411
+Elevador 1: 0 (411, 0, 1 (2, 5, 6, 6, 6, 8, 8, 8, 8, 9, 9, 9, 9, 10))
+Elevador 1: 0 (411, 0, 1 (2, 5, 6, 8, 9, 10))
+Elevador 1: 2 (411, 0, 1 (5, 6, 8, 9, 10))
+Elevador 1: 5 (411, 0, 1 (6, 8, 9, 10))
+Elevador 1: 6 (411, 0, 1 (8, 9, 10))
+Elevador 1: 8 (411, 0, 1 (9, 10))
+Elevador 1: 9 (411, 0, 1 (10))
+Elevador 1: 10 (411, 0, 1 ())
+Elevador 1 finalizou a tarefa 411
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 456
+Elevador 1: 10 (456, 10, 0 (9, 9, 8, 8, 8, 7, 6, 6, 6, 5, 4, 4, 3, 2, 1, 0))
+Elevador 1: 10 (456, 10, 0 (9, 8, 7, 6, 5, 4, 3, 2, 1, 0))
+Elevador 1: 9 (456, 10, 0 (8, 7, 6, 5, 4, 3, 2, 1, 0))
+Elevador 1: 8 (456, 10, 0 (7, 6, 5, 4, 3, 2, 1, 0))
+Elevador 1: 7 (456, 10, 0 (6, 5, 4, 3, 2, 1, 0))
+Elevador 1: 6 (456, 10, 0 (5, 4, 3, 2, 1, 0))
+Elevador 1: 5 (456, 10, 0 (4, 3, 2, 1, 0))
+Elevador 1: 4 (456, 10, 0 (3, 2, 1, 0))
+Elevador 1: 3 (456, 10, 0 (2, 1, 0))
+Elevador 1: 2 (456, 10, 0 (1, 0))
+Elevador 1: 1 (456, 10, 0 (0))
+Elevador 1: 0 (456, 10, 0 ())
+Elevador 1 finalizou a tarefa 456
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 418
+Elevador 1: 0 (418, 0, 1 (1, 4, 4, 10, 10))
+Elevador 1: 0 (418, 0, 1 (1, 4, 10))
+Elevador 1: 1 (418, 0, 1 (4, 10))
+Elevador 1: 4 (418, 0, 1 (10))
+Elevador 1: 10 (418, 0, 1 ())
+Elevador 1 finalizou a tarefa 418
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 476
+Elevador 1: 10 (476, 10, 0 (9, 8, 7, 6, 6, 6, 5, 4, 2, 1))
+Elevador 1: 10 (476, 10, 0 (9, 8, 7, 6, 5, 4, 2, 1))
+Elevador 1: 9 (476, 10, 0 (8, 7, 6, 5, 4, 2, 1))
+Elevador 1: 8 (476, 10, 0 (7, 6, 5, 4, 2, 1))
+Elevador 1: 7 (476, 10, 0 (6, 5, 4, 2, 1))
+Elevador 1: 6 (476, 10, 0 (5, 4, 2, 1))
+Elevador 1: 5 (476, 10, 0 (4, 2, 1))
+Elevador 1: 4 (476, 10, 0 (2, 1))
+Elevador 1: 2 (476, 10, 0 (1))
+Elevador 1: 1 (476, 10, 0 ())
+Elevador 1 finalizou a tarefa 476
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 189
+Elevador 1: 1 (189, 1, 0 (0, 0, 0, 0, 0, 0))
+Elevador 1: 1 (189, 1, 0 (0))
+Elevador 1: 0 (189, 1, 0 ())
+Elevador 1 finalizou a tarefa 189
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 434
+Elevador 1: 0 (434, 0, 1 (1, 3, 4, 4, 5, 5, 6, 7, 7, 9, 10, 10, 10))
+Elevador 1: 0 (434, 0, 1 (1, 3, 4, 5, 6, 7, 9, 10))
+Elevador 1: 1 (434, 0, 1 (3, 4, 5, 6, 7, 9, 10))
+Elevador 1: 3 (434, 0, 1 (4, 5, 6, 7, 9, 10))
+Elevador 1: 4 (434, 0, 1 (5, 6, 7, 9, 10))
+Elevador 1: 5 (434, 0, 1 (6, 7, 9, 10))
+Elevador 1: 6 (434, 0, 1 (7, 9, 10))
+Elevador 1: 7 (434, 0, 1 (9, 10))
+Elevador 1: 9 (434, 0, 1 (10))
+Elevador 1: 10 (434, 0, 1 ())
+Elevador 1 finalizou a tarefa 434
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 486
+Elevador 1: 10 (486, 10, 0 (7))
+Elevador 1: 10 (486, 10, 0 (7))
+Elevador 1: 7 (486, 10, 0 ())
+Elevador 1 finalizou a tarefa 486
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 41
+Elevador 1: 7 (41, 7, 1 (8, 8, 8, 9, 9, 9, 10, 10, 10, 10))
+Elevador 1: 7 (41, 7, 1 (8, 9, 10))
+Elevador 1: 8 (41, 7, 1 (9, 10))
+Elevador 1: 9 (41, 7, 1 (10))
+Elevador 1: 10 (41, 7, 1 ())
+Elevador 1 finalizou a tarefa 41
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 538
+Elevador 1: 10 (538, 10, 0 (7, 4, 4, 3, 2, 1, 1))
+Elevador 1: 10 (538, 10, 0 (7, 4, 3, 2, 1))
+Elevador 1: 7 (538, 10, 0 (4, 3, 2, 1))
+Elevador 1: 4 (538, 10, 0 (3, 2, 1))
+Elevador 1: 3 (538, 10, 0 (2, 1))
+Elevador 1: 2 (538, 10, 0 (1))
+Elevador 1: 1 (538, 10, 0 ())
+Elevador 1 finalizou a tarefa 538
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 196
+Elevador 1: 1 (196, 1, 1 (2, 2, 3, 4, 4, 4, 5, 7, 7, 7, 8, 9, 9, 9, 9, 10, 10))
+Elevador 1: 1 (196, 1, 1 (2, 3, 4, 5, 7, 8, 9, 10))
+Elevador 1: 2 (196, 1, 1 (3, 4, 5, 7, 8, 9, 10))
+Elevador 1: 3 (196, 1, 1 (4, 5, 7, 8, 9, 10))
+Elevador 1: 4 (196, 1, 1 (5, 7, 8, 9, 10))
+Elevador 1: 5 (196, 1, 1 (7, 8, 9, 10))
+Elevador 1: 7 (196, 1, 1 (8, 9, 10))
+Elevador 1: 8 (196, 1, 1 (9, 10))
+Elevador 1: 9 (196, 1, 1 (10))
+Elevador 1: 10 (196, 1, 1 ())
+Elevador 1 finalizou a tarefa 196
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 545
+Elevador 1: 10 (545, 10, 0 (9, 9, 7, 7, 7, 5, 4, 3, 2, 2, 2, 1, 1, 0))
+Elevador 1: 10 (545, 10, 0 (9, 7, 5, 4, 3, 2, 1, 0))
+Elevador 1: 9 (545, 10, 0 (7, 5, 4, 3, 2, 1, 0))
+Elevador 1: 7 (545, 10, 0 (5, 4, 3, 2, 1, 0))
+Elevador 1: 5 (545, 10, 0 (4, 3, 2, 1, 0))
+Elevador 1: 4 (545, 10, 0 (3, 2, 1, 0))
+Elevador 1: 3 (545, 10, 0 (2, 1, 0))
+Elevador 1: 2 (545, 10, 0 (1, 0))
+Elevador 1: 1 (545, 10, 0 (0))
+Elevador 1: 0 (545, 10, 0 ())
+Elevador 1 finalizou a tarefa 545
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 465
+Elevador 1: 0 (465, 0, 1 (2, 3, 4, 6, 8, 8, 9, 9))
+Elevador 1: 0 (465, 0, 1 (2, 3, 4, 6, 8, 9))
+Elevador 1: 2 (465, 0, 1 (3, 4, 6, 8, 9))
+Elevador 1: 3 (465, 0, 1 (4, 6, 8, 9))
+Elevador 1: 4 (465, 0, 1 (6, 8, 9))
+Elevador 1: 6 (465, 0, 1 (8, 9))
+Elevador 1: 8 (465, 0, 1 (9))
+Elevador 1: 9 (465, 0, 1 ())
+Elevador 1 finalizou a tarefa 465
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 82
+Elevador 1: 9 (82, 9, 1 (10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10))
+Elevador 1: 9 (82, 9, 1 (10))
+Elevador 1: 10 (82, 9, 1 ())
+Elevador 1 finalizou a tarefa 82
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 609
+Elevador 1: 10 (609, 10, 0 (8, 8, 5, 5, 4, 2, 1, 0))
+Elevador 1: 10 (609, 10, 0 (8, 5, 4, 2, 1, 0))
+Elevador 1: 8 (609, 10, 0 (5, 4, 2, 1, 0))
+Elevador 1: 5 (609, 10, 0 (4, 2, 1, 0))
+Elevador 1: 4 (609, 10, 0 (2, 1, 0))
+Elevador 1: 2 (609, 10, 0 (1, 0))
+Elevador 1: 1 (609, 10, 0 (0))
+Elevador 1: 0 (609, 10, 0 ())
+Elevador 1 finalizou a tarefa 609
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 499
+Elevador 1: 0 (499, 0, 1 (1, 1, 4, 4, 4, 6, 9, 10))
+Elevador 1: 0 (499, 0, 1 (1, 4, 6, 9, 10))
+Elevador 1: 1 (499, 0, 1 (4, 6, 9, 10))
+Elevador 1: 4 (499, 0, 1 (6, 9, 10))
+Elevador 1: 6 (499, 0, 1 (9, 10))
+Elevador 1: 9 (499, 0, 1 (10))
+Elevador 1: 10 (499, 0, 1 ())
+Elevador 1 finalizou a tarefa 499
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 613
+Elevador 1: 10 (613, 10, 0 (9, 9, 8, 8, 8, 8, 8, 6, 5, 4, 4, 3, 3, 3, 2, 1, 0, 0, 0, 0))
+Elevador 1: 10 (613, 10, 0 (9, 8, 6, 5, 4, 3, 2, 1, 0))
+Elevador 1: 9 (613, 10, 0 (8, 6, 5, 4, 3, 2, 1, 0))
+Elevador 1: 8 (613, 10, 0 (6, 5, 4, 3, 2, 1, 0))
+Elevador 1: 6 (613, 10, 0 (5, 4, 3, 2, 1, 0))
+Elevador 1: 5 (613, 10, 0 (4, 3, 2, 1, 0))
+Elevador 1: 4 (613, 10, 0 (3, 2, 1, 0))
+Elevador 1: 3 (613, 10, 0 (2, 1, 0))
+Elevador 1: 2 (613, 10, 0 (1, 0))
+Elevador 1: 1 (613, 10, 0 (0))
+Elevador 1: 0 (613, 10, 0 ())
+Elevador 1 finalizou a tarefa 613
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 532
+Elevador 1: 0 (532, 0, 1 (1, 1, 1, 2, 3, 3, 3, 3, 4, 4, 4, 5, 5, 5, 6, 9, 10, 10))
+Elevador 1: 0 (532, 0, 1 (1, 2, 3, 4, 5, 6, 9, 10))
+Elevador 1: 1 (532, 0, 1 (2, 3, 4, 5, 6, 9, 10))
+Elevador 1: 2 (532, 0, 1 (3, 4, 5, 6, 9, 10))
+Elevador 1: 3 (532, 0, 1 (4, 5, 6, 9, 10))
+Elevador 1: 4 (532, 0, 1 (5, 6, 9, 10))
+Elevador 1: 5 (532, 0, 1 (6, 9, 10))
+Elevador 1: 6 (532, 0, 1 (9, 10))
+Elevador 1: 9 (532, 0, 1 (10))
+Elevador 1: 10 (532, 0, 1 ())
+Elevador 1 finalizou a tarefa 532
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 642
+Elevador 1: 10 (642, 10, 0 (7, 5, 5, 5, 4, 4, 4, 4, 2, 1))
+Elevador 1: 10 (642, 10, 0 (7, 5, 4, 2, 1))
+Elevador 1: 7 (642, 10, 0 (5, 4, 2, 1))
+Elevador 1: 5 (642, 10, 0 (4, 2, 1))
+Elevador 1: 4 (642, 10, 0 (2, 1))
+Elevador 1: 2 (642, 10, 0 (1))
+Elevador 1: 1 (642, 10, 0 ())
+Elevador 1 finalizou a tarefa 642
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 207
+Elevador 1: 1 (207, 1, 0 (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0))
+Elevador 1: 1 (207, 1, 0 (0))
+Elevador 1: 0 (207, 1, 0 ())
+Elevador 1 finalizou a tarefa 207
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 541
+Elevador 1: 0 (541, 0, 1 (1, 1, 7, 10))
+Elevador 1: 0 (541, 0, 1 (1, 7, 10))
+Elevador 1: 1 (541, 0, 1 (7, 10))
+Elevador 1: 7 (541, 0, 1 (10))
+Elevador 1: 10 (541, 0, 1 ())
+Elevador 1 finalizou a tarefa 541
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 676
+Elevador 1: 10 (676, 10, 0 (5))
+Elevador 1: 10 (676, 10, 0 (5))
+Elevador 1: 5 (676, 10, 0 ())
+Elevador 1 finalizou a tarefa 676
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 17
+Elevador 1: 5 (17, 5, 1 (6, 7, 7, 7, 7, 8, 8, 8, 9, 9, 9, 9, 9, 10, 10, 10, 10))
+Elevador 1: 5 (17, 5, 1 (6, 7, 8, 9, 10))
+Elevador 1: 6 (17, 5, 1 (7, 8, 9, 10))
+Elevador 1: 7 (17, 5, 1 (8, 9, 10))
+Elevador 1: 8 (17, 5, 1 (9, 10))
+Elevador 1: 9 (17, 5, 1 (10))
+Elevador 1: 10 (17, 5, 1 ())
+Elevador 1 finalizou a tarefa 17
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 728
+Elevador 1: 10 (728, 10, 0 (8, 6, 6, 3))
+Elevador 1: 10 (728, 10, 0 (8, 6, 3))
+Elevador 1: 8 (728, 10, 0 (6, 3))
+Elevador 1: 6 (728, 10, 0 (3))
+Elevador 1: 3 (728, 10, 0 ())
+Elevador 1 finalizou a tarefa 728
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 16
+Elevador 1: 3 (16, 3, 0 (2, 2, 1, 1, 1, 0, 0))
+Elevador 1: 3 (16, 3, 0 (2, 1, 0))
+Elevador 1: 2 (16, 3, 0 (1, 0))
+Elevador 1: 1 (16, 3, 0 (0))
+Elevador 1: 0 (16, 3, 0 ())
+Elevador 1 finalizou a tarefa 16
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 610
+Elevador 1: 0 (610, 0, 1 (1, 2, 2, 3, 4, 4, 7, 7, 8, 8))
+Elevador 1: 0 (610, 0, 1 (1, 2, 3, 4, 7, 8))
+Elevador 1: 1 (610, 0, 1 (2, 3, 4, 7, 8))
+Elevador 1: 2 (610, 0, 1 (3, 4, 7, 8))
+Elevador 1: 3 (610, 0, 1 (4, 7, 8))
+Elevador 1: 4 (610, 0, 1 (7, 8))
+Elevador 1: 7 (610, 0, 1 (8))
+Elevador 1: 8 (610, 0, 1 ())
+Elevador 1 finalizou a tarefa 610
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 80
+Elevador 1: 8 (80, 8, 0 (7, 7, 7, 6, 6, 5, 5, 4, 3, 3, 3, 3, 3, 2, 1, 1, 0, 0))
+Elevador 1: 8 (80, 8, 0 (7, 6, 5, 4, 3, 2, 1, 0))
+Elevador 1: 7 (80, 8, 0 (6, 5, 4, 3, 2, 1, 0))
+Elevador 1: 6 (80, 8, 0 (5, 4, 3, 2, 1, 0))
+Elevador 1: 5 (80, 8, 0 (4, 3, 2, 1, 0))
+Elevador 1: 4 (80, 8, 0 (3, 2, 1, 0))
+Elevador 1: 3 (80, 8, 0 (2, 1, 0))
+Elevador 1: 2 (80, 8, 0 (1, 0))
+Elevador 1: 1 (80, 8, 0 (0))
+Elevador 1: 0 (80, 8, 0 ())
+Elevador 1 finalizou a tarefa 80
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 618
+Elevador 1: 0 (618, 0, 1 (3, 3, 4, 5, 6, 6, 6, 7, 7, 7, 7, 8))
+Elevador 1: 0 (618, 0, 1 (3, 4, 5, 6, 7, 8))
+Elevador 1: 3 (618, 0, 1 (4, 5, 6, 7, 8))
+Elevador 1: 4 (618, 0, 1 (5, 6, 7, 8))
+Elevador 1: 5 (618, 0, 1 (6, 7, 8))
+Elevador 1: 6 (618, 0, 1 (7, 8))
+Elevador 1: 7 (618, 0, 1 (8))
+Elevador 1: 8 (618, 0, 1 ())
+Elevador 1 finalizou a tarefa 618
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 89
+Elevador 1: 8 (89, 8, 0 (6, 4, 4, 3, 3, 3, 2, 0, 0, 0))
+Elevador 1: 8 (89, 8, 0 (6, 4, 3, 2, 0))
+Elevador 1: 6 (89, 8, 0 (4, 3, 2, 0))
+Elevador 1: 4 (89, 8, 0 (3, 2, 0))
+Elevador 1: 3 (89, 8, 0 (2, 0))
+Elevador 1: 2 (89, 8, 0 (0))
+Elevador 1: 0 (89, 8, 0 ())
+Elevador 1 finalizou a tarefa 89
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 663
+Elevador 1: 0 (663, 0, 1 (8, 10, 10))
+Elevador 1: 0 (663, 0, 1 (8, 10))
+Elevador 1: 8 (663, 0, 1 (10))
+Elevador 1: 10 (663, 0, 1 ())
+Elevador 1 finalizou a tarefa 663
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 744
+Elevador 1: 10 (744, 10, 0 (9, 9, 9, 8, 8, 7, 7, 7, 6, 6, 6, 5, 4, 3, 2, 2, 1, 1, 1))
+Elevador 1: 10 (744, 10, 0 (9, 8, 7, 6, 5, 4, 3, 2, 1))
+Elevador 1: 9 (744, 10, 0 (8, 7, 6, 5, 4, 3, 2, 1))
+Elevador 1: 8 (744, 10, 0 (7, 6, 5, 4, 3, 2, 1))
+Elevador 1: 7 (744, 10, 0 (6, 5, 4, 3, 2, 1))
+Elevador 1: 6 (744, 10, 0 (5, 4, 3, 2, 1))
+Elevador 1: 5 (744, 10, 0 (4, 3, 2, 1))
+Elevador 1: 4 (744, 10, 0 (3, 2, 1))
+Elevador 1: 3 (744, 10, 0 (2, 1))
+Elevador 1: 2 (744, 10, 0 (1))
+Elevador 1: 1 (744, 10, 0 ())
+Elevador 1 finalizou a tarefa 744
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 221
+Elevador 1: 1 (221, 1, 0 (0, 0, 0, 0, 0, 0, 0, 0, 0))
+Elevador 1: 1 (221, 1, 0 (0))
+Elevador 1: 0 (221, 1, 0 ())
+Elevador 1 finalizou a tarefa 221
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 696
+Elevador 1: 0 (696, 0, 1 (1, 2, 2, 2, 3, 4, 4, 5, 6, 8, 9, 9, 9, 9, 9, 10, 10, 10))
+Elevador 1: 0 (696, 0, 1 (1, 2, 3, 4, 5, 6, 8, 9, 10))
+Elevador 1: 1 (696, 0, 1 (2, 3, 4, 5, 6, 8, 9, 10))
+Elevador 1: 2 (696, 0, 1 (3, 4, 5, 6, 8, 9, 10))
+Elevador 1: 3 (696, 0, 1 (4, 5, 6, 8, 9, 10))
+Elevador 1: 4 (696, 0, 1 (5, 6, 8, 9, 10))
+Elevador 1: 5 (696, 0, 1 (6, 8, 9, 10))
+Elevador 1: 6 (696, 0, 1 (8, 9, 10))
+Elevador 1: 8 (696, 0, 1 (9, 10))
+Elevador 1: 9 (696, 0, 1 (10))
+Elevador 1: 10 (696, 0, 1 ())
+Elevador 1 finalizou a tarefa 696
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 755
+Elevador 1: 10 (755, 10, 0 (9, 7, 7, 6, 6, 6, 5, 5, 5, 4, 4, 3, 3, 2, 2, 1))
+Elevador 1: 10 (755, 10, 0 (9, 7, 6, 5, 4, 3, 2, 1))
+Elevador 1: 9 (755, 10, 0 (7, 6, 5, 4, 3, 2, 1))
+Elevador 1: 7 (755, 10, 0 (6, 5, 4, 3, 2, 1))
+Elevador 1: 6 (755, 10, 0 (5, 4, 3, 2, 1))
+Elevador 1: 5 (755, 10, 0 (4, 3, 2, 1))
+Elevador 1: 4 (755, 10, 0 (3, 2, 1))
+Elevador 1: 3 (755, 10, 0 (2, 1))
+Elevador 1: 2 (755, 10, 0 (1))
+Elevador 1: 1 (755, 10, 0 ())
+Elevador 1 finalizou a tarefa 755
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 234
+Elevador 1: 1 (234, 1, 0 (0, 0, 0, 0, 0, 0))
+Elevador 1: 1 (234, 1, 0 (0))
+Elevador 1: 0 (234, 1, 0 ())
+Elevador 1 finalizou a tarefa 234
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 714
+Elevador 1: 0 (714, 0, 1 (1, 3, 3, 5, 5, 5, 6, 6, 7))
+Elevador 1: 0 (714, 0, 1 (1, 3, 5, 6, 7))
+Elevador 1: 1 (714, 0, 1 (3, 5, 6, 7))
+Elevador 1: 3 (714, 0, 1 (5, 6, 7))
+Elevador 1: 5 (714, 0, 1 (6, 7))
+Elevador 1: 6 (714, 0, 1 (7))
+Elevador 1: 7 (714, 0, 1 ())
+Elevador 1 finalizou a tarefa 714
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 60
+Elevador 1: 7 (60, 7, 1 (8, 8, 9, 10))
+Elevador 1: 7 (60, 7, 1 (8, 9, 10))
+Elevador 1: 8 (60, 7, 1 (9, 10))
+Elevador 1: 9 (60, 7, 1 (10))
+Elevador 1: 10 (60, 7, 1 ())
+Elevador 1 finalizou a tarefa 60
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 762
+Elevador 1: 10 (762, 10, 0 (7, 0))
+Elevador 1: 10 (762, 10, 0 (7, 0))
+Elevador 1: 7 (762, 10, 0 (0))
+Elevador 1: 0 (762, 10, 0 ())
+Elevador 1 finalizou a tarefa 762
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 736
+Elevador 1: 0 (736, 0, 1 (1, 1, 2, 7, 9, 10, 10))
+Elevador 1: 0 (736, 0, 1 (1, 2, 7, 9, 10))
+Elevador 1: 1 (736, 0, 1 (2, 7, 9, 10))
+Elevador 1: 2 (736, 0, 1 (7, 9, 10))
+Elevador 1: 7 (736, 0, 1 (9, 10))
+Elevador 1: 9 (736, 0, 1 (10))
+Elevador 1: 10 (736, 0, 1 ())
+Elevador 1 finalizou a tarefa 736
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 771
+Elevador 1: 10 (771, 10, 0 (9, 8, 8, 6, 6, 6, 5, 5, 4, 4, 4, 3, 3, 2, 2, 2, 2, 1, 0))
+Elevador 1: 10 (771, 10, 0 (9, 8, 6, 5, 4, 3, 2, 1, 0))
+Elevador 1: 9 (771, 10, 0 (8, 6, 5, 4, 3, 2, 1, 0))
+Elevador 1: 8 (771, 10, 0 (6, 5, 4, 3, 2, 1, 0))
+Elevador 1: 6 (771, 10, 0 (5, 4, 3, 2, 1, 0))
+Elevador 1: 5 (771, 10, 0 (4, 3, 2, 1, 0))
+Elevador 1: 4 (771, 10, 0 (3, 2, 1, 0))
+Elevador 1: 3 (771, 10, 0 (2, 1, 0))
+Elevador 1: 2 (771, 10, 0 (1, 0))
+Elevador 1: 1 (771, 10, 0 (0))
+Elevador 1: 0 (771, 10, 0 ())
+Elevador 1 finalizou a tarefa 771
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 739
+Elevador 1: 0 (739, 0, 1 (3, 6))
+Elevador 1: 0 (739, 0, 1 (3, 6))
+Elevador 1: 3 (739, 0, 1 (6))
+Elevador 1: 6 (739, 0, 1 ())
+Elevador 1 finalizou a tarefa 739
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 74
+Elevador 1: 6 (74, 6, 0 (5, 4, 4, 2, 1, 1, 1, 0, 0, 0, 0))
+Elevador 1: 6 (74, 6, 0 (5, 4, 2, 1, 0))
+Elevador 1: 5 (74, 6, 0 (4, 2, 1, 0))
+Elevador 1: 4 (74, 6, 0 (2, 1, 0))
+Elevador 1: 2 (74, 6, 0 (1, 0))
+Elevador 1: 1 (74, 6, 0 (0))
+Elevador 1: 0 (74, 6, 0 ())
+Elevador 1 finalizou a tarefa 74
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 765
+Elevador 1: 0 (765, 0, 1 (3, 4, 5, 6, 7, 9))
+Elevador 1: 0 (765, 0, 1 (3, 4, 5, 6, 7, 9))
+Elevador 1: 3 (765, 0, 1 (4, 5, 6, 7, 9))
+Elevador 1: 4 (765, 0, 1 (5, 6, 7, 9))
+Elevador 1: 5 (765, 0, 1 (6, 7, 9))
+Elevador 1: 6 (765, 0, 1 (7, 9))
+Elevador 1: 7 (765, 0, 1 (9))
+Elevador 1: 9 (765, 0, 1 ())
+Elevador 1 finalizou a tarefa 765
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 135
+Elevador 1: 9 (135, 9, 0 (8, 6))
+Elevador 1: 9 (135, 9, 0 (8, 6))
+Elevador 1: 8 (135, 9, 0 (6))
+Elevador 1: 6 (135, 9, 0 ())
+Elevador 1 finalizou a tarefa 135
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 84
+Elevador 1: 6 (84, 6, 0 (5, 4, 4, 4, 4, 3, 3, 1, 1, 0))
+Elevador 1: 6 (84, 6, 0 (5, 4, 3, 1, 0))
+Elevador 1: 5 (84, 6, 0 (4, 3, 1, 0))
+Elevador 1: 4 (84, 6, 0 (3, 1, 0))
+Elevador 1: 3 (84, 6, 0 (1, 0))
+Elevador 1: 1 (84, 6, 0 (0))
+Elevador 1: 0 (84, 6, 0 ())
+Elevador 1 finalizou a tarefa 84
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 789
+Elevador 1: 0 (789, 0, 1 (1, 1, 1, 3, 4, 4, 5, 8, 9))
+Elevador 1: 0 (789, 0, 1 (1, 3, 4, 5, 8, 9))
+Elevador 1: 1 (789, 0, 1 (3, 4, 5, 8, 9))
+Elevador 1: 3 (789, 0, 1 (4, 5, 8, 9))
+Elevador 1: 4 (789, 0, 1 (5, 8, 9))
+Elevador 1: 5 (789, 0, 1 (8, 9))
+Elevador 1: 8 (789, 0, 1 (9))
+Elevador 1: 9 (789, 0, 1 ())
+Elevador 1 finalizou a tarefa 789
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 153
+Elevador 1: 9 (153, 9, 1 (10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10))
+Elevador 1: 9 (153, 9, 1 (10))
+Elevador 1: 10 (153, 9, 1 ())
+Elevador 1 finalizou a tarefa 153
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 775
+Elevador 1: 10 (775, 10, 0 (7, 6, 3))
+Elevador 1: 10 (775, 10, 0 (7, 6, 3))
+Elevador 1: 7 (775, 10, 0 (6, 3))
+Elevador 1: 6 (775, 10, 0 (3))
+Elevador 1: 3 (775, 10, 0 ())
+Elevador 1 finalizou a tarefa 775
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 22
+Elevador 1: 3 (22, 3, 0 (2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 0, 0))
+Elevador 1: 3 (22, 3, 0 (2, 1, 0))
+Elevador 1: 2 (22, 3, 0 (1, 0))
+Elevador 1: 1 (22, 3, 0 (0))
+Elevador 1: 0 (22, 3, 0 ())
+Elevador 1 finalizou a tarefa 22
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 810
+Elevador 1: 0 (810, 0, 1 (3, 6))
+Elevador 1: 0 (810, 0, 1 (3, 6))
+Elevador 1: 3 (810, 0, 1 (6))
+Elevador 1: 6 (810, 0, 1 ())
+Elevador 1 finalizou a tarefa 810
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 88
+Elevador 1: 6 (88, 6, 1 (7, 7, 7, 7, 8, 8, 8, 9, 9, 9, 9, 9, 10))
+Elevador 1: 6 (88, 6, 1 (7, 8, 9, 10))
+Elevador 1: 7 (88, 6, 1 (8, 9, 10))
+Elevador 1: 8 (88, 6, 1 (9, 10))
+Elevador 1: 9 (88, 6, 1 (10))
+Elevador 1: 10 (88, 6, 1 ())
+Elevador 1 finalizou a tarefa 88
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 788
+Elevador 1: 10 (788, 10, 0 (7, 3, 2, 1, 1))
+Elevador 1: 10 (788, 10, 0 (7, 3, 2, 1))
+Elevador 1: 7 (788, 10, 0 (3, 2, 1))
+Elevador 1: 3 (788, 10, 0 (2, 1))
+Elevador 1: 2 (788, 10, 0 (1))
+Elevador 1: 1 (788, 10, 0 ())
+Elevador 1 finalizou a tarefa 788
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 235
+Elevador 1: 1 (235, 1, 1 (2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5, 7, 7, 7, 8, 8, 10, 10, 10))
+Elevador 1: 1 (235, 1, 1 (2, 3, 4, 5, 7, 8, 10))
+Elevador 1: 2 (235, 1, 1 (3, 4, 5, 7, 8, 10))
+Elevador 1: 3 (235, 1, 1 (4, 5, 7, 8, 10))
+Elevador 1: 4 (235, 1, 1 (5, 7, 8, 10))
+Elevador 1: 5 (235, 1, 1 (7, 8, 10))
+Elevador 1: 7 (235, 1, 1 (8, 10))
+Elevador 1: 8 (235, 1, 1 (10))
+Elevador 1: 10 (235, 1, 1 ())
+Elevador 1 finalizou a tarefa 235
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 799
+Elevador 1: 10 (799, 10, 0 (9, 9, 8, 8, 8, 7, 7, 6, 3, 2, 2, 1, 1, 0, 0))
+Elevador 1: 10 (799, 10, 0 (9, 8, 7, 6, 3, 2, 1, 0))
+Elevador 1: 9 (799, 10, 0 (8, 7, 6, 3, 2, 1, 0))
+Elevador 1: 8 (799, 10, 0 (7, 6, 3, 2, 1, 0))
+Elevador 1: 7 (799, 10, 0 (6, 3, 2, 1, 0))
+Elevador 1: 6 (799, 10, 0 (3, 2, 1, 0))
+Elevador 1: 3 (799, 10, 0 (2, 1, 0))
+Elevador 1: 2 (799, 10, 0 (1, 0))
+Elevador 1: 1 (799, 10, 0 (0))
+Elevador 1: 0 (799, 10, 0 ())
+Elevador 1 finalizou a tarefa 799
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 838
+Elevador 1: 0 (838, 0, 1 (1, 2, 2, 3, 4, 5, 5, 5, 6, 7, 8, 9))
+Elevador 1: 0 (838, 0, 1 (1, 2, 3, 4, 5, 6, 7, 8, 9))
+Elevador 1: 1 (838, 0, 1 (2, 3, 4, 5, 6, 7, 8, 9))
+Elevador 1: 2 (838, 0, 1 (3, 4, 5, 6, 7, 8, 9))
+Elevador 1: 3 (838, 0, 1 (4, 5, 6, 7, 8, 9))
+Elevador 1: 4 (838, 0, 1 (5, 6, 7, 8, 9))
+Elevador 1: 5 (838, 0, 1 (6, 7, 8, 9))
+Elevador 1: 6 (838, 0, 1 (7, 8, 9))
+Elevador 1: 7 (838, 0, 1 (8, 9))
+Elevador 1: 8 (838, 0, 1 (9))
+Elevador 1: 9 (838, 0, 1 ())
+Elevador 1 finalizou a tarefa 838
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 173
+Elevador 1: 9 (173, 9, 1 (10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10))
+Elevador 1: 9 (173, 9, 1 (10))
+Elevador 1: 10 (173, 9, 1 ())
+Elevador 1 finalizou a tarefa 173
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 803
+Elevador 1: 10 (803, 10, 0 (8, 7, 6, 5, 5, 5, 4, 2, 2, 1, 0))
+Elevador 1: 10 (803, 10, 0 (8, 7, 6, 5, 4, 2, 1, 0))
+Elevador 1: 8 (803, 10, 0 (7, 6, 5, 4, 2, 1, 0))
+Elevador 1: 7 (803, 10, 0 (6, 5, 4, 2, 1, 0))
+Elevador 1: 6 (803, 10, 0 (5, 4, 2, 1, 0))
+Elevador 1: 5 (803, 10, 0 (4, 2, 1, 0))
+Elevador 1: 4 (803, 10, 0 (2, 1, 0))
+Elevador 1: 2 (803, 10, 0 (1, 0))
+Elevador 1: 1 (803, 10, 0 (0))
+Elevador 1: 0 (803, 10, 0 ())
+Elevador 1 finalizou a tarefa 803
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 977
+Elevador 1: 0 (977, 0, 1 (1, 2, 2, 2, 2, 2, 4, 6, 6, 6, 7, 8, 8, 9, 9, 10, 10))
+Elevador 1: 0 (977, 0, 1 (1, 2, 4, 6, 7, 8, 9, 10))
+Elevador 1: 1 (977, 0, 1 (2, 4, 6, 7, 8, 9, 10))
+Elevador 1: 2 (977, 0, 1 (4, 6, 7, 8, 9, 10))
+Elevador 1: 4 (977, 0, 1 (6, 7, 8, 9, 10))
+Elevador 1: 6 (977, 0, 1 (7, 8, 9, 10))
+Elevador 1: 7 (977, 0, 1 (8, 9, 10))
+Elevador 1: 8 (977, 0, 1 (9, 10))
+Elevador 1: 9 (977, 0, 1 (10))
+Elevador 1: 10 (977, 0, 1 ())
+Elevador 1 finalizou a tarefa 977
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 908
+Elevador 1: 10 (908, 10, 0 (4, 1))
+Elevador 1: 10 (908, 10, 0 (4, 1))
+Elevador 1: 4 (908, 10, 0 (1))
+Elevador 1: 1 (908, 10, 0 ())
+Elevador 1 finalizou a tarefa 908
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 289
+Elevador 1: 1 (289, 1, 0 (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0))
+Elevador 1: 1 (289, 1, 0 (0))
+Elevador 1: 0 (289, 1, 0 ())
+Elevador 1 finalizou a tarefa 289
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 989
+Elevador 1: 0 (989, 0, 1 (4, 10))
+Elevador 1: 0 (989, 0, 1 (4, 10))
+Elevador 1: 4 (989, 0, 1 (10))
+Elevador 1: 10 (989, 0, 1 ())
+Elevador 1 finalizou a tarefa 989
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 950
+Elevador 1: 10 (950, 10, 0 (9, 9, 9, 8, 7, 7, 7, 6, 5, 5, 3, 3, 2, 2, 2, 1, 0, 0))
+Elevador 1: 10 (950, 10, 0 (9, 8, 7, 6, 5, 3, 2, 1, 0))
+Elevador 1: 9 (950, 10, 0 (8, 7, 6, 5, 3, 2, 1, 0))
+Elevador 1: 8 (950, 10, 0 (7, 6, 5, 3, 2, 1, 0))
+Elevador 1: 7 (950, 10, 0 (6, 5, 3, 2, 1, 0))
+Elevador 1: 6 (950, 10, 0 (5, 3, 2, 1, 0))
+Elevador 1: 5 (950, 10, 0 (3, 2, 1, 0))
+Elevador 1: 3 (950, 10, 0 (2, 1, 0))
+Elevador 1: 2 (950, 10, 0 (1, 0))
+Elevador 1: 1 (950, 10, 0 (0))
+Elevador 1: 0 (950, 10, 0 ())
+Elevador 1 finalizou a tarefa 950
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 290
+Elevador 1: 0 (290, 1, 1 (2, 4, 6, 7, 10, 10, 10))
+Elevador 1: 1 (290, 1, 1 (2, 4, 6, 7, 10))
+Elevador 1: 2 (290, 1, 1 (4, 6, 7, 10))
+Elevador 1: 4 (290, 1, 1 (6, 7, 10))
+Elevador 1: 6 (290, 1, 1 (7, 10))
+Elevador 1: 7 (290, 1, 1 (10))
+Elevador 1: 10 (290, 1, 1 ())
+Elevador 1 finalizou a tarefa 290
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 957
+Elevador 1: 10 (957, 10, 0 (9, 9, 7, 7, 6, 6, 6, 5, 5, 3, 3, 2, 2, 0, 0, 0))
+Elevador 1: 10 (957, 10, 0 (9, 7, 6, 5, 3, 2, 0))
+Elevador 1: 9 (957, 10, 0 (7, 6, 5, 3, 2, 0))
+Elevador 1: 7 (957, 10, 0 (6, 5, 3, 2, 0))
+Elevador 1: 6 (957, 10, 0 (5, 3, 2, 0))
+Elevador 1: 5 (957, 10, 0 (3, 2, 0))
+Elevador 1: 3 (957, 10, 0 (2, 0))
+Elevador 1: 2 (957, 10, 0 (0))
+Elevador 1: 0 (957, 10, 0 ())
+Elevador 1 finalizou a tarefa 957
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 302
+Elevador 1: 0 (302, 1, 1 (3, 3, 4, 4, 4, 5, 5, 6, 6, 7, 7, 7, 8, 8, 9, 10))
+Elevador 1: 1 (302, 1, 1 (3, 4, 5, 6, 7, 8, 9, 10))
+Elevador 1: 3 (302, 1, 1 (4, 5, 6, 7, 8, 9, 10))
+Elevador 1: 4 (302, 1, 1 (5, 6, 7, 8, 9, 10))
+Elevador 1: 5 (302, 1, 1 (6, 7, 8, 9, 10))
+Elevador 1: 6 (302, 1, 1 (7, 8, 9, 10))
+Elevador 1: 7 (302, 1, 1 (8, 9, 10))
+Elevador 1: 8 (302, 1, 1 (9, 10))
+Elevador 1: 9 (302, 1, 1 (10))
+Elevador 1: 10 (302, 1, 1 ())
+Elevador 1 finalizou a tarefa 302
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 966
+Elevador 1: 10 (966, 10, 0 (9, 9, 8, 6, 5, 5, 2, 0, 0))
+Elevador 1: 10 (966, 10, 0 (9, 8, 6, 5, 2, 0))
+Elevador 1: 9 (966, 10, 0 (8, 6, 5, 2, 0))
+Elevador 1: 8 (966, 10, 0 (6, 5, 2, 0))
+Elevador 1: 6 (966, 10, 0 (5, 2, 0))
+Elevador 1: 5 (966, 10, 0 (2, 0))
+Elevador 1: 2 (966, 10, 0 (0))
+Elevador 1: 0 (966, 10, 0 ())
+Elevador 1 finalizou a tarefa 966
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 305
+Elevador 1: 0 (305, 1, 1 (2, 3, 3, 4, 5, 6, 9, 9, 9, 10, 10, 10))
+Elevador 1: 1 (305, 1, 1 (2, 3, 4, 5, 6, 9, 10))
+Elevador 1: 2 (305, 1, 1 (3, 4, 5, 6, 9, 10))
+Elevador 1: 3 (305, 1, 1 (4, 5, 6, 9, 10))
+Elevador 1: 4 (305, 1, 1 (5, 6, 9, 10))
+Elevador 1: 5 (305, 1, 1 (6, 9, 10))
+Elevador 1: 6 (305, 1, 1 (9, 10))
+Elevador 1: 9 (305, 1, 1 (10))
+Elevador 1: 10 (305, 1, 1 ())
+Elevador 1 finalizou a tarefa 305
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 970
+Elevador 1: 10 (970, 10, 0 (9, 9, 7, 7, 3, 2))
+Elevador 1: 10 (970, 10, 0 (9, 7, 3, 2))
+Elevador 1: 9 (970, 10, 0 (7, 3, 2))
+Elevador 1: 7 (970, 10, 0 (3, 2))
+Elevador 1: 3 (970, 10, 0 (2))
+Elevador 1: 2 (970, 10, 0 ())
+Elevador 1 finalizou a tarefa 970
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 132
+Elevador 1: 2 (132, 2, 1 (3, 3, 4, 5, 5, 6, 7, 8, 8, 9, 9, 9, 10))
+Elevador 1: 2 (132, 2, 1 (3, 4, 5, 6, 7, 8, 9, 10))
+Elevador 1: 3 (132, 2, 1 (4, 5, 6, 7, 8, 9, 10))
+Elevador 1: 4 (132, 2, 1 (5, 6, 7, 8, 9, 10))
+Elevador 1: 5 (132, 2, 1 (6, 7, 8, 9, 10))
+Elevador 1: 6 (132, 2, 1 (7, 8, 9, 10))
+Elevador 1: 7 (132, 2, 1 (8, 9, 10))
+Elevador 1: 8 (132, 2, 1 (9, 10))
+Elevador 1: 9 (132, 2, 1 (10))
+Elevador 1: 10 (132, 2, 1 ())
+Elevador 1 finalizou a tarefa 132
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 990
+Elevador 1: 10 (990, 10, 0 (9, 7, 4, 1))
+Elevador 1: 10 (990, 10, 0 (9, 7, 4, 1))
+Elevador 1: 9 (990, 10, 0 (7, 4, 1))
+Elevador 1: 7 (990, 10, 0 (4, 1))
+Elevador 1: 4 (990, 10, 0 (1))
+Elevador 1: 1 (990, 10, 0 ())
+Elevador 1 finalizou a tarefa 990
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 315
+Elevador 1: 1 (315, 1, 1 (2, 2, 3, 4, 7, 9, 10))
+Elevador 1: 1 (315, 1, 1 (2, 3, 4, 7, 9, 10))
+Elevador 1: 2 (315, 1, 1 (3, 4, 7, 9, 10))
+Elevador 1: 3 (315, 1, 1 (4, 7, 9, 10))
+Elevador 1: 4 (315, 1, 1 (7, 9, 10))
+Elevador 1: 7 (315, 1, 1 (9, 10))
+Elevador 1: 9 (315, 1, 1 (10))
+Elevador 1: 10 (315, 1, 1 ())
+Elevador 1 finalizou a tarefa 315
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 999
+Elevador 1: 10 (999, 10, 0 (4, 4))
+Elevador 1: 10 (999, 10, 0 (4))
+Elevador 1: 4 (999, 10, 0 ())
+Elevador 1 finalizou a tarefa 999
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 100
+Elevador 1: 4 (100, 4, 1 (7, 9, 9, 10, 10))
+Elevador 1: 4 (100, 4, 1 (7, 9, 10))
+Elevador 1: 7 (100, 4, 1 (9, 10))
+Elevador 1: 9 (100, 4, 1 (10))
+Elevador 1: 10 (100, 4, 1 ())
+Elevador 1 finalizou a tarefa 100
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 231
+Elevador 1: 10 (231, 9, 0 (7, 6, 5, 5, 5, 4, 4, 2, 1, 1, 1))
+Elevador 1: 9 (231, 9, 0 (7, 6, 5, 4, 2, 1))
+Elevador 1: 7 (231, 9, 0 (6, 5, 4, 2, 1))
+Elevador 1: 6 (231, 9, 0 (5, 4, 2, 1))
+Elevador 1: 5 (231, 9, 0 (4, 2, 1))
+Elevador 1: 4 (231, 9, 0 (2, 1))
+Elevador 1: 2 (231, 9, 0 (1))
+Elevador 1: 1 (231, 9, 0 ())
+Elevador 1 finalizou a tarefa 231
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 368
+Elevador 1: 1 (368, 1, 0 (0, 0, 0, 0, 0))
+Elevador 1: 1 (368, 1, 0 (0))
+Elevador 1: 0 (368, 1, 0 ())
+Elevador 1 finalizou a tarefa 368
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 388
+Elevador 1: 0 (388, 1, 0 (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0))
+Elevador 1: 1 (388, 1, 0 (0))
+Elevador 1: 0 (388, 1, 0 ())
+Elevador 1 finalizou a tarefa 388
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 403
+Elevador 1: 0 (403, 1, 0 (0, 0, 0, 0, 0, 0, 0))
+Elevador 1: 1 (403, 1, 0 (0))
+Elevador 1: 0 (403, 1, 0 ())
+Elevador 1 finalizou a tarefa 403
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 440
+Elevador 1: 0 (440, 1, 1 (2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 7, 8, 8, 9, 9))
+Elevador 1: 1 (440, 1, 1 (2, 3, 4, 5, 7, 8, 9))
+Elevador 1: 2 (440, 1, 1 (3, 4, 5, 7, 8, 9))
+Elevador 1: 3 (440, 1, 1 (4, 5, 7, 8, 9))
+Elevador 1: 4 (440, 1, 1 (5, 7, 8, 9))
+Elevador 1: 5 (440, 1, 1 (7, 8, 9))
+Elevador 1: 7 (440, 1, 1 (8, 9))
+Elevador 1: 8 (440, 1, 1 (9))
+Elevador 1: 9 (440, 1, 1 ())
+Elevador 1 finalizou a tarefa 440
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 279
+Elevador 1: 9 (279, 9, 0 (8, 6, 6, 6, 5, 5, 5, 3, 2, 2, 0, 0))
+Elevador 1: 9 (279, 9, 0 (8, 6, 5, 3, 2, 0))
+Elevador 1: 8 (279, 9, 0 (6, 5, 3, 2, 0))
+Elevador 1: 6 (279, 9, 0 (5, 3, 2, 0))
+Elevador 1: 5 (279, 9, 0 (3, 2, 0))
+Elevador 1: 3 (279, 9, 0 (2, 0))
+Elevador 1: 2 (279, 9, 0 (0))
+Elevador 1: 0 (279, 9, 0 ())
+Elevador 1 finalizou a tarefa 279
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 446
+Elevador 1: 0 (446, 1, 1 (2, 3, 3, 4, 4, 5, 5, 5, 5, 5, 6, 7, 7, 7, 8, 8, 9))
+Elevador 1: 1 (446, 1, 1 (2, 3, 4, 5, 6, 7, 8, 9))
+Elevador 1: 2 (446, 1, 1 (3, 4, 5, 6, 7, 8, 9))
+Elevador 1: 3 (446, 1, 1 (4, 5, 6, 7, 8, 9))
+Elevador 1: 4 (446, 1, 1 (5, 6, 7, 8, 9))
+Elevador 1: 5 (446, 1, 1 (6, 7, 8, 9))
+Elevador 1: 6 (446, 1, 1 (7, 8, 9))
+Elevador 1: 7 (446, 1, 1 (8, 9))
+Elevador 1: 8 (446, 1, 1 (9))
+Elevador 1: 9 (446, 1, 1 ())
+Elevador 1 finalizou a tarefa 446
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 297
+Elevador 1: 9 (297, 9, 1 (10, 10, 10, 10, 10))
+Elevador 1: 9 (297, 9, 1 (10))
+Elevador 1: 10 (297, 9, 1 ())
+Elevador 1 finalizou a tarefa 297
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 325
+Elevador 1: 10 (325, 9, 1 (10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10))
+Elevador 1: 9 (325, 9, 1 (10))
+Elevador 1: 10 (325, 9, 1 ())
+Elevador 1 finalizou a tarefa 325
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 334
+Elevador 1: 10 (334, 9, 0 (8, 6, 0, 0))
+Elevador 1: 9 (334, 9, 0 (8, 6, 0))
+Elevador 1: 8 (334, 9, 0 (6, 0))
+Elevador 1: 6 (334, 9, 0 (0))
+Elevador 1: 0 (334, 9, 0 ())
+Elevador 1 finalizou a tarefa 334
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 458
+Elevador 1: 0 (458, 1, 0 (0, 0, 0))
+Elevador 1: 1 (458, 1, 0 (0))
+Elevador 1: 0 (458, 1, 0 ())
+Elevador 1 finalizou a tarefa 458
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 462
+Elevador 1: 0 (462, 1, 1 (3, 5, 7, 9, 9))
+Elevador 1: 1 (462, 1, 1 (3, 5, 7, 9))
+Elevador 1: 3 (462, 1, 1 (5, 7, 9))
+Elevador 1: 5 (462, 1, 1 (7, 9))
+Elevador 1: 7 (462, 1, 1 (9))
+Elevador 1: 9 (462, 1, 1 ())
+Elevador 1 finalizou a tarefa 462
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 355
+Elevador 1: 9 (355, 9, 1 (10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10))
+Elevador 1: 9 (355, 9, 1 (10))
+Elevador 1: 10 (355, 9, 1 ())
+Elevador 1 finalizou a tarefa 355
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 380
+Elevador 1: 10 (380, 9, 1 (10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10))
+Elevador 1: 9 (380, 9, 1 (10))
+Elevador 1: 10 (380, 9, 1 ())
+Elevador 1 finalizou a tarefa 380
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 385
+Elevador 1: 10 (385, 9, 0 (8, 7, 7, 6, 6, 6, 5, 5, 3, 3, 3, 2, 2, 2, 1, 1, 0))
+Elevador 1: 9 (385, 9, 0 (8, 7, 6, 5, 3, 2, 1, 0))
+Elevador 1: 8 (385, 9, 0 (7, 6, 5, 3, 2, 1, 0))
+Elevador 1: 7 (385, 9, 0 (6, 5, 3, 2, 1, 0))
+Elevador 1: 6 (385, 9, 0 (5, 3, 2, 1, 0))
+Elevador 1: 5 (385, 9, 0 (3, 2, 1, 0))
+Elevador 1: 3 (385, 9, 0 (2, 1, 0))
+Elevador 1: 2 (385, 9, 0 (1, 0))
+Elevador 1: 1 (385, 9, 0 (0))
+Elevador 1: 0 (385, 9, 0 ())
+Elevador 1 finalizou a tarefa 385
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 477
+Elevador 1: 0 (477, 1, 1 (2, 3, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 6, 6, 6, 7, 8, 9, 9, 10))
+Elevador 1: 1 (477, 1, 1 (2, 3, 4, 5, 6, 7, 8, 9, 10))
+Elevador 1: 2 (477, 1, 1 (3, 4, 5, 6, 7, 8, 9, 10))
+Elevador 1: 3 (477, 1, 1 (4, 5, 6, 7, 8, 9, 10))
+Elevador 1: 4 (477, 1, 1 (5, 6, 7, 8, 9, 10))
+Elevador 1: 5 (477, 1, 1 (6, 7, 8, 9, 10))
+Elevador 1: 6 (477, 1, 1 (7, 8, 9, 10))
+Elevador 1: 7 (477, 1, 1 (8, 9, 10))
+Elevador 1: 8 (477, 1, 1 (9, 10))
+Elevador 1: 9 (477, 1, 1 (10))
+Elevador 1: 10 (477, 1, 1 ())
+Elevador 1 finalizou a tarefa 477
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 401
+Elevador 1: 10 (401, 9, 0 (8, 8, 8, 7, 7, 6, 6, 5, 5, 4, 3, 2, 1, 1, 0, 0, 0, 0))
+Elevador 1: 9 (401, 9, 0 (8, 7, 6, 5, 4, 3, 2, 1, 0))
+Elevador 1: 8 (401, 9, 0 (7, 6, 5, 4, 3, 2, 1, 0))
+Elevador 1: 7 (401, 9, 0 (6, 5, 4, 3, 2, 1, 0))
+Elevador 1: 6 (401, 9, 0 (5, 4, 3, 2, 1, 0))
+Elevador 1: 5 (401, 9, 0 (4, 3, 2, 1, 0))
+Elevador 1: 4 (401, 9, 0 (3, 2, 1, 0))
+Elevador 1: 3 (401, 9, 0 (2, 1, 0))
+Elevador 1: 2 (401, 9, 0 (1, 0))
+Elevador 1: 1 (401, 9, 0 (0))
+Elevador 1: 0 (401, 9, 0 ())
+Elevador 1 finalizou a tarefa 401
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 480
+Elevador 1: 0 (480, 1, 0 (0, 0, 0, 0, 0, 0, 0))
+Elevador 1: 1 (480, 1, 0 (0))
+Elevador 1: 0 (480, 1, 0 ())
+Elevador 1 finalizou a tarefa 480
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 482
+Elevador 1: 0 (482, 1, 1 (2, 3, 4, 4, 5, 6, 6, 7, 7, 7, 8, 8, 9, 9, 9))
+Elevador 1: 1 (482, 1, 1 (2, 3, 4, 5, 6, 7, 8, 9))
+Elevador 1: 2 (482, 1, 1 (3, 4, 5, 6, 7, 8, 9))
+Elevador 1: 3 (482, 1, 1 (4, 5, 6, 7, 8, 9))
+Elevador 1: 4 (482, 1, 1 (5, 6, 7, 8, 9))
+Elevador 1: 5 (482, 1, 1 (6, 7, 8, 9))
+Elevador 1: 6 (482, 1, 1 (7, 8, 9))
+Elevador 1: 7 (482, 1, 1 (8, 9))
+Elevador 1: 8 (482, 1, 1 (9))
+Elevador 1: 9 (482, 1, 1 ())
+Elevador 1 finalizou a tarefa 482
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 414
+Elevador 1: 9 (414, 9, 0 (8, 7, 5, 4, 3, 1, 1, 1, 0))
+Elevador 1: 9 (414, 9, 0 (8, 7, 5, 4, 3, 1, 0))
+Elevador 1: 8 (414, 9, 0 (7, 5, 4, 3, 1, 0))
+Elevador 1: 7 (414, 9, 0 (5, 4, 3, 1, 0))
+Elevador 1: 5 (414, 9, 0 (4, 3, 1, 0))
+Elevador 1: 4 (414, 9, 0 (3, 1, 0))
+Elevador 1: 3 (414, 9, 0 (1, 0))
+Elevador 1: 1 (414, 9, 0 (0))
+Elevador 1: 0 (414, 9, 0 ())
+Elevador 1 finalizou a tarefa 414
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 483
+Elevador 1: 0 (483, 1, 1 (2, 5, 7))
+Elevador 1: 1 (483, 1, 1 (2, 5, 7))
+Elevador 1: 2 (483, 1, 1 (5, 7))
+Elevador 1: 5 (483, 1, 1 (7))
+Elevador 1: 7 (483, 1, 1 ())
+Elevador 1 finalizou a tarefa 483
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 90
+Elevador 1: 7 (90, 7, 0 (6, 6, 5, 5, 5, 5, 4, 4, 2, 2, 2, 1, 1, 0, 0, 0))
+Elevador 1: 7 (90, 7, 0 (6, 5, 4, 2, 1, 0))
+Elevador 1: 6 (90, 7, 0 (5, 4, 2, 1, 0))
+Elevador 1: 5 (90, 7, 0 (4, 2, 1, 0))
+Elevador 1: 4 (90, 7, 0 (2, 1, 0))
+Elevador 1: 2 (90, 7, 0 (1, 0))
+Elevador 1: 1 (90, 7, 0 (0))
+Elevador 1: 0 (90, 7, 0 ())
+Elevador 1 finalizou a tarefa 90
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 489
+Elevador 1: 0 (489, 1, 1 (2, 3, 4, 4, 7, 7, 7, 7, 7, 8, 8, 10))
+Elevador 1: 1 (489, 1, 1 (2, 3, 4, 7, 8, 10))
+Elevador 1: 2 (489, 1, 1 (3, 4, 7, 8, 10))
+Elevador 1: 3 (489, 1, 1 (4, 7, 8, 10))
+Elevador 1: 4 (489, 1, 1 (7, 8, 10))
+Elevador 1: 7 (489, 1, 1 (8, 10))
+Elevador 1: 8 (489, 1, 1 (10))
+Elevador 1: 10 (489, 1, 1 ())
+Elevador 1 finalizou a tarefa 489
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 423
+Elevador 1: 10 (423, 9, 1 (10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10))
+Elevador 1: 9 (423, 9, 1 (10))
+Elevador 1: 10 (423, 9, 1 ())
+Elevador 1 finalizou a tarefa 423
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 442
+Elevador 1: 10 (442, 9, 0 (7, 7, 7, 5, 4, 4, 4, 3, 3, 2, 2, 2, 1, 0))
+Elevador 1: 9 (442, 9, 0 (7, 5, 4, 3, 2, 1, 0))
+Elevador 1: 7 (442, 9, 0 (5, 4, 3, 2, 1, 0))
+Elevador 1: 5 (442, 9, 0 (4, 3, 2, 1, 0))
+Elevador 1: 4 (442, 9, 0 (3, 2, 1, 0))
+Elevador 1: 3 (442, 9, 0 (2, 1, 0))
+Elevador 1: 2 (442, 9, 0 (1, 0))
+Elevador 1: 1 (442, 9, 0 (0))
+Elevador 1: 0 (442, 9, 0 ())
+Elevador 1 finalizou a tarefa 442
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 491
+Elevador 1: 0 (491, 1, 1 (2, 3, 3, 4, 4, 4, 4, 4, 5, 6, 6, 6, 8, 9, 10))
+Elevador 1: 1 (491, 1, 1 (2, 3, 4, 5, 6, 8, 9, 10))
+Elevador 1: 2 (491, 1, 1 (3, 4, 5, 6, 8, 9, 10))
+Elevador 1: 3 (491, 1, 1 (4, 5, 6, 8, 9, 10))
+Elevador 1: 4 (491, 1, 1 (5, 6, 8, 9, 10))
+Elevador 1: 5 (491, 1, 1 (6, 8, 9, 10))
+Elevador 1: 6 (491, 1, 1 (8, 9, 10))
+Elevador 1: 8 (491, 1, 1 (9, 10))
+Elevador 1: 9 (491, 1, 1 (10))
+Elevador 1: 10 (491, 1, 1 ())
+Elevador 1 finalizou a tarefa 491
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 448
+Elevador 1: 10 (448, 9, 1 (10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10))
+Elevador 1: 9 (448, 9, 1 (10))
+Elevador 1: 10 (448, 9, 1 ())
+Elevador 1 finalizou a tarefa 448
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 470
+Elevador 1: 10 (470, 9, 0 (8, 7, 5, 5))
+Elevador 1: 9 (470, 9, 0 (8, 7, 5))
+Elevador 1: 8 (470, 9, 0 (7, 5))
+Elevador 1: 7 (470, 9, 0 (5))
+Elevador 1: 5 (470, 9, 0 ())
+Elevador 1 finalizou a tarefa 470
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 33
+Elevador 1: 5 (33, 5, 0 (4, 4, 4, 3, 3, 3, 3, 2, 2, 2, 2, 1, 0, 0, 0))
+Elevador 1: 5 (33, 5, 0 (4, 3, 2, 1, 0))
+Elevador 1: 4 (33, 5, 0 (3, 2, 1, 0))
+Elevador 1: 3 (33, 5, 0 (2, 1, 0))
+Elevador 1: 2 (33, 5, 0 (1, 0))
+Elevador 1: 1 (33, 5, 0 (0))
+Elevador 1: 0 (33, 5, 0 ())
+Elevador 1 finalizou a tarefa 33
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 521
+Elevador 1: 0 (521, 1, 0 (0))
+Elevador 1: 1 (521, 1, 0 (0))
+Elevador 1: 0 (521, 1, 0 ())
+Elevador 1 finalizou a tarefa 521
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 568
+Elevador 1: 0 (568, 1, 1 (2, 2, 3, 4, 5, 5, 6, 6, 6, 7, 8, 8, 9, 9, 10, 10))
+Elevador 1: 1 (568, 1, 1 (2, 3, 4, 5, 6, 7, 8, 9, 10))
+Elevador 1: 2 (568, 1, 1 (3, 4, 5, 6, 7, 8, 9, 10))
+Elevador 1: 3 (568, 1, 1 (4, 5, 6, 7, 8, 9, 10))
+Elevador 1: 4 (568, 1, 1 (5, 6, 7, 8, 9, 10))
+Elevador 1: 5 (568, 1, 1 (6, 7, 8, 9, 10))
+Elevador 1: 6 (568, 1, 1 (7, 8, 9, 10))
+Elevador 1: 7 (568, 1, 1 (8, 9, 10))
+Elevador 1: 8 (568, 1, 1 (9, 10))
+Elevador 1: 9 (568, 1, 1 (10))
+Elevador 1: 10 (568, 1, 1 ())
+Elevador 1 finalizou a tarefa 568
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 475
+Elevador 1: 10 (475, 9, 0 (8, 7, 7, 6, 5, 5, 5, 5, 4, 4, 3, 3, 2, 2, 1, 1, 1, 1))
+Elevador 1: 9 (475, 9, 0 (8, 7, 6, 5, 4, 3, 2, 1))
+Elevador 1: 8 (475, 9, 0 (7, 6, 5, 4, 3, 2, 1))
+Elevador 1: 7 (475, 9, 0 (6, 5, 4, 3, 2, 1))
+Elevador 1: 6 (475, 9, 0 (5, 4, 3, 2, 1))
+Elevador 1: 5 (475, 9, 0 (4, 3, 2, 1))
+Elevador 1: 4 (475, 9, 0 (3, 2, 1))
+Elevador 1: 3 (475, 9, 0 (2, 1))
+Elevador 1: 2 (475, 9, 0 (1))
+Elevador 1: 1 (475, 9, 0 ())
+Elevador 1 finalizou a tarefa 475
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 570
+Elevador 1: 1 (570, 1, 1 (9))
+Elevador 1: 1 (570, 1, 1 (9))
+Elevador 1: 9 (570, 1, 1 ())
+Elevador 1 finalizou a tarefa 570
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 492
+Elevador 1: 9 (492, 9, 1 (10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10))
+Elevador 1: 9 (492, 9, 1 (10))
+Elevador 1: 10 (492, 9, 1 ())
+Elevador 1 finalizou a tarefa 492
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 500
+Elevador 1: 10 (500, 9, 1 (10, 10, 10, 10, 10, 10, 10))
+Elevador 1: 9 (500, 9, 1 (10))
+Elevador 1: 10 (500, 9, 1 ())
+Elevador 1 finalizou a tarefa 500
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 510
+Elevador 1: 10 (510, 9, 0 (7, 6, 6, 5, 4, 4, 4, 3, 2, 2, 1))
+Elevador 1: 9 (510, 9, 0 (7, 6, 5, 4, 3, 2, 1))
+Elevador 1: 7 (510, 9, 0 (6, 5, 4, 3, 2, 1))
+Elevador 1: 6 (510, 9, 0 (5, 4, 3, 2, 1))
+Elevador 1: 5 (510, 9, 0 (4, 3, 2, 1))
+Elevador 1: 4 (510, 9, 0 (3, 2, 1))
+Elevador 1: 3 (510, 9, 0 (2, 1))
+Elevador 1: 2 (510, 9, 0 (1))
+Elevador 1: 1 (510, 9, 0 ())
+Elevador 1 finalizou a tarefa 510
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 593
+Elevador 1: 1 (593, 1, 0 (0, 0, 0, 0, 0, 0, 0))
+Elevador 1: 1 (593, 1, 0 (0))
+Elevador 1: 0 (593, 1, 0 ())
+Elevador 1 finalizou a tarefa 593
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 599
+Elevador 1: 0 (599, 1, 1 (2, 3, 3, 3, 4, 4, 4, 4, 4, 5, 6, 6, 6, 7, 8, 8, 10, 10, 10))
+Elevador 1: 1 (599, 1, 1 (2, 3, 4, 5, 6, 7, 8, 10))
+Elevador 1: 2 (599, 1, 1 (3, 4, 5, 6, 7, 8, 10))
+Elevador 1: 3 (599, 1, 1 (4, 5, 6, 7, 8, 10))
+Elevador 1: 4 (599, 1, 1 (5, 6, 7, 8, 10))
+Elevador 1: 5 (599, 1, 1 (6, 7, 8, 10))
+Elevador 1: 6 (599, 1, 1 (7, 8, 10))
+Elevador 1: 7 (599, 1, 1 (8, 10))
+Elevador 1: 8 (599, 1, 1 (10))
+Elevador 1: 10 (599, 1, 1 ())
+Elevador 1 finalizou a tarefa 599
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 520
+Elevador 1: 10 (520, 9, 0 (5, 0))
+Elevador 1: 9 (520, 9, 0 (5, 0))
+Elevador 1: 5 (520, 9, 0 (0))
+Elevador 1: 0 (520, 9, 0 ())
+Elevador 1 finalizou a tarefa 520
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 600
+Elevador 1: 0 (600, 1, 1 (4, 4, 5, 6, 7, 8, 8, 8, 8, 8, 9, 9, 10, 10))
+Elevador 1: 1 (600, 1, 1 (4, 5, 6, 7, 8, 9, 10))
+Elevador 1: 4 (600, 1, 1 (5, 6, 7, 8, 9, 10))
+Elevador 1: 5 (600, 1, 1 (6, 7, 8, 9, 10))
+Elevador 1: 6 (600, 1, 1 (7, 8, 9, 10))
+Elevador 1: 7 (600, 1, 1 (8, 9, 10))
+Elevador 1: 8 (600, 1, 1 (9, 10))
+Elevador 1: 9 (600, 1, 1 (10))
+Elevador 1: 10 (600, 1, 1 ())
+Elevador 1 finalizou a tarefa 600
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 525
+Elevador 1: 10 (525, 9, 1 (10, 10, 10, 10, 10, 10, 10))
+Elevador 1: 9 (525, 9, 1 (10))
+Elevador 1: 10 (525, 9, 1 ())
+Elevador 1 finalizou a tarefa 525
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 534
+Elevador 1: 10 (534, 9, 1 (10, 10))
+Elevador 1: 9 (534, 9, 1 (10))
+Elevador 1: 10 (534, 9, 1 ())
+Elevador 1 finalizou a tarefa 534
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 576
+Elevador 1: 10 (576, 9, 1 (10, 10))
+Elevador 1: 9 (576, 9, 1 (10))
+Elevador 1: 10 (576, 9, 1 ())
+Elevador 1 finalizou a tarefa 576
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 588
+Elevador 1: 10 (588, 9, 1 (10, 10, 10, 10, 10))
+Elevador 1: 9 (588, 9, 1 (10))
+Elevador 1: 10 (588, 9, 1 ())
+Elevador 1 finalizou a tarefa 588
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 597
+Elevador 1: 10 (597, 9, 1 (10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10))
+Elevador 1: 9 (597, 9, 1 (10))
+Elevador 1: 10 (597, 9, 1 ())
+Elevador 1 finalizou a tarefa 597
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 625
+Elevador 1: 10 (625, 9, 1 (10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10))
+Elevador 1: 9 (625, 9, 1 (10))
+Elevador 1: 10 (625, 9, 1 ())
+Elevador 1 finalizou a tarefa 625
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 628
+Elevador 1: 10 (628, 9, 1 (10, 10, 10))
+Elevador 1: 9 (628, 9, 1 (10))
+Elevador 1: 10 (628, 9, 1 ())
+Elevador 1 finalizou a tarefa 628
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 629
+Elevador 1: 10 (629, 9, 1 (10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10))
+Elevador 1: 9 (629, 9, 1 (10))
+Elevador 1: 10 (629, 9, 1 ())
+Elevador 1 finalizou a tarefa 629
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 634
+Elevador 1: 10 (634, 9, 1 (10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10))
+Elevador 1: 9 (634, 9, 1 (10))
+Elevador 1: 10 (634, 9, 1 ())
+Elevador 1 finalizou a tarefa 634
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 636
+Elevador 1: 10 (636, 9, 0 (8, 2))
+Elevador 1: 9 (636, 9, 0 (8, 2))
+Elevador 1: 8 (636, 9, 0 (2))
+Elevador 1: 2 (636, 9, 0 ())
+Elevador 1 finalizou a tarefa 636
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 147
+Elevador 1: 2 (147, 2, 1 (4, 5, 7, 8, 8, 8, 8, 9, 9))
+Elevador 1: 2 (147, 2, 1 (4, 5, 7, 8, 9))
+Elevador 1: 4 (147, 2, 1 (5, 7, 8, 9))
+Elevador 1: 5 (147, 2, 1 (7, 8, 9))
+Elevador 1: 7 (147, 2, 1 (8, 9))
+Elevador 1: 8 (147, 2, 1 (9))
+Elevador 1: 9 (147, 2, 1 ())
+Elevador 1 finalizou a tarefa 147
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 645
+Elevador 1: 9 (645, 9, 1 (10))
+Elevador 1: 9 (645, 9, 1 (10))
+Elevador 1: 10 (645, 9, 1 ())
+Elevador 1 finalizou a tarefa 645
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 647
+Elevador 1: 10 (647, 9, 0 (8, 8, 7, 5, 5, 5, 4, 4, 4, 3, 1, 1, 1, 0, 0))
+Elevador 1: 9 (647, 9, 0 (8, 7, 5, 4, 3, 1, 0))
+Elevador 1: 8 (647, 9, 0 (7, 5, 4, 3, 1, 0))
+Elevador 1: 7 (647, 9, 0 (5, 4, 3, 1, 0))
+Elevador 1: 5 (647, 9, 0 (4, 3, 1, 0))
+Elevador 1: 4 (647, 9, 0 (3, 1, 0))
+Elevador 1: 3 (647, 9, 0 (1, 0))
+Elevador 1: 1 (647, 9, 0 (0))
+Elevador 1: 0 (647, 9, 0 ())
+Elevador 1 finalizou a tarefa 647
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 603
+Elevador 1: 0 (603, 1, 0 (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0))
+Elevador 1: 1 (603, 1, 0 (0))
+Elevador 1: 0 (603, 1, 0 ())
+Elevador 1 finalizou a tarefa 603
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 607
+Elevador 1: 0 (607, 1, 0 (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0))
+Elevador 1: 1 (607, 1, 0 (0))
+Elevador 1: 0 (607, 1, 0 ())
+Elevador 1 finalizou a tarefa 607
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 622
+Elevador 1: 0 (622, 1, 1 (2, 3, 4, 6, 7, 7, 8, 9, 10, 10, 10, 10))
+Elevador 1: 1 (622, 1, 1 (2, 3, 4, 6, 7, 8, 9, 10))
+Elevador 1: 2 (622, 1, 1 (3, 4, 6, 7, 8, 9, 10))
+Elevador 1: 3 (622, 1, 1 (4, 6, 7, 8, 9, 10))
+Elevador 1: 4 (622, 1, 1 (6, 7, 8, 9, 10))
+Elevador 1: 6 (622, 1, 1 (7, 8, 9, 10))
+Elevador 1: 7 (622, 1, 1 (8, 9, 10))
+Elevador 1: 8 (622, 1, 1 (9, 10))
+Elevador 1: 9 (622, 1, 1 (10))
+Elevador 1: 10 (622, 1, 1 ())
+Elevador 1 finalizou a tarefa 622
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 681
+Elevador 1: 10 (681, 9, 1 (10))
+Elevador 1: 9 (681, 9, 1 (10))
+Elevador 1: 10 (681, 9, 1 ())
+Elevador 1 finalizou a tarefa 681
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 688
+Elevador 1: 10 (688, 9, 0 (4, 1))
+Elevador 1: 9 (688, 9, 0 (4, 1))
+Elevador 1: 4 (688, 9, 0 (1))
+Elevador 1: 1 (688, 9, 0 ())
+Elevador 1 finalizou a tarefa 688
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 638
+Elevador 1: 1 (638, 1, 1 (2, 2, 3, 3, 4, 5, 6, 6, 6, 6, 8, 10))
+Elevador 1: 1 (638, 1, 1 (2, 3, 4, 5, 6, 8, 10))
+Elevador 1: 2 (638, 1, 1 (3, 4, 5, 6, 8, 10))
+Elevador 1: 3 (638, 1, 1 (4, 5, 6, 8, 10))
+Elevador 1: 4 (638, 1, 1 (5, 6, 8, 10))
+Elevador 1: 5 (638, 1, 1 (6, 8, 10))
+Elevador 1: 6 (638, 1, 1 (8, 10))
+Elevador 1: 8 (638, 1, 1 (10))
+Elevador 1: 10 (638, 1, 1 ())
+Elevador 1 finalizou a tarefa 638
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 837
+Elevador 1: 10 (837, 9, 1 (10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10))
+Elevador 1: 9 (837, 9, 1 (10))
+Elevador 1: 10 (837, 9, 1 ())
+Elevador 1 finalizou a tarefa 837
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 843
+Elevador 1: 10 (843, 9, 0 (8, 7, 6, 5, 5, 4, 4, 3, 3, 2, 2))
+Elevador 1: 9 (843, 9, 0 (8, 7, 6, 5, 4, 3, 2))
+Elevador 1: 8 (843, 9, 0 (7, 6, 5, 4, 3, 2))
+Elevador 1: 7 (843, 9, 0 (6, 5, 4, 3, 2))
+Elevador 1: 6 (843, 9, 0 (5, 4, 3, 2))
+Elevador 1: 5 (843, 9, 0 (4, 3, 2))
+Elevador 1: 4 (843, 9, 0 (3, 2))
+Elevador 1: 3 (843, 9, 0 (2))
+Elevador 1: 2 (843, 9, 0 ())
+Elevador 1 finalizou a tarefa 843
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 176
+Elevador 1: 2 (176, 2, 1 (4, 5, 10, 10))
+Elevador 1: 2 (176, 2, 1 (4, 5, 10))
+Elevador 1: 4 (176, 2, 1 (5, 10))
+Elevador 1: 5 (176, 2, 1 (10))
+Elevador 1: 10 (176, 2, 1 ())
+Elevador 1 finalizou a tarefa 176
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 866
+Elevador 1: 10 (866, 9, 0 (8, 7, 7, 7, 6, 5, 5, 5, 2, 1, 1, 0, 0))
+Elevador 1: 9 (866, 9, 0 (8, 7, 6, 5, 2, 1, 0))
+Elevador 1: 8 (866, 9, 0 (7, 6, 5, 2, 1, 0))
+Elevador 1: 7 (866, 9, 0 (6, 5, 2, 1, 0))
+Elevador 1: 6 (866, 9, 0 (5, 2, 1, 0))
+Elevador 1: 5 (866, 9, 0 (2, 1, 0))
+Elevador 1: 2 (866, 9, 0 (1, 0))
+Elevador 1: 1 (866, 9, 0 (0))
+Elevador 1: 0 (866, 9, 0 ())
+Elevador 1 finalizou a tarefa 866
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 919
+Elevador 1: 0 (919, 1, 1 (6, 7, 7, 7, 10))
+Elevador 1: 1 (919, 1, 1 (6, 7, 10))
+Elevador 1: 6 (919, 1, 1 (7, 10))
+Elevador 1: 7 (919, 1, 1 (10))
+Elevador 1: 10 (919, 1, 1 ())
+Elevador 1 finalizou a tarefa 919
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 872
+Elevador 1: 10 (872, 9, 0 (8, 8, 8, 4, 4, 3, 2, 2, 2, 1, 0, 0, 0))
+Elevador 1: 9 (872, 9, 0 (8, 4, 3, 2, 1, 0))
+Elevador 1: 8 (872, 9, 0 (4, 3, 2, 1, 0))
+Elevador 1: 4 (872, 9, 0 (3, 2, 1, 0))
+Elevador 1: 3 (872, 9, 0 (2, 1, 0))
+Elevador 1: 2 (872, 9, 0 (1, 0))
+Elevador 1: 1 (872, 9, 0 (0))
+Elevador 1: 0 (872, 9, 0 ())
+Elevador 1 finalizou a tarefa 872
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 924
+Elevador 1: 0 (924, 1, 0 (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0))
+Elevador 1: 1 (924, 1, 0 (0))
+Elevador 1: 0 (924, 1, 0 ())
+Elevador 1 finalizou a tarefa 924
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 928
+Elevador 1: 0 (928, 1, 0 (0, 0, 0))
+Elevador 1: 1 (928, 1, 0 (0))
+Elevador 1: 0 (928, 1, 0 ())
+Elevador 1 finalizou a tarefa 928
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 929
+Elevador 1: 0 (929, 1, 1 (2, 2, 2, 2, 2, 3, 3, 4, 4, 4, 5, 8, 9, 9, 10, 10))
+Elevador 1: 1 (929, 1, 1 (2, 3, 4, 5, 8, 9, 10))
+Elevador 1: 2 (929, 1, 1 (3, 4, 5, 8, 9, 10))
+Elevador 1: 3 (929, 1, 1 (4, 5, 8, 9, 10))
+Elevador 1: 4 (929, 1, 1 (5, 8, 9, 10))
+Elevador 1: 5 (929, 1, 1 (8, 9, 10))
+Elevador 1: 8 (929, 1, 1 (9, 10))
+Elevador 1: 9 (929, 1, 1 (10))
+Elevador 1: 10 (929, 1, 1 ())
+Elevador 1 finalizou a tarefa 929
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 880
+Elevador 1: 10 (880, 9, 1 (10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10))
+Elevador 1: 9 (880, 9, 1 (10))
+Elevador 1: 10 (880, 9, 1 ())
+Elevador 1 finalizou a tarefa 880
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 897
+Elevador 1: 10 (897, 9, 0 (8, 6, 5, 5, 3, 2, 2, 1, 1, 0, 0, 0))
+Elevador 1: 9 (897, 9, 0 (8, 6, 5, 3, 2, 1, 0))
+Elevador 1: 8 (897, 9, 0 (6, 5, 3, 2, 1, 0))
+Elevador 1: 6 (897, 9, 0 (5, 3, 2, 1, 0))
+Elevador 1: 5 (897, 9, 0 (3, 2, 1, 0))
+Elevador 1: 3 (897, 9, 0 (2, 1, 0))
+Elevador 1: 2 (897, 9, 0 (1, 0))
+Elevador 1: 1 (897, 9, 0 (0))
+Elevador 1: 0 (897, 9, 0 ())
+Elevador 1 finalizou a tarefa 897
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 954
+Elevador 1: 0 (954, 1, 1 (2, 3, 4, 5, 10))
+Elevador 1: 1 (954, 1, 1 (2, 3, 4, 5, 10))
+Elevador 1: 2 (954, 1, 1 (3, 4, 5, 10))
+Elevador 1: 3 (954, 1, 1 (4, 5, 10))
+Elevador 1: 4 (954, 1, 1 (5, 10))
+Elevador 1: 5 (954, 1, 1 (10))
+Elevador 1: 10 (954, 1, 1 ())
+Elevador 1 finalizou a tarefa 954
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 909
+Elevador 1: 10 (909, 9, 1 (10, 10, 10, 10, 10))
+Elevador 1: 9 (909, 9, 1 (10))
+Elevador 1: 10 (909, 9, 1 ())
+Elevador 1 finalizou a tarefa 909
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 927
+Elevador 1: 10 (927, 9, 0 (8, 8, 8, 7, 7, 7, 6, 6, 6, 5, 5, 5, 4, 3, 2, 2, 2, 1, 1))
+Elevador 1: 9 (927, 9, 0 (8, 7, 6, 5, 4, 3, 2, 1))
+Elevador 1: 8 (927, 9, 0 (7, 6, 5, 4, 3, 2, 1))
+Elevador 1: 7 (927, 9, 0 (6, 5, 4, 3, 2, 1))
+Elevador 1: 6 (927, 9, 0 (5, 4, 3, 2, 1))
+Elevador 1: 5 (927, 9, 0 (4, 3, 2, 1))
+Elevador 1: 4 (927, 9, 0 (3, 2, 1))
+Elevador 1: 3 (927, 9, 0 (2, 1))
+Elevador 1: 2 (927, 9, 0 (1))
+Elevador 1: 1 (927, 9, 0 ())
+Elevador 1 finalizou a tarefa 927
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 962
+Elevador 1: 1 (962, 1, 1 (8, 9))
+Elevador 1: 1 (962, 1, 1 (8, 9))
+Elevador 1: 8 (962, 1, 1 (9))
+Elevador 1: 9 (962, 1, 1 ())
+Elevador 1 finalizou a tarefa 962
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 932
+Elevador 1: 9 (932, 9, 0 (6, 5, 3, 3, 3))
+Elevador 1: 9 (932, 9, 0 (6, 5, 3))
+Elevador 1: 6 (932, 9, 0 (5, 3))
+Elevador 1: 5 (932, 9, 0 (3))
+Elevador 1: 3 (932, 9, 0 ())
+Elevador 1 finalizou a tarefa 932
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 44
+Elevador 1: 3 (44, 3, 0 (2, 2, 2, 2, 2, 2, 1, 1, 0, 0, 0, 0, 0, 0, 0))
+Elevador 1: 3 (44, 3, 0 (2, 1, 0))
+Elevador 1: 2 (44, 3, 0 (1, 0))
+Elevador 1: 1 (44, 3, 0 (0))
+Elevador 1: 0 (44, 3, 0 ())
+Elevador 1 finalizou a tarefa 44
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 963
+Elevador 1: 0 (963, 1, 1 (2, 3, 4, 5, 5, 6, 7, 7, 7, 8, 9, 9, 9, 9, 9, 10, 10))
+Elevador 1: 1 (963, 1, 1 (2, 3, 4, 5, 6, 7, 8, 9, 10))
+Elevador 1: 2 (963, 1, 1 (3, 4, 5, 6, 7, 8, 9, 10))
+Elevador 1: 3 (963, 1, 1 (4, 5, 6, 7, 8, 9, 10))
+Elevador 1: 4 (963, 1, 1 (5, 6, 7, 8, 9, 10))
+Elevador 1: 5 (963, 1, 1 (6, 7, 8, 9, 10))
+Elevador 1: 6 (963, 1, 1 (7, 8, 9, 10))
+Elevador 1: 7 (963, 1, 1 (8, 9, 10))
+Elevador 1: 8 (963, 1, 1 (9, 10))
+Elevador 1: 9 (963, 1, 1 (10))
+Elevador 1: 10 (963, 1, 1 ())
+Elevador 1 finalizou a tarefa 963
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 965
+Elevador 1: 10 (965, 9, 1 (10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10))
+Elevador 1: 9 (965, 9, 1 (10))
+Elevador 1: 10 (965, 9, 1 ())
+Elevador 1 finalizou a tarefa 965
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 129
+Elevador 1: 10 (129, 8, 0 (7, 6, 6, 6, 6, 5, 5, 4, 4, 4, 2, 0, 0, 0))
+Elevador 1: 8 (129, 8, 0 (7, 6, 5, 4, 2, 0))
+Elevador 1: 7 (129, 8, 0 (6, 5, 4, 2, 0))
+Elevador 1: 6 (129, 8, 0 (5, 4, 2, 0))
+Elevador 1: 5 (129, 8, 0 (4, 2, 0))
+Elevador 1: 4 (129, 8, 0 (2, 0))
+Elevador 1: 2 (129, 8, 0 (0))
+Elevador 1: 0 (129, 8, 0 ())
+Elevador 1 finalizou a tarefa 129
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 193
+Elevador 1: 0 (193, 2, 0 (1, 1, 1, 1, 0, 0, 0, 0, 0, 0))
+Elevador 1: 2 (193, 2, 0 (1, 0))
+Elevador 1: 1 (193, 2, 0 (0))
+Elevador 1: 0 (193, 2, 0 ())
+Elevador 1 finalizou a tarefa 193
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 195
+Elevador 1: 0 (195, 2, 0 (1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0))
+Elevador 1: 2 (195, 2, 0 (1, 0))
+Elevador 1: 1 (195, 2, 0 (0))
+Elevador 1: 0 (195, 2, 0 ())
+Elevador 1 finalizou a tarefa 195
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 198
+Elevador 1: 0 (198, 2, 0 (1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0))
+Elevador 1: 2 (198, 2, 0 (1, 0))
+Elevador 1: 1 (198, 2, 0 (0))
+Elevador 1: 0 (198, 2, 0 ())
+Elevador 1 finalizou a tarefa 198
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 217
+Elevador 1: 0 (217, 2, 0 (1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0))
+Elevador 1: 2 (217, 2, 0 (1, 0))
+Elevador 1: 1 (217, 2, 0 (0))
+Elevador 1: 0 (217, 2, 0 ())
+Elevador 1 finalizou a tarefa 217
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 220
+Elevador 1: 0 (220, 2, 0 (1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0))
+Elevador 1: 2 (220, 2, 0 (1, 0))
+Elevador 1: 1 (220, 2, 0 (0))
+Elevador 1: 0 (220, 2, 0 ())
+Elevador 1 finalizou a tarefa 220
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 229
+Elevador 1: 0 (229, 2, 1 (5, 6, 10))
+Elevador 1: 2 (229, 2, 1 (5, 6, 10))
+Elevador 1: 5 (229, 2, 1 (6, 10))
+Elevador 1: 6 (229, 2, 1 (10))
+Elevador 1: 10 (229, 2, 1 ())
+Elevador 1 finalizou a tarefa 229
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 158
+Elevador 1: 10 (158, 8, 1 (9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 10, 10))
+Elevador 1: 8 (158, 8, 1 (9, 10))
+Elevador 1: 9 (158, 8, 1 (10))
+Elevador 1: 10 (158, 8, 1 ())
+Elevador 1 finalizou a tarefa 158
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 170
+Elevador 1: 10 (170, 8, 1 (9, 9, 9, 9, 9, 9, 9, 10, 10, 10, 10, 10, 10, 10))
+Elevador 1: 8 (170, 8, 1 (9, 10))
+Elevador 1: 9 (170, 8, 1 (10))
+Elevador 1: 10 (170, 8, 1 ())
+Elevador 1 finalizou a tarefa 170
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 178
+Elevador 1: 10 (178, 8, 0 (7, 5, 5, 4, 3, 3, 3, 3, 3, 2, 2, 1, 0, 0))
+Elevador 1: 8 (178, 8, 0 (7, 5, 4, 3, 2, 1, 0))
+Elevador 1: 7 (178, 8, 0 (5, 4, 3, 2, 1, 0))
+Elevador 1: 5 (178, 8, 0 (4, 3, 2, 1, 0))
+Elevador 1: 4 (178, 8, 0 (3, 2, 1, 0))
+Elevador 1: 3 (178, 8, 0 (2, 1, 0))
+Elevador 1: 2 (178, 8, 0 (1, 0))
+Elevador 1: 1 (178, 8, 0 (0))
+Elevador 1: 0 (178, 8, 0 ())
+Elevador 1 finalizou a tarefa 178
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 236
+Elevador 1: 0 (236, 2, 1 (3, 4, 4, 5, 6, 7, 7, 8, 9, 9, 9))
+Elevador 1: 2 (236, 2, 1 (3, 4, 5, 6, 7, 8, 9))
+Elevador 1: 3 (236, 2, 1 (4, 5, 6, 7, 8, 9))
+Elevador 1: 4 (236, 2, 1 (5, 6, 7, 8, 9))
+Elevador 1: 5 (236, 2, 1 (6, 7, 8, 9))
+Elevador 1: 6 (236, 2, 1 (7, 8, 9))
+Elevador 1: 7 (236, 2, 1 (8, 9))
+Elevador 1: 8 (236, 2, 1 (9))
+Elevador 1: 9 (236, 2, 1 ())
+Elevador 1 finalizou a tarefa 236
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 186
+Elevador 1: 9 (186, 8, 1 (9, 10, 10, 10))
+Elevador 1: 8 (186, 8, 1 (9, 10))
+Elevador 1: 9 (186, 8, 1 (10))
+Elevador 1: 10 (186, 8, 1 ())
+Elevador 1 finalizou a tarefa 186
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 187
+Elevador 1: 10 (187, 8, 0 (6, 5))
+Elevador 1: 8 (187, 8, 0 (6, 5))
+Elevador 1: 6 (187, 8, 0 (5))
+Elevador 1: 5 (187, 8, 0 ())
+Elevador 1 finalizou a tarefa 187
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 35
+Elevador 1: 5 (35, 5, 1 (6, 6, 6, 7, 7, 8, 9, 10, 10, 10))
+Elevador 1: 5 (35, 5, 1 (6, 7, 8, 9, 10))
+Elevador 1: 6 (35, 5, 1 (7, 8, 9, 10))
+Elevador 1: 7 (35, 5, 1 (8, 9, 10))
+Elevador 1: 8 (35, 5, 1 (9, 10))
+Elevador 1: 9 (35, 5, 1 (10))
+Elevador 1: 10 (35, 5, 1 ())
+Elevador 1 finalizou a tarefa 35
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 206
+Elevador 1: 10 (206, 8, 1 (9, 10))
+Elevador 1: 8 (206, 8, 1 (9, 10))
+Elevador 1: 9 (206, 8, 1 (10))
+Elevador 1: 10 (206, 8, 1 ())
+Elevador 1 finalizou a tarefa 206
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 209
+Elevador 1: 10 (209, 8, 1 (9, 9, 9, 9, 9, 9, 9, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10))
+Elevador 1: 8 (209, 8, 1 (9, 10))
+Elevador 1: 9 (209, 8, 1 (10))
+Elevador 1: 10 (209, 8, 1 ())
+Elevador 1 finalizou a tarefa 209
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 223
+Elevador 1: 10 (223, 8, 1 (9, 9, 9, 10, 10, 10, 10, 10, 10))
+Elevador 1: 8 (223, 8, 1 (9, 10))
+Elevador 1: 9 (223, 8, 1 (10))
+Elevador 1: 10 (223, 8, 1 ())
+Elevador 1 finalizou a tarefa 223
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 232
+Elevador 1: 10 (232, 8, 1 (9, 9, 9, 9, 9, 9, 9, 9, 9, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10))
+Elevador 1: 8 (232, 8, 1 (9, 10))
+Elevador 1: 9 (232, 8, 1 (10))
+Elevador 1: 10 (232, 8, 1 ())
+Elevador 1 finalizou a tarefa 232
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 242
+Elevador 1: 10 (242, 8, 1 (9, 9, 9, 9, 9, 9, 9, 9, 9, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10))
+Elevador 1: 8 (242, 8, 1 (9, 10))
+Elevador 1: 9 (242, 8, 1 (10))
+Elevador 1: 10 (242, 8, 1 ())
+Elevador 1 finalizou a tarefa 242
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 244
+Elevador 1: 10 (244, 8, 1 (9, 10, 10, 10, 10))
+Elevador 1: 8 (244, 8, 1 (9, 10))
+Elevador 1: 9 (244, 8, 1 (10))
+Elevador 1: 10 (244, 8, 1 ())
+Elevador 1 finalizou a tarefa 244
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 246
+Elevador 1: 10 (246, 8, 0 (6, 3))
+Elevador 1: 8 (246, 8, 0 (6, 3))
+Elevador 1: 6 (246, 8, 0 (3))
+Elevador 1: 3 (246, 8, 0 ())
+Elevador 1 finalizou a tarefa 246
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 45
+Elevador 1: 3 (45, 3, 0 (2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0))
+Elevador 1: 3 (45, 3, 0 (2, 1, 0))
+Elevador 1: 2 (45, 3, 0 (1, 0))
+Elevador 1: 1 (45, 3, 0 (0))
+Elevador 1: 0 (45, 3, 0 ())
+Elevador 1 finalizou a tarefa 45
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 243
+Elevador 1: 0 (243, 2, 0 (1, 1, 1, 1))
+Elevador 1: 2 (243, 2, 0 (1))
+Elevador 1: 1 (243, 2, 0 ())
+Elevador 1 finalizou a tarefa 243
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 245
+Elevador 1: 1 (245, 2, 1 (5, 5))
+Elevador 1: 2 (245, 2, 1 (5))
+Elevador 1: 5 (245, 2, 1 ())
+Elevador 1 finalizou a tarefa 245
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 48
+Elevador 1: 5 (48, 5, 1 (9, 9))
+Elevador 1: 5 (48, 5, 1 (9))
+Elevador 1: 9 (48, 5, 1 ())
+Elevador 1 finalizou a tarefa 48
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 253
+Elevador 1: 9 (253, 8, 0 (7, 6, 6, 5, 5, 4, 3, 3, 3, 2, 1, 1, 0, 0))
+Elevador 1: 8 (253, 8, 0 (7, 6, 5, 4, 3, 2, 1, 0))
+Elevador 1: 7 (253, 8, 0 (6, 5, 4, 3, 2, 1, 0))
+Elevador 1: 6 (253, 8, 0 (5, 4, 3, 2, 1, 0))
+Elevador 1: 5 (253, 8, 0 (4, 3, 2, 1, 0))
+Elevador 1: 4 (253, 8, 0 (3, 2, 1, 0))
+Elevador 1: 3 (253, 8, 0 (2, 1, 0))
+Elevador 1: 2 (253, 8, 0 (1, 0))
+Elevador 1: 1 (253, 8, 0 (0))
+Elevador 1: 0 (253, 8, 0 ())
+Elevador 1 finalizou a tarefa 253
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 274
+Elevador 1: 0 (274, 2, 1 (3, 4, 4, 6, 6, 7, 7, 8, 9, 9, 9, 10, 10, 10, 10, 10))
+Elevador 1: 2 (274, 2, 1 (3, 4, 6, 7, 8, 9, 10))
+Elevador 1: 3 (274, 2, 1 (4, 6, 7, 8, 9, 10))
+Elevador 1: 4 (274, 2, 1 (6, 7, 8, 9, 10))
+Elevador 1: 6 (274, 2, 1 (7, 8, 9, 10))
+Elevador 1: 7 (274, 2, 1 (8, 9, 10))
+Elevador 1: 8 (274, 2, 1 (9, 10))
+Elevador 1: 9 (274, 2, 1 (10))
+Elevador 1: 10 (274, 2, 1 ())
+Elevador 1 finalizou a tarefa 274
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 272
+Elevador 1: 10 (272, 8, 0 (7, 7, 6, 4, 4, 4, 3, 3, 2, 1, 0, 0))
+Elevador 1: 8 (272, 8, 0 (7, 6, 4, 3, 2, 1, 0))
+Elevador 1: 7 (272, 8, 0 (6, 4, 3, 2, 1, 0))
+Elevador 1: 6 (272, 8, 0 (4, 3, 2, 1, 0))
+Elevador 1: 4 (272, 8, 0 (3, 2, 1, 0))
+Elevador 1: 3 (272, 8, 0 (2, 1, 0))
+Elevador 1: 2 (272, 8, 0 (1, 0))
+Elevador 1: 1 (272, 8, 0 (0))
+Elevador 1: 0 (272, 8, 0 ())
+Elevador 1 finalizou a tarefa 272
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 294
+Elevador 1: 0 (294, 2, 1 (3, 6, 6))
+Elevador 1: 2 (294, 2, 1 (3, 6))
+Elevador 1: 3 (294, 2, 1 (6))
+Elevador 1: 6 (294, 2, 1 ())
+Elevador 1 finalizou a tarefa 294
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 98
+Elevador 1: 6 (98, 6, 1 (8, 8, 9))
+Elevador 1: 6 (98, 6, 1 (8, 9))
+Elevador 1: 8 (98, 6, 1 (9))
+Elevador 1: 9 (98, 6, 1 ())
+Elevador 1 finalizou a tarefa 98
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 273
+Elevador 1: 9 (273, 8, 0 (7, 7, 6, 5, 5, 4, 3, 3, 2, 2, 1, 1, 0, 0, 0))
+Elevador 1: 8 (273, 8, 0 (7, 6, 5, 4, 3, 2, 1, 0))
+Elevador 1: 7 (273, 8, 0 (6, 5, 4, 3, 2, 1, 0))
+Elevador 1: 6 (273, 8, 0 (5, 4, 3, 2, 1, 0))
+Elevador 1: 5 (273, 8, 0 (4, 3, 2, 1, 0))
+Elevador 1: 4 (273, 8, 0 (3, 2, 1, 0))
+Elevador 1: 3 (273, 8, 0 (2, 1, 0))
+Elevador 1: 2 (273, 8, 0 (1, 0))
+Elevador 1: 1 (273, 8, 0 (0))
+Elevador 1: 0 (273, 8, 0 ())
+Elevador 1 finalizou a tarefa 273
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 306
+Elevador 1: 0 (306, 2, 0 (1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0))
+Elevador 1: 2 (306, 2, 0 (1, 0))
+Elevador 1: 1 (306, 2, 0 (0))
+Elevador 1: 0 (306, 2, 0 ())
+Elevador 1 finalizou a tarefa 306
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 308
+Elevador 1: 0 (308, 2, 1 (4, 5, 5, 6, 8, 8, 8, 9, 10))
+Elevador 1: 2 (308, 2, 1 (4, 5, 6, 8, 9, 10))
+Elevador 1: 4 (308, 2, 1 (5, 6, 8, 9, 10))
+Elevador 1: 5 (308, 2, 1 (6, 8, 9, 10))
+Elevador 1: 6 (308, 2, 1 (8, 9, 10))
+Elevador 1: 8 (308, 2, 1 (9, 10))
+Elevador 1: 9 (308, 2, 1 (10))
+Elevador 1: 10 (308, 2, 1 ())
+Elevador 1 finalizou a tarefa 308
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 280
+Elevador 1: 10 (280, 8, 1 (10, 10))
+Elevador 1: 8 (280, 8, 1 (10))
+Elevador 1: 10 (280, 8, 1 ())
+Elevador 1 finalizou a tarefa 280
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 292
+Elevador 1: 10 (292, 8, 1 (9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 10, 10))
+Elevador 1: 8 (292, 8, 1 (9, 10))
+Elevador 1: 9 (292, 8, 1 (10))
+Elevador 1: 10 (292, 8, 1 ())
+Elevador 1 finalizou a tarefa 292
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 295
+Elevador 1: 10 (295, 8, 1 (9, 9, 9, 9, 10, 10, 10, 10))
+Elevador 1: 8 (295, 8, 1 (9, 10))
+Elevador 1: 9 (295, 8, 1 (10))
+Elevador 1: 10 (295, 8, 1 ())
+Elevador 1 finalizou a tarefa 295
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 318
+Elevador 1: 10 (318, 8, 1 (9, 9, 10, 10, 10, 10, 10))
+Elevador 1: 8 (318, 8, 1 (9, 10))
+Elevador 1: 9 (318, 8, 1 (10))
+Elevador 1: 10 (318, 8, 1 ())
+Elevador 1 finalizou a tarefa 318
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 327
+Elevador 1: 10 (327, 8, 0 (1, 0, 0, 0, 0))
+Elevador 1: 8 (327, 8, 0 (1, 0))
+Elevador 1: 1 (327, 8, 0 (0))
+Elevador 1: 0 (327, 8, 0 ())
+Elevador 1 finalizou a tarefa 327
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 312
+Elevador 1: 0 (312, 2, 1 (3, 3, 4, 5, 5, 5, 7, 7, 8, 8, 8, 10, 10))
+Elevador 1: 2 (312, 2, 1 (3, 4, 5, 7, 8, 10))
+Elevador 1: 3 (312, 2, 1 (4, 5, 7, 8, 10))
+Elevador 1: 4 (312, 2, 1 (5, 7, 8, 10))
+Elevador 1: 5 (312, 2, 1 (7, 8, 10))
+Elevador 1: 7 (312, 2, 1 (8, 10))
+Elevador 1: 8 (312, 2, 1 (10))
+Elevador 1: 10 (312, 2, 1 ())
+Elevador 1 finalizou a tarefa 312
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 333
+Elevador 1: 10 (333, 8, 1 (9, 9, 9, 9, 9, 9, 9, 9, 9, 10, 10, 10, 10, 10, 10, 10, 10))
+Elevador 1: 8 (333, 8, 1 (9, 10))
+Elevador 1: 9 (333, 8, 1 (10))
+Elevador 1: 10 (333, 8, 1 ())
+Elevador 1 finalizou a tarefa 333
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 335
+Elevador 1: 10 (335, 8, 0 (7, 7, 4, 3, 2))
+Elevador 1: 8 (335, 8, 0 (7, 4, 3, 2))
+Elevador 1: 7 (335, 8, 0 (4, 3, 2))
+Elevador 1: 4 (335, 8, 0 (3, 2))
+Elevador 1: 3 (335, 8, 0 (2))
+Elevador 1: 2 (335, 8, 0 ())
+Elevador 1 finalizou a tarefa 335
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 321
+Elevador 1: 2 (321, 2, 0 (1, 0, 0, 0, 0))
+Elevador 1: 2 (321, 2, 0 (1, 0))
+Elevador 1: 1 (321, 2, 0 (0))
+Elevador 1: 0 (321, 2, 0 ())
+Elevador 1 finalizou a tarefa 321
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 346
+Elevador 1: 0 (346, 2, 0 (1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0))
+Elevador 1: 2 (346, 2, 0 (1, 0))
+Elevador 1: 1 (346, 2, 0 (0))
+Elevador 1: 0 (346, 2, 0 ())
+Elevador 1 finalizou a tarefa 346
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 358
+Elevador 1: 0 (358, 2, 0 (1, 1, 1))
+Elevador 1: 2 (358, 2, 0 (1))
+Elevador 1: 1 (358, 2, 0 ())
+Elevador 1 finalizou a tarefa 358
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 362
+Elevador 1: 1 (362, 2, 0 (1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0))
+Elevador 1: 2 (362, 2, 0 (1, 0))
+Elevador 1: 1 (362, 2, 0 (0))
+Elevador 1: 0 (362, 2, 0 ())
+Elevador 1 finalizou a tarefa 362
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 371
+Elevador 1: 0 (371, 2, 1 (3, 3, 4, 6, 7, 10))
+Elevador 1: 2 (371, 2, 1 (3, 4, 6, 7, 10))
+Elevador 1: 3 (371, 2, 1 (4, 6, 7, 10))
+Elevador 1: 4 (371, 2, 1 (6, 7, 10))
+Elevador 1: 6 (371, 2, 1 (7, 10))
+Elevador 1: 7 (371, 2, 1 (10))
+Elevador 1: 10 (371, 2, 1 ())
+Elevador 1 finalizou a tarefa 371
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 376
+Elevador 1: 10 (376, 8, 0 (7, 7, 5, 5, 4, 3, 3, 2, 2, 1, 1, 0))
+Elevador 1: 8 (376, 8, 0 (7, 5, 4, 3, 2, 1, 0))
+Elevador 1: 7 (376, 8, 0 (5, 4, 3, 2, 1, 0))
+Elevador 1: 5 (376, 8, 0 (4, 3, 2, 1, 0))
+Elevador 1: 4 (376, 8, 0 (3, 2, 1, 0))
+Elevador 1: 3 (376, 8, 0 (2, 1, 0))
+Elevador 1: 2 (376, 8, 0 (1, 0))
+Elevador 1: 1 (376, 8, 0 (0))
+Elevador 1: 0 (376, 8, 0 ())
+Elevador 1 finalizou a tarefa 376
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 392
+Elevador 1: 0 (392, 2, 1 (3, 4, 5, 5, 5, 7, 7, 8, 10))
+Elevador 1: 2 (392, 2, 1 (3, 4, 5, 7, 8, 10))
+Elevador 1: 3 (392, 2, 1 (4, 5, 7, 8, 10))
+Elevador 1: 4 (392, 2, 1 (5, 7, 8, 10))
+Elevador 1: 5 (392, 2, 1 (7, 8, 10))
+Elevador 1: 7 (392, 2, 1 (8, 10))
+Elevador 1: 8 (392, 2, 1 (10))
+Elevador 1: 10 (392, 2, 1 ())
+Elevador 1 finalizou a tarefa 392
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 548
+Elevador 1: 10 (548, 8, 0 (7, 7, 6, 5, 5, 5, 4, 4, 4, 4, 4, 3, 2, 2, 2, 1, 0, 0))
+Elevador 1: 8 (548, 8, 0 (7, 6, 5, 4, 3, 2, 1, 0))
+Elevador 1: 7 (548, 8, 0 (6, 5, 4, 3, 2, 1, 0))
+Elevador 1: 6 (548, 8, 0 (5, 4, 3, 2, 1, 0))
+Elevador 1: 5 (548, 8, 0 (4, 3, 2, 1, 0))
+Elevador 1: 4 (548, 8, 0 (3, 2, 1, 0))
+Elevador 1: 3 (548, 8, 0 (2, 1, 0))
+Elevador 1: 2 (548, 8, 0 (1, 0))
+Elevador 1: 1 (548, 8, 0 (0))
+Elevador 1: 0 (548, 8, 0 ())
+Elevador 1 finalizou a tarefa 548
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 495
+Elevador 1: 0 (495, 2, 0 (1, 1, 0))
+Elevador 1: 2 (495, 2, 0 (1, 0))
+Elevador 1: 1 (495, 2, 0 (0))
+Elevador 1: 0 (495, 2, 0 ())
+Elevador 1 finalizou a tarefa 495
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 512
+Elevador 1: 0 (512, 2, 0 (1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0))
+Elevador 1: 2 (512, 2, 0 (1, 0))
+Elevador 1: 1 (512, 2, 0 (0))
+Elevador 1: 0 (512, 2, 0 ())
+Elevador 1 finalizou a tarefa 512
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 537
+Elevador 1: 0 (537, 2, 0 (1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0))
+Elevador 1: 2 (537, 2, 0 (1, 0))
+Elevador 1: 1 (537, 2, 0 (0))
+Elevador 1: 0 (537, 2, 0 ())
+Elevador 1 finalizou a tarefa 537
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 552
+Elevador 1: 0 (552, 2, 1 (3, 3, 3, 4, 5, 5, 7, 8, 10))
+Elevador 1: 2 (552, 2, 1 (3, 4, 5, 7, 8, 10))
+Elevador 1: 3 (552, 2, 1 (4, 5, 7, 8, 10))
+Elevador 1: 4 (552, 2, 1 (5, 7, 8, 10))
+Elevador 1: 5 (552, 2, 1 (7, 8, 10))
+Elevador 1: 7 (552, 2, 1 (8, 10))
+Elevador 1: 8 (552, 2, 1 (10))
+Elevador 1: 10 (552, 2, 1 ())
+Elevador 1 finalizou a tarefa 552
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 558
+Elevador 1: 10 (558, 8, 1 (9, 9, 9, 9, 9, 9, 9, 9, 10, 10, 10, 10, 10, 10, 10, 10))
+Elevador 1: 8 (558, 8, 1 (9, 10))
+Elevador 1: 9 (558, 8, 1 (10))
+Elevador 1: 10 (558, 8, 1 ())
+Elevador 1 finalizou a tarefa 558
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 569
+Elevador 1: 10 (569, 8, 0 (5, 3))
+Elevador 1: 8 (569, 8, 0 (5, 3))
+Elevador 1: 5 (569, 8, 0 (3))
+Elevador 1: 3 (569, 8, 0 ())
+Elevador 1 finalizou a tarefa 569
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 49
+Elevador 1: 3 (49, 3, 0 (2, 0, 0))
+Elevador 1: 3 (49, 3, 0 (2, 0))
+Elevador 1: 2 (49, 3, 0 (0))
+Elevador 1: 0 (49, 3, 0 ())
+Elevador 1 finalizou a tarefa 49
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 563
+Elevador 1: 0 (563, 2, 1 (4, 7, 7, 7, 8, 9, 9))
+Elevador 1: 2 (563, 2, 1 (4, 7, 8, 9))
+Elevador 1: 4 (563, 2, 1 (7, 8, 9))
+Elevador 1: 7 (563, 2, 1 (8, 9))
+Elevador 1: 8 (563, 2, 1 (9))
+Elevador 1: 9 (563, 2, 1 ())
+Elevador 1 finalizou a tarefa 563
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 614
+Elevador 1: 9 (614, 8, 1 (10, 10))
+Elevador 1: 8 (614, 8, 1 (10))
+Elevador 1: 10 (614, 8, 1 ())
+Elevador 1 finalizou a tarefa 614
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 621
+Elevador 1: 10 (621, 8, 1 (9, 9, 9, 9, 10, 10, 10))
+Elevador 1: 8 (621, 8, 1 (9, 10))
+Elevador 1: 9 (621, 8, 1 (10))
+Elevador 1: 10 (621, 8, 1 ())
+Elevador 1 finalizou a tarefa 621
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 632
+Elevador 1: 10 (632, 8, 0 (7, 7, 7, 7, 6, 5, 3, 3, 2, 1, 1, 0, 0))
+Elevador 1: 8 (632, 8, 0 (7, 6, 5, 3, 2, 1, 0))
+Elevador 1: 7 (632, 8, 0 (6, 5, 3, 2, 1, 0))
+Elevador 1: 6 (632, 8, 0 (5, 3, 2, 1, 0))
+Elevador 1: 5 (632, 8, 0 (3, 2, 1, 0))
+Elevador 1: 3 (632, 8, 0 (2, 1, 0))
+Elevador 1: 2 (632, 8, 0 (1, 0))
+Elevador 1: 1 (632, 8, 0 (0))
+Elevador 1: 0 (632, 8, 0 ())
+Elevador 1 finalizou a tarefa 632
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 805
+Elevador 1: 0 (805, 2, 0 (1, 1, 1, 1, 0))
+Elevador 1: 2 (805, 2, 0 (1, 0))
+Elevador 1: 1 (805, 2, 0 (0))
+Elevador 1: 0 (805, 2, 0 ())
+Elevador 1 finalizou a tarefa 805
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 807
+Elevador 1: 0 (807, 2, 0 (1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0))
+Elevador 1: 2 (807, 2, 0 (1, 0))
+Elevador 1: 1 (807, 2, 0 (0))
+Elevador 1: 0 (807, 2, 0 ())
+Elevador 1 finalizou a tarefa 807
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 814
+Elevador 1: 0 (814, 2, 1 (3, 3, 3, 3, 4, 5, 5, 5, 5, 7, 7, 8, 8, 8, 8, 9, 10, 10, 10))
+Elevador 1: 2 (814, 2, 1 (3, 4, 5, 7, 8, 9, 10))
+Elevador 1: 3 (814, 2, 1 (4, 5, 7, 8, 9, 10))
+Elevador 1: 4 (814, 2, 1 (5, 7, 8, 9, 10))
+Elevador 1: 5 (814, 2, 1 (7, 8, 9, 10))
+Elevador 1: 7 (814, 2, 1 (8, 9, 10))
+Elevador 1: 8 (814, 2, 1 (9, 10))
+Elevador 1: 9 (814, 2, 1 (10))
+Elevador 1: 10 (814, 2, 1 ())
+Elevador 1 finalizou a tarefa 814
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 774
+Elevador 1: 10 (774, 8, 0 (7, 6, 6, 6, 5, 5, 3, 3, 3, 2, 1, 1, 1, 1, 0, 0))
+Elevador 1: 8 (774, 8, 0 (7, 6, 5, 3, 2, 1, 0))
+Elevador 1: 7 (774, 8, 0 (6, 5, 3, 2, 1, 0))
+Elevador 1: 6 (774, 8, 0 (5, 3, 2, 1, 0))
+Elevador 1: 5 (774, 8, 0 (3, 2, 1, 0))
+Elevador 1: 3 (774, 8, 0 (2, 1, 0))
+Elevador 1: 2 (774, 8, 0 (1, 0))
+Elevador 1: 1 (774, 8, 0 (0))
+Elevador 1: 0 (774, 8, 0 ())
+Elevador 1 finalizou a tarefa 774
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 827
+Elevador 1: 0 (827, 2, 0 (1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0))
+Elevador 1: 2 (827, 2, 0 (1, 0))
+Elevador 1: 1 (827, 2, 0 (0))
+Elevador 1: 0 (827, 2, 0 ())
+Elevador 1 finalizou a tarefa 827
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 851
+Elevador 1: 0 (851, 2, 1 (3, 4, 6, 7, 7, 8))
+Elevador 1: 2 (851, 2, 1 (3, 4, 6, 7, 8))
+Elevador 1: 3 (851, 2, 1 (4, 6, 7, 8))
+Elevador 1: 4 (851, 2, 1 (6, 7, 8))
+Elevador 1: 6 (851, 2, 1 (7, 8))
+Elevador 1: 7 (851, 2, 1 (8))
+Elevador 1: 8 (851, 2, 1 ())
+Elevador 1 finalizou a tarefa 851
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 778
+Elevador 1: 8 (778, 8, 0 (7, 6, 6, 5, 5, 5, 3, 3, 3, 3, 2, 2, 2, 1, 1, 0))
+Elevador 1: 8 (778, 8, 0 (7, 6, 5, 3, 2, 1, 0))
+Elevador 1: 7 (778, 8, 0 (6, 5, 3, 2, 1, 0))
+Elevador 1: 6 (778, 8, 0 (5, 3, 2, 1, 0))
+Elevador 1: 5 (778, 8, 0 (3, 2, 1, 0))
+Elevador 1: 3 (778, 8, 0 (2, 1, 0))
+Elevador 1: 2 (778, 8, 0 (1, 0))
+Elevador 1: 1 (778, 8, 0 (0))
+Elevador 1: 0 (778, 8, 0 ())
+Elevador 1 finalizou a tarefa 778
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 875
+Elevador 1: 0 (875, 2, 1 (7))
+Elevador 1: 2 (875, 2, 1 (7))
+Elevador 1: 7 (875, 2, 1 ())
+Elevador 1 finalizou a tarefa 875
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 91
+Elevador 1: 7 (91, 7, 0 (5, 5, 5, 4, 2, 2, 2, 2, 1, 0))
+Elevador 1: 7 (91, 7, 0 (5, 4, 2, 1, 0))
+Elevador 1: 5 (91, 7, 0 (4, 2, 1, 0))
+Elevador 1: 4 (91, 7, 0 (2, 1, 0))
+Elevador 1: 2 (91, 7, 0 (1, 0))
+Elevador 1: 1 (91, 7, 0 (0))
+Elevador 1: 0 (91, 7, 0 ())
+Elevador 1 finalizou a tarefa 91
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 883
+Elevador 1: 0 (883, 2, 1 (3, 4, 4, 5, 6, 6, 7, 7, 8, 8, 9, 9, 9, 9, 9, 10, 10))
+Elevador 1: 2 (883, 2, 1 (3, 4, 5, 6, 7, 8, 9, 10))
+Elevador 1: 3 (883, 2, 1 (4, 5, 6, 7, 8, 9, 10))
+Elevador 1: 4 (883, 2, 1 (5, 6, 7, 8, 9, 10))
+Elevador 1: 5 (883, 2, 1 (6, 7, 8, 9, 10))
+Elevador 1: 6 (883, 2, 1 (7, 8, 9, 10))
+Elevador 1: 7 (883, 2, 1 (8, 9, 10))
+Elevador 1: 8 (883, 2, 1 (9, 10))
+Elevador 1: 9 (883, 2, 1 (10))
+Elevador 1: 10 (883, 2, 1 ())
+Elevador 1 finalizou a tarefa 883
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 782
+Elevador 1: 10 (782, 8, 1 (9, 10, 10, 10))
+Elevador 1: 8 (782, 8, 1 (9, 10))
+Elevador 1: 9 (782, 8, 1 (10))
+Elevador 1: 10 (782, 8, 1 ())
+Elevador 1 finalizou a tarefa 782
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 795
+Elevador 1: 10 (795, 8, 1 (9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 10, 10, 10, 10, 10))
+Elevador 1: 8 (795, 8, 1 (9, 10))
+Elevador 1: 9 (795, 8, 1 (10))
+Elevador 1: 10 (795, 8, 1 ())
+Elevador 1 finalizou a tarefa 795
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 797
+Elevador 1: 10 (797, 8, 0 (7, 7, 6, 6, 6, 6, 4, 3, 3, 3, 2, 2, 1, 1, 1, 0, 0, 0, 0))
+Elevador 1: 8 (797, 8, 0 (7, 6, 4, 3, 2, 1, 0))
+Elevador 1: 7 (797, 8, 0 (6, 4, 3, 2, 1, 0))
+Elevador 1: 6 (797, 8, 0 (4, 3, 2, 1, 0))
+Elevador 1: 4 (797, 8, 0 (3, 2, 1, 0))
+Elevador 1: 3 (797, 8, 0 (2, 1, 0))
+Elevador 1: 2 (797, 8, 0 (1, 0))
+Elevador 1: 1 (797, 8, 0 (0))
+Elevador 1: 0 (797, 8, 0 ())
+Elevador 1 finalizou a tarefa 797
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 887
+Elevador 1: 0 (887, 2, 0 (1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0))
+Elevador 1: 2 (887, 2, 0 (1, 0))
+Elevador 1: 1 (887, 2, 0 (0))
+Elevador 1: 0 (887, 2, 0 ())
+Elevador 1 finalizou a tarefa 887
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 888
+Elevador 1: 0 (888, 2, 1 (3, 3, 3, 3, 3, 4, 4, 5, 5, 6, 7, 7, 7, 7, 10, 10, 10, 10))
+Elevador 1: 2 (888, 2, 1 (3, 4, 5, 6, 7, 10))
+Elevador 1: 3 (888, 2, 1 (4, 5, 6, 7, 10))
+Elevador 1: 4 (888, 2, 1 (5, 6, 7, 10))
+Elevador 1: 5 (888, 2, 1 (6, 7, 10))
+Elevador 1: 6 (888, 2, 1 (7, 10))
+Elevador 1: 7 (888, 2, 1 (10))
+Elevador 1: 10 (888, 2, 1 ())
+Elevador 1 finalizou a tarefa 888
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 809
+Elevador 1: 10 (809, 8, 0 (7, 7, 7, 7, 6, 6, 5, 5, 4, 4, 4, 2, 2, 1, 1, 0, 0))
+Elevador 1: 8 (809, 8, 0 (7, 6, 5, 4, 2, 1, 0))
+Elevador 1: 7 (809, 8, 0 (6, 5, 4, 2, 1, 0))
+Elevador 1: 6 (809, 8, 0 (5, 4, 2, 1, 0))
+Elevador 1: 5 (809, 8, 0 (4, 2, 1, 0))
+Elevador 1: 4 (809, 8, 0 (2, 1, 0))
+Elevador 1: 2 (809, 8, 0 (1, 0))
+Elevador 1: 1 (809, 8, 0 (0))
+Elevador 1: 0 (809, 8, 0 ())
+Elevador 1 finalizou a tarefa 809
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 906
+Elevador 1: 0 (906, 2, 1 (3, 4, 4, 5, 6, 6, 7, 8, 9))
+Elevador 1: 2 (906, 2, 1 (3, 4, 5, 6, 7, 8, 9))
+Elevador 1: 3 (906, 2, 1 (4, 5, 6, 7, 8, 9))
+Elevador 1: 4 (906, 2, 1 (5, 6, 7, 8, 9))
+Elevador 1: 5 (906, 2, 1 (6, 7, 8, 9))
+Elevador 1: 6 (906, 2, 1 (7, 8, 9))
+Elevador 1: 7 (906, 2, 1 (8, 9))
+Elevador 1: 8 (906, 2, 1 (9))
+Elevador 1: 9 (906, 2, 1 ())
+Elevador 1 finalizou a tarefa 906
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 811
+Elevador 1: 9 (811, 8, 0 (3, 3, 2, 2, 1, 1, 0))
+Elevador 1: 8 (811, 8, 0 (3, 2, 1, 0))
+Elevador 1: 3 (811, 8, 0 (2, 1, 0))
+Elevador 1: 2 (811, 8, 0 (1, 0))
+Elevador 1: 1 (811, 8, 0 (0))
+Elevador 1: 0 (811, 8, 0 ())
+Elevador 1 finalizou a tarefa 811
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 916
+Elevador 1: 0 (916, 2, 1 (3, 3, 3, 3, 6, 6, 7, 7, 7, 7, 8, 8, 9, 10, 10, 10))
+Elevador 1: 2 (916, 2, 1 (3, 6, 7, 8, 9, 10))
+Elevador 1: 3 (916, 2, 1 (6, 7, 8, 9, 10))
+Elevador 1: 6 (916, 2, 1 (7, 8, 9, 10))
+Elevador 1: 7 (916, 2, 1 (8, 9, 10))
+Elevador 1: 8 (916, 2, 1 (9, 10))
+Elevador 1: 9 (916, 2, 1 (10))
+Elevador 1: 10 (916, 2, 1 ())
+Elevador 1 finalizou a tarefa 916
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 829
+Elevador 1: 10 (829, 8, 0 (7, 7, 4, 3, 3, 3, 2, 1, 1, 1, 1, 0, 0, 0, 0, 0))
+Elevador 1: 8 (829, 8, 0 (7, 4, 3, 2, 1, 0))
+Elevador 1: 7 (829, 8, 0 (4, 3, 2, 1, 0))
+Elevador 1: 4 (829, 8, 0 (3, 2, 1, 0))
+Elevador 1: 3 (829, 8, 0 (2, 1, 0))
+Elevador 1: 2 (829, 8, 0 (1, 0))
+Elevador 1: 1 (829, 8, 0 (0))
+Elevador 1: 0 (829, 8, 0 ())
+Elevador 1 finalizou a tarefa 829
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 921
+Elevador 1: 0 (921, 2, 0 (1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0))
+Elevador 1: 2 (921, 2, 0 (1, 0))
+Elevador 1: 1 (921, 2, 0 (0))
+Elevador 1: 0 (921, 2, 0 ())
+Elevador 1 finalizou a tarefa 921
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 923
+Elevador 1: 0 (923, 2, 0 (1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0))
+Elevador 1: 2 (923, 2, 0 (1, 0))
+Elevador 1: 1 (923, 2, 0 (0))
+Elevador 1: 0 (923, 2, 0 ())
+Elevador 1 finalizou a tarefa 923
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 939
+Elevador 1: 0 (939, 2, 0 (1, 1, 1, 1))
+Elevador 1: 2 (939, 2, 0 (1))
+Elevador 1: 1 (939, 2, 0 ())
+Elevador 1 finalizou a tarefa 939
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 948
+Elevador 1: 1 (948, 2, 0 (1, 1, 1, 1, 1, 0, 0, 0, 0, 0))
+Elevador 1: 2 (948, 2, 0 (1, 0))
+Elevador 1: 1 (948, 2, 0 (0))
+Elevador 1: 0 (948, 2, 0 ())
+Elevador 1 finalizou a tarefa 948
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 960
+Elevador 1: 0 (960, 2, 0 (1, 1, 1, 1, 1, 1, 0, 0, 0))
+Elevador 1: 2 (960, 2, 0 (1, 0))
+Elevador 1: 1 (960, 2, 0 (0))
+Elevador 1: 0 (960, 2, 0 ())
+Elevador 1 finalizou a tarefa 960
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 971
+Elevador 1: 0 (971, 2, 0 (1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0))
+Elevador 1: 2 (971, 2, 0 (1, 0))
+Elevador 1: 1 (971, 2, 0 (0))
+Elevador 1: 0 (971, 2, 0 ())
+Elevador 1 finalizou a tarefa 971
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 991
+Elevador 1: 0 (991, 2, 0 (1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0))
+Elevador 1: 2 (991, 2, 0 (1, 0))
+Elevador 1: 1 (991, 2, 0 (0))
+Elevador 1: 0 (991, 2, 0 ())
+Elevador 1 finalizou a tarefa 991
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 143
+Elevador 1: 0 (143, 3, 1 (4, 5, 6))
+Elevador 1: 3 (143, 3, 1 (4, 5, 6))
+Elevador 1: 4 (143, 3, 1 (5, 6))
+Elevador 1: 5 (143, 3, 1 (6))
+Elevador 1: 6 (143, 3, 1 ())
+Elevador 1 finalizou a tarefa 143
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 124
+Elevador 1: 6 (124, 6, 1 (7, 7, 7, 7, 8, 8, 8, 8, 9, 9, 9, 9, 10, 10))
+Elevador 1: 6 (124, 6, 1 (7, 8, 9, 10))
+Elevador 1: 7 (124, 6, 1 (8, 9, 10))
+Elevador 1: 8 (124, 6, 1 (9, 10))
+Elevador 1: 9 (124, 6, 1 (10))
+Elevador 1: 10 (124, 6, 1 ())
+Elevador 1 finalizou a tarefa 124
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 941
+Elevador 1: 10 (941, 8, 0 (7, 7, 6, 5, 5, 5, 5, 4, 4, 3, 2, 2, 2))
+Elevador 1: 8 (941, 8, 0 (7, 6, 5, 4, 3, 2))
+Elevador 1: 7 (941, 8, 0 (6, 5, 4, 3, 2))
+Elevador 1: 6 (941, 8, 0 (5, 4, 3, 2))
+Elevador 1: 5 (941, 8, 0 (4, 3, 2))
+Elevador 1: 4 (941, 8, 0 (3, 2))
+Elevador 1: 3 (941, 8, 0 (2))
+Elevador 1: 2 (941, 8, 0 ())
+Elevador 1 finalizou a tarefa 941
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 157
+Elevador 1: 2 (157, 3, 1 (4, 5, 5, 6, 7, 7, 8, 8, 9, 9, 10, 10, 10, 10))
+Elevador 1: 3 (157, 3, 1 (4, 5, 6, 7, 8, 9, 10))
+Elevador 1: 4 (157, 3, 1 (5, 6, 7, 8, 9, 10))
+Elevador 1: 5 (157, 3, 1 (6, 7, 8, 9, 10))
+Elevador 1: 6 (157, 3, 1 (7, 8, 9, 10))
+Elevador 1: 7 (157, 3, 1 (8, 9, 10))
+Elevador 1: 8 (157, 3, 1 (9, 10))
+Elevador 1: 9 (157, 3, 1 (10))
+Elevador 1: 10 (157, 3, 1 ())
+Elevador 1 finalizou a tarefa 157
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 946
+Elevador 1: 10 (946, 8, 1 (9, 9, 9, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10))
+Elevador 1: 8 (946, 8, 1 (9, 10))
+Elevador 1: 9 (946, 8, 1 (10))
+Elevador 1: 10 (946, 8, 1 ())
+Elevador 1 finalizou a tarefa 946
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 951
+Elevador 1: 10 (951, 8, 0 (7, 6, 5, 5, 4, 4, 4, 2, 2, 1, 0, 0, 0, 0, 0, 0))
+Elevador 1: 8 (951, 8, 0 (7, 6, 5, 4, 2, 1, 0))
+Elevador 1: 7 (951, 8, 0 (6, 5, 4, 2, 1, 0))
+Elevador 1: 6 (951, 8, 0 (5, 4, 2, 1, 0))
+Elevador 1: 5 (951, 8, 0 (4, 2, 1, 0))
+Elevador 1: 4 (951, 8, 0 (2, 1, 0))
+Elevador 1: 2 (951, 8, 0 (1, 0))
+Elevador 1: 1 (951, 8, 0 (0))
+Elevador 1: 0 (951, 8, 0 ())
+Elevador 1 finalizou a tarefa 951
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 276
+Elevador 1: 0 (276, 3, 0 (2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0))
+Elevador 1: 3 (276, 3, 0 (2, 1, 0))
+Elevador 1: 2 (276, 3, 0 (1, 0))
+Elevador 1: 1 (276, 3, 0 (0))
+Elevador 1: 0 (276, 3, 0 ())
+Elevador 1 finalizou a tarefa 276
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 284
+Elevador 1: 0 (284, 3, 1 (4, 4, 4, 6, 7, 7, 8, 8))
+Elevador 1: 3 (284, 3, 1 (4, 6, 7, 8))
+Elevador 1: 4 (284, 3, 1 (6, 7, 8))
+Elevador 1: 6 (284, 3, 1 (7, 8))
+Elevador 1: 7 (284, 3, 1 (8))
+Elevador 1: 8 (284, 3, 1 ())
+Elevador 1 finalizou a tarefa 284
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 201
+Elevador 1: 8 (201, 7, 0 (5, 2, 0, 0))
+Elevador 1: 7 (201, 7, 0 (5, 2, 0))
+Elevador 1: 5 (201, 7, 0 (2, 0))
+Elevador 1: 2 (201, 7, 0 (0))
+Elevador 1: 0 (201, 7, 0 ())
+Elevador 1 finalizou a tarefa 201
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 285
+Elevador 1: 0 (285, 3, 0 (2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0))
+Elevador 1: 3 (285, 3, 0 (2, 1, 0))
+Elevador 1: 2 (285, 3, 0 (1, 0))
+Elevador 1: 1 (285, 3, 0 (0))
+Elevador 1: 0 (285, 3, 0 ())
+Elevador 1 finalizou a tarefa 285
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 299
+Elevador 1: 0 (299, 3, 0 (2, 2, 2, 2, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0))
+Elevador 1: 3 (299, 3, 0 (2, 1, 0))
+Elevador 1: 2 (299, 3, 0 (1, 0))
+Elevador 1: 1 (299, 3, 0 (0))
+Elevador 1: 0 (299, 3, 0 ())
+Elevador 1 finalizou a tarefa 299
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 322
+Elevador 1: 0 (322, 3, 1 (4, 9))
+Elevador 1: 3 (322, 3, 1 (4, 9))
+Elevador 1: 4 (322, 3, 1 (9))
+Elevador 1: 9 (322, 3, 1 ())
+Elevador 1 finalizou a tarefa 322
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 228
+Elevador 1: 9 (228, 7, 1 (8, 9, 10))
+Elevador 1: 7 (228, 7, 1 (8, 9, 10))
+Elevador 1: 8 (228, 7, 1 (9, 10))
+Elevador 1: 9 (228, 7, 1 (10))
+Elevador 1: 10 (228, 7, 1 ())
+Elevador 1 finalizou a tarefa 228
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 230
+Elevador 1: 10 (230, 7, 1 (8, 8, 8, 9, 10, 10, 10, 10, 10, 10, 10))
+Elevador 1: 7 (230, 7, 1 (8, 9, 10))
+Elevador 1: 8 (230, 7, 1 (9, 10))
+Elevador 1: 9 (230, 7, 1 (10))
+Elevador 1: 10 (230, 7, 1 ())
+Elevador 1 finalizou a tarefa 230
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 254
+Elevador 1: 10 (254, 7, 1 (8, 8, 8, 8, 8, 8, 8, 8, 9, 9, 9, 9, 9, 10, 10, 10, 10, 10))
+Elevador 1: 7 (254, 7, 1 (8, 9, 10))
+Elevador 1: 8 (254, 7, 1 (9, 10))
+Elevador 1: 9 (254, 7, 1 (10))
+Elevador 1: 10 (254, 7, 1 ())
+Elevador 1 finalizou a tarefa 254
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 267
+Elevador 1: 10 (267, 7, 0 (6, 6, 5, 5, 4, 2, 1, 1, 0, 0, 0))
+Elevador 1: 7 (267, 7, 0 (6, 5, 4, 2, 1, 0))
+Elevador 1: 6 (267, 7, 0 (5, 4, 2, 1, 0))
+Elevador 1: 5 (267, 7, 0 (4, 2, 1, 0))
+Elevador 1: 4 (267, 7, 0 (2, 1, 0))
+Elevador 1: 2 (267, 7, 0 (1, 0))
+Elevador 1: 1 (267, 7, 0 (0))
+Elevador 1: 0 (267, 7, 0 ())
+Elevador 1 finalizou a tarefa 267
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 369
+Elevador 1: 0 (369, 3, 0 (2, 2, 1, 1, 1, 1, 1, 1, 0, 0))
+Elevador 1: 3 (369, 3, 0 (2, 1, 0))
+Elevador 1: 2 (369, 3, 0 (1, 0))
+Elevador 1: 1 (369, 3, 0 (0))
+Elevador 1: 0 (369, 3, 0 ())
+Elevador 1 finalizou a tarefa 369
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 370
+Elevador 1: 0 (370, 3, 0 (2, 1, 1, 1, 0))
+Elevador 1: 3 (370, 3, 0 (2, 1, 0))
+Elevador 1: 2 (370, 3, 0 (1, 0))
+Elevador 1: 1 (370, 3, 0 (0))
+Elevador 1: 0 (370, 3, 0 ())
+Elevador 1 finalizou a tarefa 370
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 374
+Elevador 1: 0 (374, 3, 1 (4, 5, 5, 5, 6, 6, 7, 7, 8, 9, 9, 9, 10, 10, 10))
+Elevador 1: 3 (374, 3, 1 (4, 5, 6, 7, 8, 9, 10))
+Elevador 1: 4 (374, 3, 1 (5, 6, 7, 8, 9, 10))
+Elevador 1: 5 (374, 3, 1 (6, 7, 8, 9, 10))
+Elevador 1: 6 (374, 3, 1 (7, 8, 9, 10))
+Elevador 1: 7 (374, 3, 1 (8, 9, 10))
+Elevador 1: 8 (374, 3, 1 (9, 10))
+Elevador 1: 9 (374, 3, 1 (10))
+Elevador 1: 10 (374, 3, 1 ())
+Elevador 1 finalizou a tarefa 374
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 293
+Elevador 1: 10 (293, 7, 1 (8, 8, 8, 8, 8, 8, 9, 9, 9, 9, 10, 10, 10, 10, 10, 10))
+Elevador 1: 7 (293, 7, 1 (8, 9, 10))
+Elevador 1: 8 (293, 7, 1 (9, 10))
+Elevador 1: 9 (293, 7, 1 (10))
+Elevador 1: 10 (293, 7, 1 ())
+Elevador 1 finalizou a tarefa 293
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 298
+Elevador 1: 10 (298, 7, 1 (8, 8, 8, 8, 8, 9, 9, 9, 9, 9, 9, 10, 10, 10, 10, 10))
+Elevador 1: 7 (298, 7, 1 (8, 9, 10))
+Elevador 1: 8 (298, 7, 1 (9, 10))
+Elevador 1: 9 (298, 7, 1 (10))
+Elevador 1: 10 (298, 7, 1 ())
+Elevador 1 finalizou a tarefa 298
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 319
+Elevador 1: 10 (319, 7, 1 (8, 8, 8, 9, 9, 10, 10, 10))
+Elevador 1: 7 (319, 7, 1 (8, 9, 10))
+Elevador 1: 8 (319, 7, 1 (9, 10))
+Elevador 1: 9 (319, 7, 1 (10))
+Elevador 1: 10 (319, 7, 1 ())
+Elevador 1 finalizou a tarefa 319
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 324
+Elevador 1: 10 (324, 7, 0 (6, 5, 5, 4, 4, 2, 1, 1, 0, 0, 0, 0))
+Elevador 1: 7 (324, 7, 0 (6, 5, 4, 2, 1, 0))
+Elevador 1: 6 (324, 7, 0 (5, 4, 2, 1, 0))
+Elevador 1: 5 (324, 7, 0 (4, 2, 1, 0))
+Elevador 1: 4 (324, 7, 0 (2, 1, 0))
+Elevador 1: 2 (324, 7, 0 (1, 0))
+Elevador 1: 1 (324, 7, 0 (0))
+Elevador 1: 0 (324, 7, 0 ())
+Elevador 1 finalizou a tarefa 324
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 395
+Elevador 1: 0 (395, 3, 0 (2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0))
+Elevador 1: 3 (395, 3, 0 (2, 1, 0))
+Elevador 1: 2 (395, 3, 0 (1, 0))
+Elevador 1: 1 (395, 3, 0 (0))
+Elevador 1: 0 (395, 3, 0 ())
+Elevador 1 finalizou a tarefa 395
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 497
+Elevador 1: 0 (497, 3, 1 (4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8, 9, 9, 10, 10, 10, 10))
+Elevador 1: 3 (497, 3, 1 (4, 5, 6, 7, 8, 9, 10))
+Elevador 1: 4 (497, 3, 1 (5, 6, 7, 8, 9, 10))
+Elevador 1: 5 (497, 3, 1 (6, 7, 8, 9, 10))
+Elevador 1: 6 (497, 3, 1 (7, 8, 9, 10))
+Elevador 1: 7 (497, 3, 1 (8, 9, 10))
+Elevador 1: 8 (497, 3, 1 (9, 10))
+Elevador 1: 9 (497, 3, 1 (10))
+Elevador 1: 10 (497, 3, 1 ())
+Elevador 1 finalizou a tarefa 497
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 331
+Elevador 1: 10 (331, 7, 0 (5, 5, 3, 3, 3, 2, 2, 2, 2, 1))
+Elevador 1: 7 (331, 7, 0 (5, 3, 2, 1))
+Elevador 1: 5 (331, 7, 0 (3, 2, 1))
+Elevador 1: 3 (331, 7, 0 (2, 1))
+Elevador 1: 2 (331, 7, 0 (1))
+Elevador 1: 1 (331, 7, 0 ())
+Elevador 1 finalizou a tarefa 331
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 501
+Elevador 1: 1 (501, 3, 0 (2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 0))
+Elevador 1: 3 (501, 3, 0 (2, 1, 0))
+Elevador 1: 2 (501, 3, 0 (1, 0))
+Elevador 1: 1 (501, 3, 0 (0))
+Elevador 1: 0 (501, 3, 0 ())
+Elevador 1 finalizou a tarefa 501
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 509
+Elevador 1: 0 (509, 3, 0 (2, 2, 2, 2, 1, 1, 1, 0, 0, 0, 0, 0))
+Elevador 1: 3 (509, 3, 0 (2, 1, 0))
+Elevador 1: 2 (509, 3, 0 (1, 0))
+Elevador 1: 1 (509, 3, 0 (0))
+Elevador 1: 0 (509, 3, 0 ())
+Elevador 1 finalizou a tarefa 509
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 511
+Elevador 1: 0 (511, 3, 1 (4, 4, 4, 4, 4, 5, 5, 6, 6, 7, 7, 7, 8, 8, 9, 9, 9, 10, 10, 10))
+Elevador 1: 3 (511, 3, 1 (4, 5, 6, 7, 8, 9, 10))
+Elevador 1: 4 (511, 3, 1 (5, 6, 7, 8, 9, 10))
+Elevador 1: 5 (511, 3, 1 (6, 7, 8, 9, 10))
+Elevador 1: 6 (511, 3, 1 (7, 8, 9, 10))
+Elevador 1: 7 (511, 3, 1 (8, 9, 10))
+Elevador 1: 8 (511, 3, 1 (9, 10))
+Elevador 1: 9 (511, 3, 1 (10))
+Elevador 1: 10 (511, 3, 1 ())
+Elevador 1 finalizou a tarefa 511
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 332
+Elevador 1: 10 (332, 7, 0 (6, 5, 5, 4, 4, 4, 4, 4, 3, 2, 1, 0, 0, 0, 0))
+Elevador 1: 7 (332, 7, 0 (6, 5, 4, 3, 2, 1, 0))
+Elevador 1: 6 (332, 7, 0 (5, 4, 3, 2, 1, 0))
+Elevador 1: 5 (332, 7, 0 (4, 3, 2, 1, 0))
+Elevador 1: 4 (332, 7, 0 (3, 2, 1, 0))
+Elevador 1: 3 (332, 7, 0 (2, 1, 0))
+Elevador 1: 2 (332, 7, 0 (1, 0))
+Elevador 1: 1 (332, 7, 0 (0))
+Elevador 1: 0 (332, 7, 0 ())
+Elevador 1 finalizou a tarefa 332
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 513
+Elevador 1: 0 (513, 3, 1 (9, 9))
+Elevador 1: 3 (513, 3, 1 (9))
+Elevador 1: 9 (513, 3, 1 ())
+Elevador 1 finalizou a tarefa 513
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 337
+Elevador 1: 9 (337, 7, 0 (5, 4, 4, 4, 0, 0, 0, 0, 0))
+Elevador 1: 7 (337, 7, 0 (5, 4, 0))
+Elevador 1: 5 (337, 7, 0 (4, 0))
+Elevador 1: 4 (337, 7, 0 (0))
+Elevador 1: 0 (337, 7, 0 ())
+Elevador 1 finalizou a tarefa 337
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 540
+Elevador 1: 0 (540, 3, 0 (2, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0))
+Elevador 1: 3 (540, 3, 0 (2, 1, 0))
+Elevador 1: 2 (540, 3, 0 (1, 0))
+Elevador 1: 1 (540, 3, 0 (0))
+Elevador 1: 0 (540, 3, 0 ())
+Elevador 1 finalizou a tarefa 540
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 542
+Elevador 1: 0 (542, 3, 1 (5, 5, 6, 9))
+Elevador 1: 3 (542, 3, 1 (5, 6, 9))
+Elevador 1: 5 (542, 3, 1 (6, 9))
+Elevador 1: 6 (542, 3, 1 (9))
+Elevador 1: 9 (542, 3, 1 ())
+Elevador 1 finalizou a tarefa 542
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 339
+Elevador 1: 9 (339, 7, 0 (6, 6, 6, 6, 5, 5, 5, 3, 3, 3, 3, 3, 2, 2, 1, 0, 0, 0, 0))
+Elevador 1: 7 (339, 7, 0 (6, 5, 3, 2, 1, 0))
+Elevador 1: 6 (339, 7, 0 (5, 3, 2, 1, 0))
+Elevador 1: 5 (339, 7, 0 (3, 2, 1, 0))
+Elevador 1: 3 (339, 7, 0 (2, 1, 0))
+Elevador 1: 2 (339, 7, 0 (1, 0))
+Elevador 1: 1 (339, 7, 0 (0))
+Elevador 1: 0 (339, 7, 0 ())
+Elevador 1 finalizou a tarefa 339
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 550
+Elevador 1: 0 (550, 3, 0 (2, 1, 1, 1, 1, 0, 0))
+Elevador 1: 3 (550, 3, 0 (2, 1, 0))
+Elevador 1: 2 (550, 3, 0 (1, 0))
+Elevador 1: 1 (550, 3, 0 (0))
+Elevador 1: 0 (550, 3, 0 ())
+Elevador 1 finalizou a tarefa 550
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 566
+Elevador 1: 0 (566, 3, 1 (4, 4, 4, 4, 5, 5, 6, 6, 6, 6, 7, 8, 9, 10, 10, 10, 10))
+Elevador 1: 3 (566, 3, 1 (4, 5, 6, 7, 8, 9, 10))
+Elevador 1: 4 (566, 3, 1 (5, 6, 7, 8, 9, 10))
+Elevador 1: 5 (566, 3, 1 (6, 7, 8, 9, 10))
+Elevador 1: 6 (566, 3, 1 (7, 8, 9, 10))
+Elevador 1: 7 (566, 3, 1 (8, 9, 10))
+Elevador 1: 8 (566, 3, 1 (9, 10))
+Elevador 1: 9 (566, 3, 1 (10))
+Elevador 1: 10 (566, 3, 1 ())
+Elevador 1 finalizou a tarefa 566
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 343
+Elevador 1: 10 (343, 7, 0 (5, 5, 5, 3, 2, 2, 0, 0))
+Elevador 1: 7 (343, 7, 0 (5, 3, 2, 0))
+Elevador 1: 5 (343, 7, 0 (3, 2, 0))
+Elevador 1: 3 (343, 7, 0 (2, 0))
+Elevador 1: 2 (343, 7, 0 (0))
+Elevador 1: 0 (343, 7, 0 ())
+Elevador 1 finalizou a tarefa 343
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 571
+Elevador 1: 0 (571, 3, 1 (4, 5, 5, 5, 6, 6, 6, 6, 7, 7, 8, 8, 9, 9, 9, 10, 10, 10, 10))
+Elevador 1: 3 (571, 3, 1 (4, 5, 6, 7, 8, 9, 10))
+Elevador 1: 4 (571, 3, 1 (5, 6, 7, 8, 9, 10))
+Elevador 1: 5 (571, 3, 1 (6, 7, 8, 9, 10))
+Elevador 1: 6 (571, 3, 1 (7, 8, 9, 10))
+Elevador 1: 7 (571, 3, 1 (8, 9, 10))
+Elevador 1: 8 (571, 3, 1 (9, 10))
+Elevador 1: 9 (571, 3, 1 (10))
+Elevador 1: 10 (571, 3, 1 ())
+Elevador 1 finalizou a tarefa 571
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 354
+Elevador 1: 10 (354, 7, 1 (8, 8, 8, 8, 8, 8, 8, 8, 9, 9, 9, 9, 9, 9, 10, 10, 10, 10))
+Elevador 1: 7 (354, 7, 1 (8, 9, 10))
+Elevador 1: 8 (354, 7, 1 (9, 10))
+Elevador 1: 9 (354, 7, 1 (10))
+Elevador 1: 10 (354, 7, 1 ())
+Elevador 1 finalizou a tarefa 354
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 359
+Elevador 1: 10 (359, 7, 0 (6, 6, 4, 2, 1))
+Elevador 1: 7 (359, 7, 0 (6, 4, 2, 1))
+Elevador 1: 6 (359, 7, 0 (4, 2, 1))
+Elevador 1: 4 (359, 7, 0 (2, 1))
+Elevador 1: 2 (359, 7, 0 (1))
+Elevador 1: 1 (359, 7, 0 ())
+Elevador 1 finalizou a tarefa 359
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 572
+Elevador 1: 1 (572, 3, 1 (4, 4, 4, 4, 5, 8, 8, 8, 9, 10, 10))
+Elevador 1: 3 (572, 3, 1 (4, 5, 8, 9, 10))
+Elevador 1: 4 (572, 3, 1 (5, 8, 9, 10))
+Elevador 1: 5 (572, 3, 1 (8, 9, 10))
+Elevador 1: 8 (572, 3, 1 (9, 10))
+Elevador 1: 9 (572, 3, 1 (10))
+Elevador 1: 10 (572, 3, 1 ())
+Elevador 1 finalizou a tarefa 572
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 364
+Elevador 1: 10 (364, 7, 1 (9, 10, 10))
+Elevador 1: 7 (364, 7, 1 (9, 10))
+Elevador 1: 9 (364, 7, 1 (10))
+Elevador 1: 10 (364, 7, 1 ())
+Elevador 1 finalizou a tarefa 364
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 384
+Elevador 1: 10 (384, 7, 1 (8, 8, 8, 8, 9, 9, 9, 9, 9, 9, 9, 10, 10, 10, 10, 10, 10))
+Elevador 1: 7 (384, 7, 1 (8, 9, 10))
+Elevador 1: 8 (384, 7, 1 (9, 10))
+Elevador 1: 9 (384, 7, 1 (10))
+Elevador 1: 10 (384, 7, 1 ())
+Elevador 1 finalizou a tarefa 384
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 389
+Elevador 1: 10 (389, 7, 1 (9, 10, 10, 10, 10))
+Elevador 1: 7 (389, 7, 1 (9, 10))
+Elevador 1: 9 (389, 7, 1 (10))
+Elevador 1: 10 (389, 7, 1 ())
+Elevador 1 finalizou a tarefa 389
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 402
+Elevador 1: 10 (402, 7, 1 (8, 8, 8, 8, 8, 8, 9, 9, 9, 9, 10, 10, 10, 10, 10, 10))
+Elevador 1: 7 (402, 7, 1 (8, 9, 10))
+Elevador 1: 8 (402, 7, 1 (9, 10))
+Elevador 1: 9 (402, 7, 1 (10))
+Elevador 1: 10 (402, 7, 1 ())
+Elevador 1 finalizou a tarefa 402
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 405
+Elevador 1: 10 (405, 7, 1 (8, 9, 10))
+Elevador 1: 7 (405, 7, 1 (8, 9, 10))
+Elevador 1: 8 (405, 7, 1 (9, 10))
+Elevador 1: 9 (405, 7, 1 (10))
+Elevador 1: 10 (405, 7, 1 ())
+Elevador 1 finalizou a tarefa 405
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 407
+Elevador 1: 10 (407, 7, 1 (8, 8, 8, 8, 8, 9, 9, 9, 9, 10, 10, 10, 10, 10))
+Elevador 1: 7 (407, 7, 1 (8, 9, 10))
+Elevador 1: 8 (407, 7, 1 (9, 10))
+Elevador 1: 9 (407, 7, 1 (10))
+Elevador 1: 10 (407, 7, 1 ())
+Elevador 1 finalizou a tarefa 407
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 410
+Elevador 1: 10 (410, 7, 1 (8, 8, 8, 8, 8, 8, 8, 8, 9, 9, 9, 9, 9, 9, 10, 10, 10, 10, 10))
+Elevador 1: 7 (410, 7, 1 (8, 9, 10))
+Elevador 1: 8 (410, 7, 1 (9, 10))
+Elevador 1: 9 (410, 7, 1 (10))
+Elevador 1: 10 (410, 7, 1 ())
+Elevador 1 finalizou a tarefa 410
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 419
+Elevador 1: 10 (419, 7, 1 (8, 8, 9, 9, 9, 9, 9))
+Elevador 1: 7 (419, 7, 1 (8, 9))
+Elevador 1: 8 (419, 7, 1 (9))
+Elevador 1: 9 (419, 7, 1 ())
+Elevador 1 finalizou a tarefa 419
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 426
+Elevador 1: 9 (426, 7, 1 (8, 9, 9, 9, 9, 10, 10, 10, 10, 10))
+Elevador 1: 7 (426, 7, 1 (8, 9, 10))
+Elevador 1: 8 (426, 7, 1 (9, 10))
+Elevador 1: 9 (426, 7, 1 (10))
+Elevador 1: 10 (426, 7, 1 ())
+Elevador 1 finalizou a tarefa 426
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 427
+Elevador 1: 10 (427, 7, 1 (8, 9, 9, 10))
+Elevador 1: 7 (427, 7, 1 (8, 9, 10))
+Elevador 1: 8 (427, 7, 1 (9, 10))
+Elevador 1: 9 (427, 7, 1 (10))
+Elevador 1: 10 (427, 7, 1 ())
+Elevador 1 finalizou a tarefa 427
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 429
+Elevador 1: 10 (429, 7, 1 (8, 8, 8, 8, 9, 9, 9, 9, 9, 9, 10, 10, 10, 10, 10, 10))
+Elevador 1: 7 (429, 7, 1 (8, 9, 10))
+Elevador 1: 8 (429, 7, 1 (9, 10))
+Elevador 1: 9 (429, 7, 1 (10))
+Elevador 1: 10 (429, 7, 1 ())
+Elevador 1 finalizou a tarefa 429
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 473
+Elevador 1: 10 (473, 7, 1 (8, 8, 8, 9, 9, 9, 9, 10, 10, 10, 10, 10))
+Elevador 1: 7 (473, 7, 1 (8, 9, 10))
+Elevador 1: 8 (473, 7, 1 (9, 10))
+Elevador 1: 9 (473, 7, 1 (10))
+Elevador 1: 10 (473, 7, 1 ())
+Elevador 1 finalizou a tarefa 473
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 531
+Elevador 1: 10 (531, 7, 0 (6, 5, 3, 3, 3, 2, 2, 0, 0))
+Elevador 1: 7 (531, 7, 0 (6, 5, 3, 2, 0))
+Elevador 1: 6 (531, 7, 0 (5, 3, 2, 0))
+Elevador 1: 5 (531, 7, 0 (3, 2, 0))
+Elevador 1: 3 (531, 7, 0 (2, 0))
+Elevador 1: 2 (531, 7, 0 (0))
+Elevador 1: 0 (531, 7, 0 ())
+Elevador 1 finalizou a tarefa 531
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 877
+Elevador 1: 0 (877, 3, 0 (2, 2, 2, 2, 2, 1, 1, 1, 0, 0, 0))
+Elevador 1: 3 (877, 3, 0 (2, 1, 0))
+Elevador 1: 2 (877, 3, 0 (1, 0))
+Elevador 1: 1 (877, 3, 0 (0))
+Elevador 1: 0 (877, 3, 0 ())
+Elevador 1 finalizou a tarefa 877
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 892
+Elevador 1: 0 (892, 3, 1 (4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 8, 8, 9, 10, 10, 10))
+Elevador 1: 3 (892, 3, 1 (4, 5, 6, 7, 8, 9, 10))
+Elevador 1: 4 (892, 3, 1 (5, 6, 7, 8, 9, 10))
+Elevador 1: 5 (892, 3, 1 (6, 7, 8, 9, 10))
+Elevador 1: 6 (892, 3, 1 (7, 8, 9, 10))
+Elevador 1: 7 (892, 3, 1 (8, 9, 10))
+Elevador 1: 8 (892, 3, 1 (9, 10))
+Elevador 1: 9 (892, 3, 1 (10))
+Elevador 1: 10 (892, 3, 1 ())
+Elevador 1 finalizou a tarefa 892
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 665
+Elevador 1: 10 (665, 7, 0 (6, 5, 4, 3, 3, 2, 2, 2, 2, 2, 1, 1, 1, 1, 0, 0, 0))
+Elevador 1: 7 (665, 7, 0 (6, 5, 4, 3, 2, 1, 0))
+Elevador 1: 6 (665, 7, 0 (5, 4, 3, 2, 1, 0))
+Elevador 1: 5 (665, 7, 0 (4, 3, 2, 1, 0))
+Elevador 1: 4 (665, 7, 0 (3, 2, 1, 0))
+Elevador 1: 3 (665, 7, 0 (2, 1, 0))
+Elevador 1: 2 (665, 7, 0 (1, 0))
+Elevador 1: 1 (665, 7, 0 (0))
+Elevador 1: 0 (665, 7, 0 ())
+Elevador 1 finalizou a tarefa 665
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 349
+Elevador 1: 0 (349, 4, 0 (3, 3, 3, 3, 3, 3, 2, 2, 2, 2, 1, 1, 0, 0, 0, 0, 0, 0))
+Elevador 1: 4 (349, 4, 0 (3, 2, 1, 0))
+Elevador 1: 3 (349, 4, 0 (2, 1, 0))
+Elevador 1: 2 (349, 4, 0 (1, 0))
+Elevador 1: 1 (349, 4, 0 (0))
+Elevador 1: 0 (349, 4, 0 ())
+Elevador 1 finalizou a tarefa 349
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 356
+Elevador 1: 0 (356, 4, 1 (5, 5, 5, 6, 7, 7, 7, 8, 8, 9, 9, 10, 10, 10, 10, 10))
+Elevador 1: 4 (356, 4, 1 (5, 6, 7, 8, 9, 10))
+Elevador 1: 5 (356, 4, 1 (6, 7, 8, 9, 10))
+Elevador 1: 6 (356, 4, 1 (7, 8, 9, 10))
+Elevador 1: 7 (356, 4, 1 (8, 9, 10))
+Elevador 1: 8 (356, 4, 1 (9, 10))
+Elevador 1: 9 (356, 4, 1 (10))
+Elevador 1: 10 (356, 4, 1 ())
+Elevador 1 finalizou a tarefa 356
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 127
+Elevador 1: 10 (127, 6, 0 (5, 5, 5, 5, 5, 4, 4, 3, 2, 1, 0))
+Elevador 1: 6 (127, 6, 0 (5, 4, 3, 2, 1, 0))
+Elevador 1: 5 (127, 6, 0 (4, 3, 2, 1, 0))
+Elevador 1: 4 (127, 6, 0 (3, 2, 1, 0))
+Elevador 1: 3 (127, 6, 0 (2, 1, 0))
+Elevador 1: 2 (127, 6, 0 (1, 0))
+Elevador 1: 1 (127, 6, 0 (0))
+Elevador 1: 0 (127, 6, 0 ())
+Elevador 1 finalizou a tarefa 127
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 363
+Elevador 1: 0 (363, 4, 0 (3, 3, 3, 2, 2, 2, 2, 1, 1, 1, 1, 1, 0))
+Elevador 1: 4 (363, 4, 0 (3, 2, 1, 0))
+Elevador 1: 3 (363, 4, 0 (2, 1, 0))
+Elevador 1: 2 (363, 4, 0 (1, 0))
+Elevador 1: 1 (363, 4, 0 (0))
+Elevador 1: 0 (363, 4, 0 ())
+Elevador 1 finalizou a tarefa 363
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 372
+Elevador 1: 0 (372, 4, 1 (5))
+Elevador 1: 4 (372, 4, 1 (5))
+Elevador 1: 5 (372, 4, 1 ())
+Elevador 1 finalizou a tarefa 372
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 65
+Elevador 1: 5 (65, 5, 0 (4, 4, 3, 3, 2, 0, 0, 0, 0))
+Elevador 1: 5 (65, 5, 0 (4, 3, 2, 0))
+Elevador 1: 4 (65, 5, 0 (3, 2, 0))
+Elevador 1: 3 (65, 5, 0 (2, 0))
+Elevador 1: 2 (65, 5, 0 (0))
+Elevador 1: 0 (65, 5, 0 ())
+Elevador 1 finalizou a tarefa 65
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 397
+Elevador 1: 0 (397, 4, 1 (5, 5, 5, 5, 5, 6, 6, 7, 9, 9, 10, 10, 10))
+Elevador 1: 4 (397, 4, 1 (5, 6, 7, 9, 10))
+Elevador 1: 5 (397, 4, 1 (6, 7, 9, 10))
+Elevador 1: 6 (397, 4, 1 (7, 9, 10))
+Elevador 1: 7 (397, 4, 1 (9, 10))
+Elevador 1: 9 (397, 4, 1 (10))
+Elevador 1: 10 (397, 4, 1 ())
+Elevador 1 finalizou a tarefa 397
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 137
+Elevador 1: 10 (137, 6, 0 (4, 3))
+Elevador 1: 6 (137, 6, 0 (4, 3))
+Elevador 1: 4 (137, 6, 0 (3))
+Elevador 1: 3 (137, 6, 0 ())
+Elevador 1 finalizou a tarefa 137
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 399
+Elevador 1: 3 (399, 4, 0 (3, 2, 2))
+Elevador 1: 4 (399, 4, 0 (3, 2))
+Elevador 1: 3 (399, 4, 0 (2))
+Elevador 1: 2 (399, 4, 0 ())
+Elevador 1 finalizou a tarefa 399
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 404
+Elevador 1: 2 (404, 4, 1 (5, 6, 6, 6, 6, 6, 7, 7, 7, 7, 7, 8, 9, 9, 9, 10))
+Elevador 1: 4 (404, 4, 1 (5, 6, 7, 8, 9, 10))
+Elevador 1: 5 (404, 4, 1 (6, 7, 8, 9, 10))
+Elevador 1: 6 (404, 4, 1 (7, 8, 9, 10))
+Elevador 1: 7 (404, 4, 1 (8, 9, 10))
+Elevador 1: 8 (404, 4, 1 (9, 10))
+Elevador 1: 9 (404, 4, 1 (10))
+Elevador 1: 10 (404, 4, 1 ())
+Elevador 1 finalizou a tarefa 404
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 139
+Elevador 1: 10 (139, 6, 1 (7, 7, 7, 7, 8, 8, 8, 9, 9, 9, 9, 10, 10, 10))
+Elevador 1: 6 (139, 6, 1 (7, 8, 9, 10))
+Elevador 1: 7 (139, 6, 1 (8, 9, 10))
+Elevador 1: 8 (139, 6, 1 (9, 10))
+Elevador 1: 9 (139, 6, 1 (10))
+Elevador 1: 10 (139, 6, 1 ())
+Elevador 1 finalizou a tarefa 139
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 148
+Elevador 1: 10 (148, 6, 1 (8))
+Elevador 1: 6 (148, 6, 1 (8))
+Elevador 1: 8 (148, 6, 1 ())
+Elevador 1 finalizou a tarefa 148
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 149
+Elevador 1: 8 (149, 6, 0 (5, 3, 3, 1))
+Elevador 1: 6 (149, 6, 0 (5, 3, 1))
+Elevador 1: 5 (149, 6, 0 (3, 1))
+Elevador 1: 3 (149, 6, 0 (1))
+Elevador 1: 1 (149, 6, 0 ())
+Elevador 1 finalizou a tarefa 149
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 408
+Elevador 1: 1 (408, 4, 1 (8, 9, 10))
+Elevador 1: 4 (408, 4, 1 (8, 9, 10))
+Elevador 1: 8 (408, 4, 1 (9, 10))
+Elevador 1: 9 (408, 4, 1 (10))
+Elevador 1: 10 (408, 4, 1 ())
+Elevador 1 finalizou a tarefa 408
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 151
+Elevador 1: 10 (151, 6, 1 (9, 9, 9, 10))
+Elevador 1: 6 (151, 6, 1 (9, 10))
+Elevador 1: 9 (151, 6, 1 (10))
+Elevador 1: 10 (151, 6, 1 ())
+Elevador 1 finalizou a tarefa 151
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 155
+Elevador 1: 10 (155, 6, 0 (5, 5, 5, 4, 3, 3, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 0, 0))
+Elevador 1: 6 (155, 6, 0 (5, 4, 3, 2, 1, 0))
+Elevador 1: 5 (155, 6, 0 (4, 3, 2, 1, 0))
+Elevador 1: 4 (155, 6, 0 (3, 2, 1, 0))
+Elevador 1: 3 (155, 6, 0 (2, 1, 0))
+Elevador 1: 2 (155, 6, 0 (1, 0))
+Elevador 1: 1 (155, 6, 0 (0))
+Elevador 1: 0 (155, 6, 0 ())
+Elevador 1 finalizou a tarefa 155
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 409
+Elevador 1: 0 (409, 4, 0 (3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 0, 0))
+Elevador 1: 4 (409, 4, 0 (3, 2, 1, 0))
+Elevador 1: 3 (409, 4, 0 (2, 1, 0))
+Elevador 1: 2 (409, 4, 0 (1, 0))
+Elevador 1: 1 (409, 4, 0 (0))
+Elevador 1: 0 (409, 4, 0 ())
+Elevador 1 finalizou a tarefa 409
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 421
+Elevador 1: 0 (421, 4, 0 (3, 3, 3, 3, 3, 2, 2, 2, 1, 1, 0))
+Elevador 1: 4 (421, 4, 0 (3, 2, 1, 0))
+Elevador 1: 3 (421, 4, 0 (2, 1, 0))
+Elevador 1: 2 (421, 4, 0 (1, 0))
+Elevador 1: 1 (421, 4, 0 (0))
+Elevador 1: 0 (421, 4, 0 ())
+Elevador 1 finalizou a tarefa 421
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 424
+Elevador 1: 0 (424, 4, 0 (3, 1, 0))
+Elevador 1: 4 (424, 4, 0 (3, 1, 0))
+Elevador 1: 3 (424, 4, 0 (1, 0))
+Elevador 1: 1 (424, 4, 0 (0))
+Elevador 1: 0 (424, 4, 0 ())
+Elevador 1 finalizou a tarefa 424
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 431
+Elevador 1: 0 (431, 4, 1 (9, 10, 10))
+Elevador 1: 4 (431, 4, 1 (9, 10))
+Elevador 1: 9 (431, 4, 1 (10))
+Elevador 1: 10 (431, 4, 1 ())
+Elevador 1 finalizou a tarefa 431
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 162
+Elevador 1: 10 (162, 6, 1 (7, 8, 8, 8, 8, 8, 8, 9, 9, 10, 10, 10))
+Elevador 1: 6 (162, 6, 1 (7, 8, 9, 10))
+Elevador 1: 7 (162, 6, 1 (8, 9, 10))
+Elevador 1: 8 (162, 6, 1 (9, 10))
+Elevador 1: 9 (162, 6, 1 (10))
+Elevador 1: 10 (162, 6, 1 ())
+Elevador 1 finalizou a tarefa 162
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 165
+Elevador 1: 10 (165, 6, 1 (7, 7, 8, 8, 9, 9, 10, 10))
+Elevador 1: 6 (165, 6, 1 (7, 8, 9, 10))
+Elevador 1: 7 (165, 6, 1 (8, 9, 10))
+Elevador 1: 8 (165, 6, 1 (9, 10))
+Elevador 1: 9 (165, 6, 1 (10))
+Elevador 1: 10 (165, 6, 1 ())
+Elevador 1 finalizou a tarefa 165
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 167
+Elevador 1: 10 (167, 6, 0 (4, 3, 3, 1, 1, 0, 0))
+Elevador 1: 6 (167, 6, 0 (4, 3, 1, 0))
+Elevador 1: 4 (167, 6, 0 (3, 1, 0))
+Elevador 1: 3 (167, 6, 0 (1, 0))
+Elevador 1: 1 (167, 6, 0 (0))
+Elevador 1: 0 (167, 6, 0 ())
+Elevador 1 finalizou a tarefa 167
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 479
+Elevador 1: 0 (479, 4, 0 (3, 3, 2, 2, 2, 1, 1, 1, 0, 0))
+Elevador 1: 4 (479, 4, 0 (3, 2, 1, 0))
+Elevador 1: 3 (479, 4, 0 (2, 1, 0))
+Elevador 1: 2 (479, 4, 0 (1, 0))
+Elevador 1: 1 (479, 4, 0 (0))
+Elevador 1: 0 (479, 4, 0 ())
+Elevador 1 finalizou a tarefa 479
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 481
+Elevador 1: 0 (481, 4, 1 (6, 7, 8, 10, 10, 10))
+Elevador 1: 4 (481, 4, 1 (6, 7, 8, 10))
+Elevador 1: 6 (481, 4, 1 (7, 8, 10))
+Elevador 1: 7 (481, 4, 1 (8, 10))
+Elevador 1: 8 (481, 4, 1 (10))
+Elevador 1: 10 (481, 4, 1 ())
+Elevador 1 finalizou a tarefa 481
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 168
+Elevador 1: 10 (168, 6, 1 (8, 8, 8, 8, 8, 9, 10, 10))
+Elevador 1: 6 (168, 6, 1 (8, 9, 10))
+Elevador 1: 8 (168, 6, 1 (9, 10))
+Elevador 1: 9 (168, 6, 1 (10))
+Elevador 1: 10 (168, 6, 1 ())
+Elevador 1 finalizou a tarefa 168
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 172
+Elevador 1: 10 (172, 6, 1 (7, 7, 9))
+Elevador 1: 6 (172, 6, 1 (7, 9))
+Elevador 1: 7 (172, 6, 1 (9))
+Elevador 1: 9 (172, 6, 1 ())
+Elevador 1 finalizou a tarefa 172
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 179
+Elevador 1: 9 (179, 6, 1 (7, 7, 7, 7, 7, 8, 8, 8, 8, 8, 9, 9, 9, 10, 10, 10))
+Elevador 1: 6 (179, 6, 1 (7, 8, 9, 10))
+Elevador 1: 7 (179, 6, 1 (8, 9, 10))
+Elevador 1: 8 (179, 6, 1 (9, 10))
+Elevador 1: 9 (179, 6, 1 (10))
+Elevador 1: 10 (179, 6, 1 ())
+Elevador 1 finalizou a tarefa 179
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 182
+Elevador 1: 10 (182, 6, 0 (5, 4, 2, 2, 2, 1, 1, 1, 1, 0, 0, 0))
+Elevador 1: 6 (182, 6, 0 (5, 4, 2, 1, 0))
+Elevador 1: 5 (182, 6, 0 (4, 2, 1, 0))
+Elevador 1: 4 (182, 6, 0 (2, 1, 0))
+Elevador 1: 2 (182, 6, 0 (1, 0))
+Elevador 1: 1 (182, 6, 0 (0))
+Elevador 1: 0 (182, 6, 0 ())
+Elevador 1 finalizou a tarefa 182
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 488
+Elevador 1: 0 (488, 4, 1 (5))
+Elevador 1: 4 (488, 4, 1 (5))
+Elevador 1: 5 (488, 4, 1 ())
+Elevador 1 finalizou a tarefa 488
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 66
+Elevador 1: 5 (66, 5, 1 (7, 8, 9, 10))
+Elevador 1: 5 (66, 5, 1 (7, 8, 9, 10))
+Elevador 1: 7 (66, 5, 1 (8, 9, 10))
+Elevador 1: 8 (66, 5, 1 (9, 10))
+Elevador 1: 9 (66, 5, 1 (10))
+Elevador 1: 10 (66, 5, 1 ())
+Elevador 1 finalizou a tarefa 66
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 188
+Elevador 1: 10 (188, 6, 1 (7, 7, 7, 7, 7, 7, 7, 7, 8, 8, 8, 9, 9, 9, 9, 9, 10, 10, 10))
+Elevador 1: 6 (188, 6, 1 (7, 8, 9, 10))
+Elevador 1: 7 (188, 6, 1 (8, 9, 10))
+Elevador 1: 8 (188, 6, 1 (9, 10))
+Elevador 1: 9 (188, 6, 1 (10))
+Elevador 1: 10 (188, 6, 1 ())
+Elevador 1 finalizou a tarefa 188
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 194
+Elevador 1: 10 (194, 6, 0 (5, 5, 5, 5, 5, 5, 4, 3, 3, 3, 2, 2, 2, 1, 1, 0, 0, 0))
+Elevador 1: 6 (194, 6, 0 (5, 4, 3, 2, 1, 0))
+Elevador 1: 5 (194, 6, 0 (4, 3, 2, 1, 0))
+Elevador 1: 4 (194, 6, 0 (3, 2, 1, 0))
+Elevador 1: 3 (194, 6, 0 (2, 1, 0))
+Elevador 1: 2 (194, 6, 0 (1, 0))
+Elevador 1: 1 (194, 6, 0 (0))
+Elevador 1: 0 (194, 6, 0 ())
+Elevador 1 finalizou a tarefa 194
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 516
+Elevador 1: 0 (516, 4, 1 (5, 5, 5, 5, 5, 6, 6, 7, 7, 7, 8, 8, 8, 9, 9, 9, 9, 10, 10))
+Elevador 1: 4 (516, 4, 1 (5, 6, 7, 8, 9, 10))
+Elevador 1: 5 (516, 4, 1 (6, 7, 8, 9, 10))
+Elevador 1: 6 (516, 4, 1 (7, 8, 9, 10))
+Elevador 1: 7 (516, 4, 1 (8, 9, 10))
+Elevador 1: 8 (516, 4, 1 (9, 10))
+Elevador 1: 9 (516, 4, 1 (10))
+Elevador 1: 10 (516, 4, 1 ())
+Elevador 1 finalizou a tarefa 516
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 213
+Elevador 1: 10 (213, 6, 1 (7, 7, 7, 8, 8, 8, 8, 8, 8, 9, 9, 9, 10, 10, 10, 10, 10))
+Elevador 1: 6 (213, 6, 1 (7, 8, 9, 10))
+Elevador 1: 7 (213, 6, 1 (8, 9, 10))
+Elevador 1: 8 (213, 6, 1 (9, 10))
+Elevador 1: 9 (213, 6, 1 (10))
+Elevador 1: 10 (213, 6, 1 ())
+Elevador 1 finalizou a tarefa 213
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 227
+Elevador 1: 10 (227, 6, 1 (7, 7, 7, 7, 7, 8, 8, 8, 8, 8, 9, 9, 10, 10, 10, 10))
+Elevador 1: 6 (227, 6, 1 (7, 8, 9, 10))
+Elevador 1: 7 (227, 6, 1 (8, 9, 10))
+Elevador 1: 8 (227, 6, 1 (9, 10))
+Elevador 1: 9 (227, 6, 1 (10))
+Elevador 1: 10 (227, 6, 1 ())
+Elevador 1 finalizou a tarefa 227
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 238
+Elevador 1: 10 (238, 6, 1 (7, 8, 8, 8, 8, 9, 9, 9, 9, 9, 9, 9, 10, 10, 10, 10, 10, 10, 10))
+Elevador 1: 6 (238, 6, 1 (7, 8, 9, 10))
+Elevador 1: 7 (238, 6, 1 (8, 9, 10))
+Elevador 1: 8 (238, 6, 1 (9, 10))
+Elevador 1: 9 (238, 6, 1 (10))
+Elevador 1: 10 (238, 6, 1 ())
+Elevador 1 finalizou a tarefa 238
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 241
+Elevador 1: 10 (241, 6, 1 (7, 8, 8, 8, 8, 8, 9, 9, 9, 9, 10, 10, 10, 10, 10, 10, 10))
+Elevador 1: 6 (241, 6, 1 (7, 8, 9, 10))
+Elevador 1: 7 (241, 6, 1 (8, 9, 10))
+Elevador 1: 8 (241, 6, 1 (9, 10))
+Elevador 1: 9 (241, 6, 1 (10))
+Elevador 1: 10 (241, 6, 1 ())
+Elevador 1 finalizou a tarefa 241
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 250
+Elevador 1: 10 (250, 6, 0 (2, 1))
+Elevador 1: 6 (250, 6, 0 (2, 1))
+Elevador 1: 2 (250, 6, 0 (1))
+Elevador 1: 1 (250, 6, 0 ())
+Elevador 1 finalizou a tarefa 250
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 523
+Elevador 1: 1 (523, 4, 0 (3, 2, 2, 1, 0, 0, 0, 0, 0, 0))
+Elevador 1: 4 (523, 4, 0 (3, 2, 1, 0))
+Elevador 1: 3 (523, 4, 0 (2, 1, 0))
+Elevador 1: 2 (523, 4, 0 (1, 0))
+Elevador 1: 1 (523, 4, 0 (0))
+Elevador 1: 0 (523, 4, 0 ())
+Elevador 1 finalizou a tarefa 523
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 526
+Elevador 1: 0 (526, 4, 1 (5, 5, 6, 6, 7, 8, 9, 9, 10, 10))
+Elevador 1: 4 (526, 4, 1 (5, 6, 7, 8, 9, 10))
+Elevador 1: 5 (526, 4, 1 (6, 7, 8, 9, 10))
+Elevador 1: 6 (526, 4, 1 (7, 8, 9, 10))
+Elevador 1: 7 (526, 4, 1 (8, 9, 10))
+Elevador 1: 8 (526, 4, 1 (9, 10))
+Elevador 1: 9 (526, 4, 1 (10))
+Elevador 1: 10 (526, 4, 1 ())
+Elevador 1 finalizou a tarefa 526
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 257
+Elevador 1: 10 (257, 6, 0 (5, 5, 5, 5, 5, 5, 2, 1, 1, 1, 1, 1, 0, 0, 0))
+Elevador 1: 6 (257, 6, 0 (5, 2, 1, 0))
+Elevador 1: 5 (257, 6, 0 (2, 1, 0))
+Elevador 1: 2 (257, 6, 0 (1, 0))
+Elevador 1: 1 (257, 6, 0 (0))
+Elevador 1: 0 (257, 6, 0 ())
+Elevador 1 finalizou a tarefa 257
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 527
+Elevador 1: 0 (527, 4, 0 (3, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 1, 1, 1, 0, 0))
+Elevador 1: 4 (527, 4, 0 (3, 2, 1, 0))
+Elevador 1: 3 (527, 4, 0 (2, 1, 0))
+Elevador 1: 2 (527, 4, 0 (1, 0))
+Elevador 1: 1 (527, 4, 0 (0))
+Elevador 1: 0 (527, 4, 0 ())
+Elevador 1 finalizou a tarefa 527
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 539
+Elevador 1: 0 (539, 4, 0 (3, 3, 3, 3, 3, 3, 1, 1, 1, 0, 0, 0, 0))
+Elevador 1: 4 (539, 4, 0 (3, 1, 0))
+Elevador 1: 3 (539, 4, 0 (1, 0))
+Elevador 1: 1 (539, 4, 0 (0))
+Elevador 1: 0 (539, 4, 0 ())
+Elevador 1 finalizou a tarefa 539
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 543
+Elevador 1: 0 (543, 4, 1 (7))
+Elevador 1: 4 (543, 4, 1 (7))
+Elevador 1: 7 (543, 4, 1 ())
+Elevador 1 finalizou a tarefa 543
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 261
+Elevador 1: 7 (261, 6, 1 (7, 7, 7, 7, 7, 8, 8, 9, 9, 9, 9, 10))
+Elevador 1: 6 (261, 6, 1 (7, 8, 9, 10))
+Elevador 1: 7 (261, 6, 1 (8, 9, 10))
+Elevador 1: 8 (261, 6, 1 (9, 10))
+Elevador 1: 9 (261, 6, 1 (10))
+Elevador 1: 10 (261, 6, 1 ())
+Elevador 1 finalizou a tarefa 261
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 263
+Elevador 1: 10 (263, 6, 1 (7, 7, 8, 8, 8, 8, 8, 8, 8, 8, 9, 9, 9, 10))
+Elevador 1: 6 (263, 6, 1 (7, 8, 9, 10))
+Elevador 1: 7 (263, 6, 1 (8, 9, 10))
+Elevador 1: 8 (263, 6, 1 (9, 10))
+Elevador 1: 9 (263, 6, 1 (10))
+Elevador 1: 10 (263, 6, 1 ())
+Elevador 1 finalizou a tarefa 263
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 283
+Elevador 1: 10 (283, 6, 1 (7, 7, 8, 9, 9, 10, 10))
+Elevador 1: 6 (283, 6, 1 (7, 8, 9, 10))
+Elevador 1: 7 (283, 6, 1 (8, 9, 10))
+Elevador 1: 8 (283, 6, 1 (9, 10))
+Elevador 1: 9 (283, 6, 1 (10))
+Elevador 1: 10 (283, 6, 1 ())
+Elevador 1 finalizou a tarefa 283
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 366
+Elevador 1: 10 (366, 6, 0 (5, 5, 5, 5, 4, 4, 3, 3, 3, 3, 2, 1, 0, 0, 0))
+Elevador 1: 6 (366, 6, 0 (5, 4, 3, 2, 1, 0))
+Elevador 1: 5 (366, 6, 0 (4, 3, 2, 1, 0))
+Elevador 1: 4 (366, 6, 0 (3, 2, 1, 0))
+Elevador 1: 3 (366, 6, 0 (2, 1, 0))
+Elevador 1: 2 (366, 6, 0 (1, 0))
+Elevador 1: 1 (366, 6, 0 (0))
+Elevador 1: 0 (366, 6, 0 ())
+Elevador 1 finalizou a tarefa 366
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 601
+Elevador 1: 0 (601, 4, 0 (3, 3, 2, 2, 1, 0, 0, 0, 0))
+Elevador 1: 4 (601, 4, 0 (3, 2, 1, 0))
+Elevador 1: 3 (601, 4, 0 (2, 1, 0))
+Elevador 1: 2 (601, 4, 0 (1, 0))
+Elevador 1: 1 (601, 4, 0 (0))
+Elevador 1: 0 (601, 4, 0 ())
+Elevador 1 finalizou a tarefa 601
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 617
+Elevador 1: 0 (617, 4, 0 (3, 3, 3, 3, 3, 3, 3, 3, 2, 2, 1, 1, 1, 0, 0, 0))
+Elevador 1: 4 (617, 4, 0 (3, 2, 1, 0))
+Elevador 1: 3 (617, 4, 0 (2, 1, 0))
+Elevador 1: 2 (617, 4, 0 (1, 0))
+Elevador 1: 1 (617, 4, 0 (0))
+Elevador 1: 0 (617, 4, 0 ())
+Elevador 1 finalizou a tarefa 617
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 624
+Elevador 1: 0 (624, 4, 0 (3, 3, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0))
+Elevador 1: 4 (624, 4, 0 (3, 2, 1, 0))
+Elevador 1: 3 (624, 4, 0 (2, 1, 0))
+Elevador 1: 2 (624, 4, 0 (1, 0))
+Elevador 1: 1 (624, 4, 0 (0))
+Elevador 1: 0 (624, 4, 0 ())
+Elevador 1 finalizou a tarefa 624
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 627
+Elevador 1: 0 (627, 4, 0 (3, 3, 3, 3, 3, 2, 2, 2, 2, 1, 1, 1, 1, 0, 0, 0))
+Elevador 1: 4 (627, 4, 0 (3, 2, 1, 0))
+Elevador 1: 3 (627, 4, 0 (2, 1, 0))
+Elevador 1: 2 (627, 4, 0 (1, 0))
+Elevador 1: 1 (627, 4, 0 (0))
+Elevador 1: 0 (627, 4, 0 ())
+Elevador 1 finalizou a tarefa 627
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 631
+Elevador 1: 0 (631, 4, 0 (3, 3, 2, 2, 2, 1, 0, 0))
+Elevador 1: 4 (631, 4, 0 (3, 2, 1, 0))
+Elevador 1: 3 (631, 4, 0 (2, 1, 0))
+Elevador 1: 2 (631, 4, 0 (1, 0))
+Elevador 1: 1 (631, 4, 0 (0))
+Elevador 1: 0 (631, 4, 0 ())
+Elevador 1 finalizou a tarefa 631
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 682
+Elevador 1: 0 (682, 4, 0 (3, 2, 2, 2, 1, 1, 0, 0))
+Elevador 1: 4 (682, 4, 0 (3, 2, 1, 0))
+Elevador 1: 3 (682, 4, 0 (2, 1, 0))
+Elevador 1: 2 (682, 4, 0 (1, 0))
+Elevador 1: 1 (682, 4, 0 (0))
+Elevador 1: 0 (682, 4, 0 ())
+Elevador 1 finalizou a tarefa 682
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 689
+Elevador 1: 0 (689, 4, 0 (3, 2, 1, 0))
+Elevador 1: 4 (689, 4, 0 (3, 2, 1, 0))
+Elevador 1: 3 (689, 4, 0 (2, 1, 0))
+Elevador 1: 2 (689, 4, 0 (1, 0))
+Elevador 1: 1 (689, 4, 0 (0))
+Elevador 1: 0 (689, 4, 0 ())
+Elevador 1 finalizou a tarefa 689
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 697
+Elevador 1: 0 (697, 4, 1 (5, 5, 5, 5, 5, 6, 7, 7, 7, 7, 8, 9, 9, 10))
+Elevador 1: 4 (697, 4, 1 (5, 6, 7, 8, 9, 10))
+Elevador 1: 5 (697, 4, 1 (6, 7, 8, 9, 10))
+Elevador 1: 6 (697, 4, 1 (7, 8, 9, 10))
+Elevador 1: 7 (697, 4, 1 (8, 9, 10))
+Elevador 1: 8 (697, 4, 1 (9, 10))
+Elevador 1: 9 (697, 4, 1 (10))
+Elevador 1: 10 (697, 4, 1 ())
+Elevador 1 finalizou a tarefa 697
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 375
+Elevador 1: 10 (375, 6, 1 (7, 7, 8, 8, 8, 9, 9, 9, 9, 10, 10, 10, 10, 10, 10, 10, 10))
+Elevador 1: 6 (375, 6, 1 (7, 8, 9, 10))
+Elevador 1: 7 (375, 6, 1 (8, 9, 10))
+Elevador 1: 8 (375, 6, 1 (9, 10))
+Elevador 1: 9 (375, 6, 1 (10))
+Elevador 1: 10 (375, 6, 1 ())
+Elevador 1 finalizou a tarefa 375
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 381
+Elevador 1: 10 (381, 6, 1 (7, 7, 7, 7, 7, 8, 8, 8, 8, 8, 9, 9, 9, 10, 10))
+Elevador 1: 6 (381, 6, 1 (7, 8, 9, 10))
+Elevador 1: 7 (381, 6, 1 (8, 9, 10))
+Elevador 1: 8 (381, 6, 1 (9, 10))
+Elevador 1: 9 (381, 6, 1 (10))
+Elevador 1: 10 (381, 6, 1 ())
+Elevador 1 finalizou a tarefa 381
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 382
+Elevador 1: 10 (382, 6, 1 (7, 8, 8, 9))
+Elevador 1: 6 (382, 6, 1 (7, 8, 9))
+Elevador 1: 7 (382, 6, 1 (8, 9))
+Elevador 1: 8 (382, 6, 1 (9))
+Elevador 1: 9 (382, 6, 1 ())
+Elevador 1 finalizou a tarefa 382
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 396
+Elevador 1: 9 (396, 6, 1 (7, 7, 7, 7, 7, 8, 8, 8, 8, 8, 8, 9, 10, 10, 10, 10, 10, 10))
+Elevador 1: 6 (396, 6, 1 (7, 8, 9, 10))
+Elevador 1: 7 (396, 6, 1 (8, 9, 10))
+Elevador 1: 8 (396, 6, 1 (9, 10))
+Elevador 1: 9 (396, 6, 1 (10))
+Elevador 1: 10 (396, 6, 1 ())
+Elevador 1 finalizou a tarefa 396
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 412
+Elevador 1: 10 (412, 6, 0 (5, 5, 4, 4, 4, 3, 3, 3, 2, 2, 2, 1, 1, 0, 0, 0))
+Elevador 1: 6 (412, 6, 0 (5, 4, 3, 2, 1, 0))
+Elevador 1: 5 (412, 6, 0 (4, 3, 2, 1, 0))
+Elevador 1: 4 (412, 6, 0 (3, 2, 1, 0))
+Elevador 1: 3 (412, 6, 0 (2, 1, 0))
+Elevador 1: 2 (412, 6, 0 (1, 0))
+Elevador 1: 1 (412, 6, 0 (0))
+Elevador 1: 0 (412, 6, 0 ())
+Elevador 1 finalizou a tarefa 412
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 713
+Elevador 1: 0 (713, 4, 1 (5, 5, 5, 5, 5, 7, 7, 8, 8, 8, 8, 9, 10))
+Elevador 1: 4 (713, 4, 1 (5, 7, 8, 9, 10))
+Elevador 1: 5 (713, 4, 1 (7, 8, 9, 10))
+Elevador 1: 7 (713, 4, 1 (8, 9, 10))
+Elevador 1: 8 (713, 4, 1 (9, 10))
+Elevador 1: 9 (713, 4, 1 (10))
+Elevador 1: 10 (713, 4, 1 ())
+Elevador 1 finalizou a tarefa 713
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 415
+Elevador 1: 10 (415, 6, 1 (7, 7, 7, 7, 8, 8, 8, 8, 8, 8, 9, 9, 9, 10, 10, 10, 10, 10, 10, 10))
+Elevador 1: 6 (415, 6, 1 (7, 8, 9, 10))
+Elevador 1: 7 (415, 6, 1 (8, 9, 10))
+Elevador 1: 8 (415, 6, 1 (9, 10))
+Elevador 1: 9 (415, 6, 1 (10))
+Elevador 1: 10 (415, 6, 1 ())
+Elevador 1 finalizou a tarefa 415
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 430
+Elevador 1: 10 (430, 6, 0 (0))
+Elevador 1: 6 (430, 6, 0 (0))
+Elevador 1: 0 (430, 6, 0 ())
+Elevador 1 finalizou a tarefa 430
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 722
+Elevador 1: 0 (722, 4, 0 (3, 3, 3, 3, 2, 2, 2, 1, 1, 1, 0, 0, 0, 0, 0, 0))
+Elevador 1: 4 (722, 4, 0 (3, 2, 1, 0))
+Elevador 1: 3 (722, 4, 0 (2, 1, 0))
+Elevador 1: 2 (722, 4, 0 (1, 0))
+Elevador 1: 1 (722, 4, 0 (0))
+Elevador 1: 0 (722, 4, 0 ())
+Elevador 1 finalizou a tarefa 722
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 724
+Elevador 1: 0 (724, 4, 1 (5, 5, 5, 6, 7, 7, 8, 9, 9, 10, 10, 10))
+Elevador 1: 4 (724, 4, 1 (5, 6, 7, 8, 9, 10))
+Elevador 1: 5 (724, 4, 1 (6, 7, 8, 9, 10))
+Elevador 1: 6 (724, 4, 1 (7, 8, 9, 10))
+Elevador 1: 7 (724, 4, 1 (8, 9, 10))
+Elevador 1: 8 (724, 4, 1 (9, 10))
+Elevador 1: 9 (724, 4, 1 (10))
+Elevador 1: 10 (724, 4, 1 ())
+Elevador 1 finalizou a tarefa 724
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 461
+Elevador 1: 10 (461, 6, 0 (4, 4))
+Elevador 1: 6 (461, 6, 0 (4))
+Elevador 1: 4 (461, 6, 0 ())
+Elevador 1 finalizou a tarefa 461
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 743
+Elevador 1: 4 (743, 4, 0 (3, 2, 1))
+Elevador 1: 4 (743, 4, 0 (3, 2, 1))
+Elevador 1: 3 (743, 4, 0 (2, 1))
+Elevador 1: 2 (743, 4, 0 (1))
+Elevador 1: 1 (743, 4, 0 ())
+Elevador 1 finalizou a tarefa 743
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 745
+Elevador 1: 1 (745, 4, 0 (2, 2, 2, 2, 2, 1, 1, 1, 1))
+Elevador 1: 4 (745, 4, 0 (2, 1))
+Elevador 1: 2 (745, 4, 0 (1))
+Elevador 1: 1 (745, 4, 0 ())
+Elevador 1 finalizou a tarefa 745
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 750
+Elevador 1: 1 (750, 4, 1 (5, 5, 5, 5, 5, 6, 7, 8, 10, 10))
+Elevador 1: 4 (750, 4, 1 (5, 6, 7, 8, 10))
+Elevador 1: 5 (750, 4, 1 (6, 7, 8, 10))
+Elevador 1: 6 (750, 4, 1 (7, 8, 10))
+Elevador 1: 7 (750, 4, 1 (8, 10))
+Elevador 1: 8 (750, 4, 1 (10))
+Elevador 1: 10 (750, 4, 1 ())
+Elevador 1 finalizou a tarefa 750
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 557
+Elevador 1: 10 (557, 6, 0 (5, 5, 5, 4, 4, 3, 3, 3, 3, 3, 3, 2, 1, 1, 0))
+Elevador 1: 6 (557, 6, 0 (5, 4, 3, 2, 1, 0))
+Elevador 1: 5 (557, 6, 0 (4, 3, 2, 1, 0))
+Elevador 1: 4 (557, 6, 0 (3, 2, 1, 0))
+Elevador 1: 3 (557, 6, 0 (2, 1, 0))
+Elevador 1: 2 (557, 6, 0 (1, 0))
+Elevador 1: 1 (557, 6, 0 (0))
+Elevador 1: 0 (557, 6, 0 ())
+Elevador 1 finalizou a tarefa 557
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 911
+Elevador 1: 0 (911, 4, 0 (2, 2, 2, 1, 1, 1, 1, 0))
+Elevador 1: 4 (911, 4, 0 (2, 1, 0))
+Elevador 1: 2 (911, 4, 0 (1, 0))
+Elevador 1: 1 (911, 4, 0 (0))
+Elevador 1: 0 (911, 4, 0 ())
+Elevador 1 finalizou a tarefa 911
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 952
+Elevador 1: 0 (952, 4, 0 (3, 3, 3, 3, 2, 2, 2, 1, 0, 0, 0, 0))
+Elevador 1: 4 (952, 4, 0 (3, 2, 1, 0))
+Elevador 1: 3 (952, 4, 0 (2, 1, 0))
+Elevador 1: 2 (952, 4, 0 (1, 0))
+Elevador 1: 1 (952, 4, 0 (0))
+Elevador 1: 0 (952, 4, 0 ())
+Elevador 1 finalizou a tarefa 952
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 955
+Elevador 1: 0 (955, 4, 0 (3, 1, 1, 0, 0))
+Elevador 1: 4 (955, 4, 0 (3, 1, 0))
+Elevador 1: 3 (955, 4, 0 (1, 0))
+Elevador 1: 1 (955, 4, 0 (0))
+Elevador 1: 0 (955, 4, 0 ())
+Elevador 1 finalizou a tarefa 955
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 958
+Elevador 1: 0 (958, 4, 0 (3, 3, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 0, 0, 0))
+Elevador 1: 4 (958, 4, 0 (3, 2, 1, 0))
+Elevador 1: 3 (958, 4, 0 (2, 1, 0))
+Elevador 1: 2 (958, 4, 0 (1, 0))
+Elevador 1: 1 (958, 4, 0 (0))
+Elevador 1: 0 (958, 4, 0 ())
+Elevador 1 finalizou a tarefa 958
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 961
+Elevador 1: 0 (961, 4, 0 (3, 3, 2, 2, 2, 1, 1, 1, 0))
+Elevador 1: 4 (961, 4, 0 (3, 2, 1, 0))
+Elevador 1: 3 (961, 4, 0 (2, 1, 0))
+Elevador 1: 2 (961, 4, 0 (1, 0))
+Elevador 1: 1 (961, 4, 0 (0))
+Elevador 1: 0 (961, 4, 0 ())
+Elevador 1 finalizou a tarefa 961
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 980
+Elevador 1: 0 (980, 4, 1 (5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10))
+Elevador 1: 4 (980, 4, 1 (5, 6, 7, 8, 9, 10))
+Elevador 1: 5 (980, 4, 1 (6, 7, 8, 9, 10))
+Elevador 1: 6 (980, 4, 1 (7, 8, 9, 10))
+Elevador 1: 7 (980, 4, 1 (8, 9, 10))
+Elevador 1: 8 (980, 4, 1 (9, 10))
+Elevador 1: 9 (980, 4, 1 (10))
+Elevador 1: 10 (980, 4, 1 ())
+Elevador 1 finalizou a tarefa 980
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 605
+Elevador 1: 10 (605, 6, 1 (7, 7, 7, 7, 7, 8, 9, 9, 9, 9, 9, 9, 10, 10, 10, 10, 10))
+Elevador 1: 6 (605, 6, 1 (7, 8, 9, 10))
+Elevador 1: 7 (605, 6, 1 (8, 9, 10))
+Elevador 1: 8 (605, 6, 1 (9, 10))
+Elevador 1: 9 (605, 6, 1 (10))
+Elevador 1: 10 (605, 6, 1 ())
+Elevador 1 finalizou a tarefa 605
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 646
+Elevador 1: 10 (646, 6, 0 (5, 5, 5, 5, 4, 4, 3, 2, 1, 1, 0, 0, 0, 0, 0, 0))
+Elevador 1: 6 (646, 6, 0 (5, 4, 3, 2, 1, 0))
+Elevador 1: 5 (646, 6, 0 (4, 3, 2, 1, 0))
+Elevador 1: 4 (646, 6, 0 (3, 2, 1, 0))
+Elevador 1: 3 (646, 6, 0 (2, 1, 0))
+Elevador 1: 2 (646, 6, 0 (1, 0))
+Elevador 1: 1 (646, 6, 0 (0))
+Elevador 1: 0 (646, 6, 0 ())
+Elevador 1 finalizou a tarefa 646
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 983
+Elevador 1: 0 (983, 4, 1 (5, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8, 8, 8, 8, 9, 9, 9, 10, 10, 10))
+Elevador 1: 4 (983, 4, 1 (5, 6, 7, 8, 9, 10))
+Elevador 1: 5 (983, 4, 1 (6, 7, 8, 9, 10))
+Elevador 1: 6 (983, 4, 1 (7, 8, 9, 10))
+Elevador 1: 7 (983, 4, 1 (8, 9, 10))
+Elevador 1: 8 (983, 4, 1 (9, 10))
+Elevador 1: 9 (983, 4, 1 (10))
+Elevador 1: 10 (983, 4, 1 ())
+Elevador 1 finalizou a tarefa 983
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 664
+Elevador 1: 10 (664, 6, 0 (5, 5))
+Elevador 1: 6 (664, 6, 0 (5))
+Elevador 1: 5 (664, 6, 0 ())
+Elevador 1 finalizou a tarefa 664
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 68
+Elevador 1: 5 (68, 5, 1 (6, 6, 6, 7, 7, 8, 8, 9, 9, 9, 10))
+Elevador 1: 5 (68, 5, 1 (6, 7, 8, 9, 10))
+Elevador 1: 6 (68, 5, 1 (7, 8, 9, 10))
+Elevador 1: 7 (68, 5, 1 (8, 9, 10))
+Elevador 1: 8 (68, 5, 1 (9, 10))
+Elevador 1: 9 (68, 5, 1 (10))
+Elevador 1: 10 (68, 5, 1 ())
+Elevador 1 finalizou a tarefa 68
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 679
+Elevador 1: 10 (679, 6, 0 (3, 3, 2, 0))
+Elevador 1: 6 (679, 6, 0 (3, 2, 0))
+Elevador 1: 3 (679, 6, 0 (2, 0))
+Elevador 1: 2 (679, 6, 0 (0))
+Elevador 1: 0 (679, 6, 0 ())
+Elevador 1 finalizou a tarefa 679
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 984
+Elevador 1: 0 (984, 4, 1 (5, 5, 7, 8, 8, 9, 10))
+Elevador 1: 4 (984, 4, 1 (5, 7, 8, 9, 10))
+Elevador 1: 5 (984, 4, 1 (7, 8, 9, 10))
+Elevador 1: 7 (984, 4, 1 (8, 9, 10))
+Elevador 1: 8 (984, 4, 1 (9, 10))
+Elevador 1: 9 (984, 4, 1 (10))
+Elevador 1: 10 (984, 4, 1 ())
+Elevador 1 finalizou a tarefa 984
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 693
+Elevador 1: 10 (693, 6, 1 (7, 8, 8, 8, 8, 8, 8, 8, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 10, 10))
+Elevador 1: 6 (693, 6, 1 (7, 8, 9, 10))
+Elevador 1: 7 (693, 6, 1 (8, 9, 10))
+Elevador 1: 8 (693, 6, 1 (9, 10))
+Elevador 1: 9 (693, 6, 1 (10))
+Elevador 1: 10 (693, 6, 1 ())
+Elevador 1 finalizou a tarefa 693
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 695
+Elevador 1: 10 (695, 6, 0 (5, 5, 4, 4, 3, 3, 3, 3, 3, 2, 2, 2, 0, 0, 0))
+Elevador 1: 6 (695, 6, 0 (5, 4, 3, 2, 0))
+Elevador 1: 5 (695, 6, 0 (4, 3, 2, 0))
+Elevador 1: 4 (695, 6, 0 (3, 2, 0))
+Elevador 1: 3 (695, 6, 0 (2, 0))
+Elevador 1: 2 (695, 6, 0 (0))
+Elevador 1: 0 (695, 6, 0 ())
+Elevador 1 finalizou a tarefa 695
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 996
+Elevador 1: 0 (996, 4, 0 (3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 1, 1, 1, 0, 0, 0, 0, 0))
+Elevador 1: 4 (996, 4, 0 (3, 2, 1, 0))
+Elevador 1: 3 (996, 4, 0 (2, 1, 0))
+Elevador 1: 2 (996, 4, 0 (1, 0))
+Elevador 1: 1 (996, 4, 0 (0))
+Elevador 1: 0 (996, 4, 0 ())
+Elevador 1 finalizou a tarefa 996
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 107
+Elevador 1: 0 (107, 5, 1 (7, 9))
+Elevador 1: 5 (107, 5, 1 (7, 9))
+Elevador 1: 7 (107, 5, 1 (9))
+Elevador 1: 9 (107, 5, 1 ())
+Elevador 1 finalizou a tarefa 107
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 733
+Elevador 1: 9 (733, 6, 0 (3, 3, 3, 3, 3, 1, 0, 0))
+Elevador 1: 6 (733, 6, 0 (3, 1, 0))
+Elevador 1: 3 (733, 6, 0 (1, 0))
+Elevador 1: 1 (733, 6, 0 (0))
+Elevador 1: 0 (733, 6, 0 ())
+Elevador 1 finalizou a tarefa 733
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 159
+Elevador 1: 0 (159, 5, 0 (1))
+Elevador 1: 5 (159, 5, 0 (1))
+Elevador 1: 1 (159, 5, 0 ())
+Elevador 1 finalizou a tarefa 159
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 160
+Elevador 1: 1 (160, 5, 1 (6, 7, 7, 8, 8, 9, 10, 10, 10, 10, 10, 10))
+Elevador 1: 5 (160, 5, 1 (6, 7, 8, 9, 10))
+Elevador 1: 6 (160, 5, 1 (7, 8, 9, 10))
+Elevador 1: 7 (160, 5, 1 (8, 9, 10))
+Elevador 1: 8 (160, 5, 1 (9, 10))
+Elevador 1: 9 (160, 5, 1 (10))
+Elevador 1: 10 (160, 5, 1 ())
+Elevador 1 finalizou a tarefa 160
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 769
+Elevador 1: 10 (769, 6, 0 (4, 1, 1, 0, 0))
+Elevador 1: 6 (769, 6, 0 (4, 1, 0))
+Elevador 1: 4 (769, 6, 0 (1, 0))
+Elevador 1: 1 (769, 6, 0 (0))
+Elevador 1: 0 (769, 6, 0 ())
+Elevador 1 finalizou a tarefa 769
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 191
+Elevador 1: 0 (191, 5, 0 (4, 4, 4, 3, 3, 3, 3, 2, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0))
+Elevador 1: 5 (191, 5, 0 (4, 3, 2, 1, 0))
+Elevador 1: 4 (191, 5, 0 (3, 2, 1, 0))
+Elevador 1: 3 (191, 5, 0 (2, 1, 0))
+Elevador 1: 2 (191, 5, 0 (1, 0))
+Elevador 1: 1 (191, 5, 0 (0))
+Elevador 1: 0 (191, 5, 0 ())
+Elevador 1 finalizou a tarefa 191
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 199
+Elevador 1: 0 (199, 5, 1 (6, 6, 7, 7, 7, 8, 8, 8, 9, 10, 10))
+Elevador 1: 5 (199, 5, 1 (6, 7, 8, 9, 10))
+Elevador 1: 6 (199, 5, 1 (7, 8, 9, 10))
+Elevador 1: 7 (199, 5, 1 (8, 9, 10))
+Elevador 1: 8 (199, 5, 1 (9, 10))
+Elevador 1: 9 (199, 5, 1 (10))
+Elevador 1: 10 (199, 5, 1 ())
+Elevador 1 finalizou a tarefa 199
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 791
+Elevador 1: 10 (791, 6, 0 (0))
+Elevador 1: 6 (791, 6, 0 (0))
+Elevador 1: 0 (791, 6, 0 ())
+Elevador 1 finalizou a tarefa 791
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 204
+Elevador 1: 0 (204, 5, 0 (4, 4, 3, 3, 3, 2, 1, 0))
+Elevador 1: 5 (204, 5, 0 (4, 3, 2, 1, 0))
+Elevador 1: 4 (204, 5, 0 (3, 2, 1, 0))
+Elevador 1: 3 (204, 5, 0 (2, 1, 0))
+Elevador 1: 2 (204, 5, 0 (1, 0))
+Elevador 1: 1 (204, 5, 0 (0))
+Elevador 1: 0 (204, 5, 0 ())
+Elevador 1 finalizou a tarefa 204
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 214
+Elevador 1: 0 (214, 5, 0 (3, 1))
+Elevador 1: 5 (214, 5, 0 (3, 1))
+Elevador 1: 3 (214, 5, 0 (1))
+Elevador 1: 1 (214, 5, 0 ())
+Elevador 1 finalizou a tarefa 214
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 282
+Elevador 1: 1 (282, 5, 1 (6, 6, 8, 9))
+Elevador 1: 5 (282, 5, 1 (6, 8, 9))
+Elevador 1: 6 (282, 5, 1 (8, 9))
+Elevador 1: 8 (282, 5, 1 (9))
+Elevador 1: 9 (282, 5, 1 ())
+Elevador 1 finalizou a tarefa 282
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 794
+Elevador 1: 9 (794, 6, 1 (8, 9, 10, 10))
+Elevador 1: 6 (794, 6, 1 (8, 9, 10))
+Elevador 1: 8 (794, 6, 1 (9, 10))
+Elevador 1: 9 (794, 6, 1 (10))
+Elevador 1: 10 (794, 6, 1 ())
+Elevador 1 finalizou a tarefa 794
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 800
+Elevador 1: 10 (800, 6, 0 (5, 5, 5, 4, 4, 4, 3, 3, 2, 2, 2, 2, 2, 1, 0))
+Elevador 1: 6 (800, 6, 0 (5, 4, 3, 2, 1, 0))
+Elevador 1: 5 (800, 6, 0 (4, 3, 2, 1, 0))
+Elevador 1: 4 (800, 6, 0 (3, 2, 1, 0))
+Elevador 1: 3 (800, 6, 0 (2, 1, 0))
+Elevador 1: 2 (800, 6, 0 (1, 0))
+Elevador 1: 1 (800, 6, 0 (0))
+Elevador 1: 0 (800, 6, 0 ())
+Elevador 1 finalizou a tarefa 800
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 300
+Elevador 1: 0 (300, 5, 1 (6, 6, 7, 7, 7, 8, 8, 8, 8, 9, 9, 9, 9, 10, 10, 10, 10, 10, 10))
+Elevador 1: 5 (300, 5, 1 (6, 7, 8, 9, 10))
+Elevador 1: 6 (300, 5, 1 (7, 8, 9, 10))
+Elevador 1: 7 (300, 5, 1 (8, 9, 10))
+Elevador 1: 8 (300, 5, 1 (9, 10))
+Elevador 1: 9 (300, 5, 1 (10))
+Elevador 1: 10 (300, 5, 1 ())
+Elevador 1 finalizou a tarefa 300
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 819
+Elevador 1: 10 (819, 6, 0 (5, 5, 4, 4, 4, 3, 3, 3, 3, 3, 2, 2, 2, 1, 0))
+Elevador 1: 6 (819, 6, 0 (5, 4, 3, 2, 1, 0))
+Elevador 1: 5 (819, 6, 0 (4, 3, 2, 1, 0))
+Elevador 1: 4 (819, 6, 0 (3, 2, 1, 0))
+Elevador 1: 3 (819, 6, 0 (2, 1, 0))
+Elevador 1: 2 (819, 6, 0 (1, 0))
+Elevador 1: 1 (819, 6, 0 (0))
+Elevador 1: 0 (819, 6, 0 ())
+Elevador 1 finalizou a tarefa 819
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 353
+Elevador 1: 0 (353, 5, 1 (6, 6, 7, 7, 7, 7, 7, 8, 8, 9, 9, 9, 10, 10))
+Elevador 1: 5 (353, 5, 1 (6, 7, 8, 9, 10))
+Elevador 1: 6 (353, 5, 1 (7, 8, 9, 10))
+Elevador 1: 7 (353, 5, 1 (8, 9, 10))
+Elevador 1: 8 (353, 5, 1 (9, 10))
+Elevador 1: 9 (353, 5, 1 (10))
+Elevador 1: 10 (353, 5, 1 ())
+Elevador 1 finalizou a tarefa 353
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 826
+Elevador 1: 10 (826, 6, 0 (5, 5, 5, 4, 4, 4, 4, 4, 3, 3, 2, 2, 2, 1, 1, 1, 1, 0))
+Elevador 1: 6 (826, 6, 0 (5, 4, 3, 2, 1, 0))
+Elevador 1: 5 (826, 6, 0 (4, 3, 2, 1, 0))
+Elevador 1: 4 (826, 6, 0 (3, 2, 1, 0))
+Elevador 1: 3 (826, 6, 0 (2, 1, 0))
+Elevador 1: 2 (826, 6, 0 (1, 0))
+Elevador 1: 1 (826, 6, 0 (0))
+Elevador 1: 0 (826, 6, 0 ())
+Elevador 1 finalizou a tarefa 826
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 360
+Elevador 1: 0 (360, 5, 1 (6, 7, 7, 8, 10, 10, 10, 10))
+Elevador 1: 5 (360, 5, 1 (6, 7, 8, 10))
+Elevador 1: 6 (360, 5, 1 (7, 8, 10))
+Elevador 1: 7 (360, 5, 1 (8, 10))
+Elevador 1: 8 (360, 5, 1 (10))
+Elevador 1: 10 (360, 5, 1 ())
+Elevador 1 finalizou a tarefa 360
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 890
+Elevador 1: 10 (890, 6, 0 (5, 5, 4, 3, 3, 3, 3, 3, 2, 2, 1, 1, 0, 0))
+Elevador 1: 6 (890, 6, 0 (5, 4, 3, 2, 1, 0))
+Elevador 1: 5 (890, 6, 0 (4, 3, 2, 1, 0))
+Elevador 1: 4 (890, 6, 0 (3, 2, 1, 0))
+Elevador 1: 3 (890, 6, 0 (2, 1, 0))
+Elevador 1: 2 (890, 6, 0 (1, 0))
+Elevador 1: 1 (890, 6, 0 (0))
+Elevador 1: 0 (890, 6, 0 ())
+Elevador 1 finalizou a tarefa 890
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 398
+Elevador 1: 0 (398, 5, 1 (6, 8))
+Elevador 1: 5 (398, 5, 1 (6, 8))
+Elevador 1: 6 (398, 5, 1 (8))
+Elevador 1: 8 (398, 5, 1 ())
+Elevador 1 finalizou a tarefa 398
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 893
+Elevador 1: 8 (893, 6, 0 (4, 4, 4, 4, 1, 1))
+Elevador 1: 6 (893, 6, 0 (4, 1))
+Elevador 1: 4 (893, 6, 0 (1))
+Elevador 1: 1 (893, 6, 0 ())
+Elevador 1 finalizou a tarefa 893
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 432
+Elevador 1: 1 (432, 5, 1 (6, 9, 10))
+Elevador 1: 5 (432, 5, 1 (6, 9, 10))
+Elevador 1: 6 (432, 5, 1 (9, 10))
+Elevador 1: 9 (432, 5, 1 (10))
+Elevador 1: 10 (432, 5, 1 ())
+Elevador 1 finalizou a tarefa 432
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 914
+Elevador 1: 10 (914, 6, 0 (5, 5, 4, 3, 2, 2, 1, 1, 1, 0))
+Elevador 1: 6 (914, 6, 0 (5, 4, 3, 2, 1, 0))
+Elevador 1: 5 (914, 6, 0 (4, 3, 2, 1, 0))
+Elevador 1: 4 (914, 6, 0 (3, 2, 1, 0))
+Elevador 1: 3 (914, 6, 0 (2, 1, 0))
+Elevador 1: 2 (914, 6, 0 (1, 0))
+Elevador 1: 1 (914, 6, 0 (0))
+Elevador 1: 0 (914, 6, 0 ())
+Elevador 1 finalizou a tarefa 914
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 437
+Elevador 1: 0 (437, 5, 0 (4, 4, 3, 3, 3, 2, 2, 1, 1, 1, 1, 0, 0))
+Elevador 1: 5 (437, 5, 0 (4, 3, 2, 1, 0))
+Elevador 1: 4 (437, 5, 0 (3, 2, 1, 0))
+Elevador 1: 3 (437, 5, 0 (2, 1, 0))
+Elevador 1: 2 (437, 5, 0 (1, 0))
+Elevador 1: 1 (437, 5, 0 (0))
+Elevador 1: 0 (437, 5, 0 ())
+Elevador 1 finalizou a tarefa 437
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 441
+Elevador 1: 0 (441, 5, 0 (3, 3, 2, 2, 1, 0, 0))
+Elevador 1: 5 (441, 5, 0 (3, 2, 1, 0))
+Elevador 1: 3 (441, 5, 0 (2, 1, 0))
+Elevador 1: 2 (441, 5, 0 (1, 0))
+Elevador 1: 1 (441, 5, 0 (0))
+Elevador 1: 0 (441, 5, 0 ())
+Elevador 1 finalizou a tarefa 441
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 452
+Elevador 1: 0 (452, 5, 1 (7, 7, 7, 7, 8, 8, 8, 8, 8, 8, 8, 9, 9, 9, 10, 10))
+Elevador 1: 5 (452, 5, 1 (7, 8, 9, 10))
+Elevador 1: 7 (452, 5, 1 (8, 9, 10))
+Elevador 1: 8 (452, 5, 1 (9, 10))
+Elevador 1: 9 (452, 5, 1 (10))
+Elevador 1: 10 (452, 5, 1 ())
+Elevador 1 finalizou a tarefa 452
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 925
+Elevador 1: 10 (925, 6, 0 (5, 4, 4, 3, 3, 3, 3, 3, 3, 2, 2, 2, 2, 1, 0, 0))
+Elevador 1: 6 (925, 6, 0 (5, 4, 3, 2, 1, 0))
+Elevador 1: 5 (925, 6, 0 (4, 3, 2, 1, 0))
+Elevador 1: 4 (925, 6, 0 (3, 2, 1, 0))
+Elevador 1: 3 (925, 6, 0 (2, 1, 0))
+Elevador 1: 2 (925, 6, 0 (1, 0))
+Elevador 1: 1 (925, 6, 0 (0))
+Elevador 1: 0 (925, 6, 0 ())
+Elevador 1 finalizou a tarefa 925
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 453
+Elevador 1: 0 (453, 5, 1 (6, 6, 6, 6, 7, 7, 7, 7, 8, 8, 9, 9, 9, 9, 10, 10, 10, 10))
+Elevador 1: 5 (453, 5, 1 (6, 7, 8, 9, 10))
+Elevador 1: 6 (453, 5, 1 (7, 8, 9, 10))
+Elevador 1: 7 (453, 5, 1 (8, 9, 10))
+Elevador 1: 8 (453, 5, 1 (9, 10))
+Elevador 1: 9 (453, 5, 1 (10))
+Elevador 1: 10 (453, 5, 1 ())
+Elevador 1 finalizou a tarefa 453
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 937
+Elevador 1: 10 (937, 6, 1 (7, 7, 8, 8, 8, 9, 9, 9, 9, 10, 10, 10))
+Elevador 1: 6 (937, 6, 1 (7, 8, 9, 10))
+Elevador 1: 7 (937, 6, 1 (8, 9, 10))
+Elevador 1: 8 (937, 6, 1 (9, 10))
+Elevador 1: 9 (937, 6, 1 (10))
+Elevador 1: 10 (937, 6, 1 ())
+Elevador 1 finalizou a tarefa 937
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 975
+Elevador 1: 10 (975, 6, 0 (5, 4, 4, 2, 1, 0))
+Elevador 1: 6 (975, 6, 0 (5, 4, 2, 1, 0))
+Elevador 1: 5 (975, 6, 0 (4, 2, 1, 0))
+Elevador 1: 4 (975, 6, 0 (2, 1, 0))
+Elevador 1: 2 (975, 6, 0 (1, 0))
+Elevador 1: 1 (975, 6, 0 (0))
+Elevador 1: 0 (975, 6, 0 ())
+Elevador 1 finalizou a tarefa 975
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 455
+Elevador 1: 0 (455, 5, 0 (3, 2, 2, 2, 2, 1, 1, 1, 0, 0, 0))
+Elevador 1: 5 (455, 5, 0 (3, 2, 1, 0))
+Elevador 1: 3 (455, 5, 0 (2, 1, 0))
+Elevador 1: 2 (455, 5, 0 (1, 0))
+Elevador 1: 1 (455, 5, 0 (0))
+Elevador 1: 0 (455, 5, 0 ())
+Elevador 1 finalizou a tarefa 455
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 460
+Elevador 1: 0 (460, 5, 0 (3, 3, 3, 3, 2, 2, 2, 1, 0, 0, 0))
+Elevador 1: 5 (460, 5, 0 (3, 2, 1, 0))
+Elevador 1: 3 (460, 5, 0 (2, 1, 0))
+Elevador 1: 2 (460, 5, 0 (1, 0))
+Elevador 1: 1 (460, 5, 0 (0))
+Elevador 1: 0 (460, 5, 0 ())
+Elevador 1 finalizou a tarefa 460
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 468
+Elevador 1: 0 (468, 5, 1 (6, 6, 6, 7, 7, 7, 8, 8, 8, 8, 9, 9, 9, 9, 9, 10, 10, 10, 10, 10))
+Elevador 1: 5 (468, 5, 1 (6, 7, 8, 9, 10))
+Elevador 1: 6 (468, 5, 1 (7, 8, 9, 10))
+Elevador 1: 7 (468, 5, 1 (8, 9, 10))
+Elevador 1: 8 (468, 5, 1 (9, 10))
+Elevador 1: 9 (468, 5, 1 (10))
+Elevador 1: 10 (468, 5, 1 ())
+Elevador 1 finalizou a tarefa 468
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 976
+Elevador 1: 10 (976, 6, 1 (7, 9))
+Elevador 1: 6 (976, 6, 1 (7, 9))
+Elevador 1: 7 (976, 6, 1 (9))
+Elevador 1: 9 (976, 6, 1 ())
+Elevador 1 finalizou a tarefa 976
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 562
+Elevador 1: 9 (562, 5, 0 (4, 3, 2, 2, 2, 2, 1, 1, 1, 0, 0))
+Elevador 1: 5 (562, 5, 0 (4, 3, 2, 1, 0))
+Elevador 1: 4 (562, 5, 0 (3, 2, 1, 0))
+Elevador 1: 3 (562, 5, 0 (2, 1, 0))
+Elevador 1: 2 (562, 5, 0 (1, 0))
+Elevador 1: 1 (562, 5, 0 (0))
+Elevador 1: 0 (562, 5, 0 ())
+Elevador 1 finalizou a tarefa 562
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 585
+Elevador 1: 0 (585, 5, 0 (4, 3, 3, 3, 3, 2, 2, 1, 1, 0))
+Elevador 1: 5 (585, 5, 0 (4, 3, 2, 1, 0))
+Elevador 1: 4 (585, 5, 0 (3, 2, 1, 0))
+Elevador 1: 3 (585, 5, 0 (2, 1, 0))
+Elevador 1: 2 (585, 5, 0 (1, 0))
+Elevador 1: 1 (585, 5, 0 (0))
+Elevador 1: 0 (585, 5, 0 ())
+Elevador 1 finalizou a tarefa 585
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 586
+Elevador 1: 0 (586, 5, 0 (4, 4, 3, 3, 2, 2, 2, 1, 0))
+Elevador 1: 5 (586, 5, 0 (4, 3, 2, 1, 0))
+Elevador 1: 4 (586, 5, 0 (3, 2, 1, 0))
+Elevador 1: 3 (586, 5, 0 (2, 1, 0))
+Elevador 1: 2 (586, 5, 0 (1, 0))
+Elevador 1: 1 (586, 5, 0 (0))
+Elevador 1: 0 (586, 5, 0 ())
+Elevador 1 finalizou a tarefa 586
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 619
+Elevador 1: 0 (619, 5, 1 (6, 7, 8, 9))
+Elevador 1: 5 (619, 5, 1 (6, 7, 8, 9))
+Elevador 1: 6 (619, 5, 1 (7, 8, 9))
+Elevador 1: 7 (619, 5, 1 (8, 9))
+Elevador 1: 8 (619, 5, 1 (9))
+Elevador 1: 9 (619, 5, 1 ())
+Elevador 1 finalizou a tarefa 619
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 635
+Elevador 1: 9 (635, 5, 0 (4, 3, 2, 0, 0))
+Elevador 1: 5 (635, 5, 0 (4, 3, 2, 0))
+Elevador 1: 4 (635, 5, 0 (3, 2, 0))
+Elevador 1: 3 (635, 5, 0 (2, 0))
+Elevador 1: 2 (635, 5, 0 (0))
+Elevador 1: 0 (635, 5, 0 ())
+Elevador 1 finalizou a tarefa 635
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 649
+Elevador 1: 0 (649, 5, 0 (3, 3, 2, 0))
+Elevador 1: 5 (649, 5, 0 (3, 2, 0))
+Elevador 1: 3 (649, 5, 0 (2, 0))
+Elevador 1: 2 (649, 5, 0 (0))
+Elevador 1: 0 (649, 5, 0 ())
+Elevador 1 finalizou a tarefa 649
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 657
+Elevador 1: 0 (657, 5, 0 (3, 1, 1, 0))
+Elevador 1: 5 (657, 5, 0 (3, 1, 0))
+Elevador 1: 3 (657, 5, 0 (1, 0))
+Elevador 1: 1 (657, 5, 0 (0))
+Elevador 1: 0 (657, 5, 0 ())
+Elevador 1 finalizou a tarefa 657
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 658
+Elevador 1: 0 (658, 5, 0 (4, 3, 2, 1, 0))
+Elevador 1: 5 (658, 5, 0 (4, 3, 2, 1, 0))
+Elevador 1: 4 (658, 5, 0 (3, 2, 1, 0))
+Elevador 1: 3 (658, 5, 0 (2, 1, 0))
+Elevador 1: 2 (658, 5, 0 (1, 0))
+Elevador 1: 1 (658, 5, 0 (0))
+Elevador 1: 0 (658, 5, 0 ())
+Elevador 1 finalizou a tarefa 658
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 659
+Elevador 1: 0 (659, 5, 1 (7, 7, 7, 7, 7, 8, 8, 8, 8, 8, 9, 9, 9, 9, 10, 10, 10, 10))
+Elevador 1: 5 (659, 5, 1 (7, 8, 9, 10))
+Elevador 1: 7 (659, 5, 1 (8, 9, 10))
+Elevador 1: 8 (659, 5, 1 (9, 10))
+Elevador 1: 9 (659, 5, 1 (10))
+Elevador 1: 10 (659, 5, 1 ())
+Elevador 1 finalizou a tarefa 659
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 660
+Elevador 1: 10 (660, 5, 0 (4, 4, 2, 2, 1, 1, 1, 0, 0))
+Elevador 1: 5 (660, 5, 0 (4, 2, 1, 0))
+Elevador 1: 4 (660, 5, 0 (2, 1, 0))
+Elevador 1: 2 (660, 5, 0 (1, 0))
+Elevador 1: 1 (660, 5, 0 (0))
+Elevador 1: 0 (660, 5, 0 ())
+Elevador 1 finalizou a tarefa 660
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 670
+Elevador 1: 0 (670, 5, 0 (4, 3))
+Elevador 1: 5 (670, 5, 0 (4, 3))
+Elevador 1: 4 (670, 5, 0 (3))
+Elevador 1: 3 (670, 5, 0 ())
+Elevador 1 finalizou a tarefa 670
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 684
+Elevador 1: 3 (684, 5, 1 (8, 8, 9, 10))
+Elevador 1: 5 (684, 5, 1 (8, 9, 10))
+Elevador 1: 8 (684, 5, 1 (9, 10))
+Elevador 1: 9 (684, 5, 1 (10))
+Elevador 1: 10 (684, 5, 1 ())
+Elevador 1 finalizou a tarefa 684
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 691
+Elevador 1: 10 (691, 5, 0 (4, 4, 4, 4, 4, 3, 2, 1, 0))
+Elevador 1: 5 (691, 5, 0 (4, 3, 2, 1, 0))
+Elevador 1: 4 (691, 5, 0 (3, 2, 1, 0))
+Elevador 1: 3 (691, 5, 0 (2, 1, 0))
+Elevador 1: 2 (691, 5, 0 (1, 0))
+Elevador 1: 1 (691, 5, 0 (0))
+Elevador 1: 0 (691, 5, 0 ())
+Elevador 1 finalizou a tarefa 691
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 786
+Elevador 1: 0 (786, 5, 1 (6, 7, 8, 9, 9, 9, 10, 10, 10))
+Elevador 1: 5 (786, 5, 1 (6, 7, 8, 9, 10))
+Elevador 1: 6 (786, 5, 1 (7, 8, 9, 10))
+Elevador 1: 7 (786, 5, 1 (8, 9, 10))
+Elevador 1: 8 (786, 5, 1 (9, 10))
+Elevador 1: 9 (786, 5, 1 (10))
+Elevador 1: 10 (786, 5, 1 ())
+Elevador 1 finalizou a tarefa 786
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 787
+Elevador 1: 10 (787, 5, 1 (6, 6, 6, 7, 7, 7, 8, 8, 8, 8, 9, 9, 9, 9, 9, 9, 10))
+Elevador 1: 5 (787, 5, 1 (6, 7, 8, 9, 10))
+Elevador 1: 6 (787, 5, 1 (7, 8, 9, 10))
+Elevador 1: 7 (787, 5, 1 (8, 9, 10))
+Elevador 1: 8 (787, 5, 1 (9, 10))
+Elevador 1: 9 (787, 5, 1 (10))
+Elevador 1: 10 (787, 5, 1 ())
+Elevador 1 finalizou a tarefa 787
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 796
+Elevador 1: 10 (796, 5, 1 (8, 8, 9, 9, 9, 9, 10))
+Elevador 1: 5 (796, 5, 1 (8, 9, 10))
+Elevador 1: 8 (796, 5, 1 (9, 10))
+Elevador 1: 9 (796, 5, 1 (10))
+Elevador 1: 10 (796, 5, 1 ())
+Elevador 1 finalizou a tarefa 796
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 798
+Elevador 1: 10 (798, 5, 0 (4, 4, 4, 4, 4, 3, 3, 2, 2, 2, 2, 2, 2, 1, 1, 1, 0, 0))
+Elevador 1: 5 (798, 5, 0 (4, 3, 2, 1, 0))
+Elevador 1: 4 (798, 5, 0 (3, 2, 1, 0))
+Elevador 1: 3 (798, 5, 0 (2, 1, 0))
+Elevador 1: 2 (798, 5, 0 (1, 0))
+Elevador 1: 1 (798, 5, 0 (0))
+Elevador 1: 0 (798, 5, 0 ())
+Elevador 1 finalizou a tarefa 798
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 841
+Elevador 1: 0 (841, 5, 0 (4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 3, 3, 2, 1, 1, 1, 0, 0, 0))
+Elevador 1: 5 (841, 5, 0 (4, 3, 2, 1, 0))
+Elevador 1: 4 (841, 5, 0 (3, 2, 1, 0))
+Elevador 1: 3 (841, 5, 0 (2, 1, 0))
+Elevador 1: 2 (841, 5, 0 (1, 0))
+Elevador 1: 1 (841, 5, 0 (0))
+Elevador 1: 0 (841, 5, 0 ())
+Elevador 1 finalizou a tarefa 841
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 861
+Elevador 1: 0 (861, 5, 1 (9, 9))
+Elevador 1: 5 (861, 5, 1 (9))
+Elevador 1: 9 (861, 5, 1 ())
+Elevador 1 finalizou a tarefa 861
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 869
+Elevador 1: 9 (869, 5, 1 (6, 6, 6, 7, 7, 8, 8, 9, 9, 9, 10, 10, 10))
+Elevador 1: 5 (869, 5, 1 (6, 7, 8, 9, 10))
+Elevador 1: 6 (869, 5, 1 (7, 8, 9, 10))
+Elevador 1: 7 (869, 5, 1 (8, 9, 10))
+Elevador 1: 8 (869, 5, 1 (9, 10))
+Elevador 1: 9 (869, 5, 1 (10))
+Elevador 1: 10 (869, 5, 1 ())
+Elevador 1 finalizou a tarefa 869
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 881
+Elevador 1: 10 (881, 5, 1 (6, 6, 8))
+Elevador 1: 5 (881, 5, 1 (6, 8))
+Elevador 1: 6 (881, 5, 1 (8))
+Elevador 1: 8 (881, 5, 1 ())
+Elevador 1 finalizou a tarefa 881
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 885
+Elevador 1: 8 (885, 5, 1 (6, 7, 8, 8, 9, 9, 10, 10))
+Elevador 1: 5 (885, 5, 1 (6, 7, 8, 9, 10))
+Elevador 1: 6 (885, 5, 1 (7, 8, 9, 10))
+Elevador 1: 7 (885, 5, 1 (8, 9, 10))
+Elevador 1: 8 (885, 5, 1 (9, 10))
+Elevador 1: 9 (885, 5, 1 (10))
+Elevador 1: 10 (885, 5, 1 ())
+Elevador 1 finalizou a tarefa 885
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 886
+Elevador 1: 10 (886, 5, 0 (4, 4, 3, 3, 3, 3, 2, 2, 2, 2, 1, 1, 1, 0))
+Elevador 1: 5 (886, 5, 0 (4, 3, 2, 1, 0))
+Elevador 1: 4 (886, 5, 0 (3, 2, 1, 0))
+Elevador 1: 3 (886, 5, 0 (2, 1, 0))
+Elevador 1: 2 (886, 5, 0 (1, 0))
+Elevador 1: 1 (886, 5, 0 (0))
+Elevador 1: 0 (886, 5, 0 ())
+Elevador 1 finalizou a tarefa 886
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 895
+Elevador 1: 0 (895, 5, 1 (6, 6, 7, 7, 7, 7, 9, 9, 10, 10))
+Elevador 1: 5 (895, 5, 1 (6, 7, 9, 10))
+Elevador 1: 6 (895, 5, 1 (7, 9, 10))
+Elevador 1: 7 (895, 5, 1 (9, 10))
+Elevador 1: 9 (895, 5, 1 (10))
+Elevador 1: 10 (895, 5, 1 ())
+Elevador 1 finalizou a tarefa 895
+Elevador 1 vai escolher
+Elevador 1 morreu

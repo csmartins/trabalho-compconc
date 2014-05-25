@@ -1,0 +1,132 @@
+--Cria a thread 8
+
+Elevador 8 começou no andar 16
+Elevador 8 vai escolher
+Elevador 8 escolheu a tarefa 44
+Elevador 8: 16 (44, 12, 0 (9, 9, 8, 8, 5, 3, 3, 2, 1, 0))
+Elevador 8: 12 (44, 12, 0 (9, 8, 5, 3, 2, 1, 0))
+Elevador 8: 9 (44, 12, 0 (8, 5, 3, 2, 1, 0))
+Elevador 8: 8 (44, 12, 0 (5, 3, 2, 1, 0))
+Elevador 8: 5 (44, 12, 0 (3, 2, 1, 0))
+Elevador 8: 3 (44, 12, 0 (2, 1, 0))
+Elevador 8: 2 (44, 12, 0 (1, 0))
+Elevador 8: 1 (44, 12, 0 (0))
+Elevador 8: 0 (44, 12, 0 ())
+Elevador 8 finalizou a tarefa 44
+Elevador 8 vai escolher
+Elevador 8 morreu
+--Cria a thread 8
+Elevador 8 começou no andar 16
+Elevador 8 vai escolher
+Elevador 8 escolheu a tarefa 4
+Elevador 8: 16 (4, 16, 0 (1))
+Elevador 8: 16 (4, 16, 0 (1))
+Elevador 8: 1 (4, 16, 0 ())
+Elevador 8 finalizou a tarefa 4
+Elevador 8 vai escolher
+Elevador 8 escolheu a tarefa 13
+Elevador 8: 1 (13, 1, 0 (0, 0, 0))
+Elevador 8: 1 (13, 1, 0 (0))
+Elevador 8: 0 (13, 1, 0 ())
+Elevador 8 finalizou a tarefa 13
+Elevador 8 vai escolher
+Elevador 8 escolheu a tarefa 5
+Elevador 8: 0 (5, 0, 1 (4, 7, 7, 8, 12, 13, 15, 19, 19, 20))
+Elevador 8: 0 (5, 0, 1 (4, 7, 8, 12, 13, 15, 19, 20))
+Elevador 8: 4 (5, 0, 1 (7, 8, 12, 13, 15, 19, 20))
+Elevador 8: 7 (5, 0, 1 (8, 12, 13, 15, 19, 20))
+Elevador 8: 8 (5, 0, 1 (12, 13, 15, 19, 20))
+Elevador 8: 12 (5, 0, 1 (13, 15, 19, 20))
+Elevador 8: 13 (5, 0, 1 (15, 19, 20))
+Elevador 8: 15 (5, 0, 1 (19, 20))
+Elevador 8: 19 (5, 0, 1 (20))
+Elevador 8: 20 (5, 0, 1 ())
+Elevador 8 finalizou a tarefa 5
+Elevador 8 vai escolher
+Elevador 8 escolheu a tarefa 8
+Elevador 8: 20 (8, 20, 0 (13, 12, 8, 6, 6, 6, 4, 4, 3))
+Elevador 8: 20 (8, 20, 0 (13, 12, 8, 6, 4, 3))
+Elevador 8: 13 (8, 20, 0 (12, 8, 6, 4, 3))
+Elevador 8: 12 (8, 20, 0 (8, 6, 4, 3))
+Elevador 8: 8 (8, 20, 0 (6, 4, 3))
+Elevador 8: 6 (8, 20, 0 (4, 3))
+Elevador 8: 4 (8, 20, 0 (3))
+Elevador 8: 3 (8, 20, 0 ())
+Elevador 8 finalizou a tarefa 8
+Elevador 8 vai escolher
+Elevador 8 escolheu a tarefa 34
+Elevador 8: 3 (34, 6, 1 (8, 10, 10, 12, 12, 14, 14, 17, 17, 17, 19))
+Elevador 8: 6 (34, 6, 1 (8, 10, 12, 14, 17, 19))
+Elevador 8: 8 (34, 6, 1 (10, 12, 14, 17, 19))
+Elevador 8: 10 (34, 6, 1 (12, 14, 17, 19))
+Elevador 8: 12 (34, 6, 1 (14, 17, 19))
+Elevador 8: 14 (34, 6, 1 (17, 19))
+Elevador 8: 17 (34, 6, 1 (19))
+Elevador 8: 19 (34, 6, 1 ())
+Elevador 8 finalizou a tarefa 34
+Elevador 8 vai escolher
+Elevador 8 escolheu a tarefa 33
+Elevador 8: 19 (33, 15, 1 (16, 16, 16, 16, 17, 17, 19, 19, 20, 20, 20))
+Elevador 8: 15 (33, 15, 1 (16, 17, 19, 20))
+Elevador 8: 16 (33, 15, 1 (17, 19, 20))
+Elevador 8: 17 (33, 15, 1 (19, 20))
+Elevador 8: 19 (33, 15, 1 (20))
+Elevador 8: 20 (33, 15, 1 ())
+Elevador 8 finalizou a tarefa 33
+Elevador 8 vai escolher
+Elevador 8 escolheu a tarefa 47
+Elevador 8: 20 (47, 15, 0 (14, 10, 8, 8, 6, 6, 5, 4, 4))
+Elevador 8: 15 (47, 15, 0 (14, 10, 8, 6, 5, 4))
+Elevador 8: 14 (47, 15, 0 (10, 8, 6, 5, 4))
+Elevador 8: 10 (47, 15, 0 (8, 6, 5, 4))
+Elevador 8: 8 (47, 15, 0 (6, 5, 4))
+Elevador 8: 6 (47, 15, 0 (5, 4))
+Elevador 8: 5 (47, 15, 0 (4))
+Elevador 8: 4 (47, 15, 0 ())
+Elevador 8 finalizou a tarefa 47
+Elevador 8 vai escolher
+Elevador 8 escolheu a tarefa 41
+Elevador 8: 4 (41, 6, 1 (7, 8, 9, 10, 12, 13, 13, 14))
+Elevador 8: 6 (41, 6, 1 (7, 8, 9, 10, 12, 13, 14))
+Elevador 8: 7 (41, 6, 1 (8, 9, 10, 12, 13, 14))
+Elevador 8: 8 (41, 6, 1 (9, 10, 12, 13, 14))
+Elevador 8: 9 (41, 6, 1 (10, 12, 13, 14))
+Elevador 8: 10 (41, 6, 1 (12, 13, 14))
+Elevador 8: 12 (41, 6, 1 (13, 14))
+Elevador 8: 13 (41, 6, 1 (14))
+Elevador 8: 14 (41, 6, 1 ())
+Elevador 8 finalizou a tarefa 41
+Elevador 8 vai escolher
+Elevador 8 escolheu a tarefa 19
+Elevador 8: 14 (19, 14, 1 (16, 17))
+Elevador 8: 14 (19, 14, 1 (16, 17))
+Elevador 8: 16 (19, 14, 1 (17))
+Elevador 8: 17 (19, 14, 1 ())
+Elevador 8 finalizou a tarefa 19
+Elevador 8 vai escolher
+Elevador 8 escolheu a tarefa 56
+Elevador 8: 17 (56, 15, 0 (11, 9, 8, 5, 4, 4, 4, 3, 2))
+Elevador 8: 15 (56, 15, 0 (11, 9, 8, 5, 4, 3, 2))
+Elevador 8: 11 (56, 15, 0 (9, 8, 5, 4, 3, 2))
+Elevador 8: 9 (56, 15, 0 (8, 5, 4, 3, 2))
+Elevador 8: 8 (56, 15, 0 (5, 4, 3, 2))
+Elevador 8: 5 (56, 15, 0 (4, 3, 2))
+Elevador 8: 4 (56, 15, 0 (3, 2))
+Elevador 8: 3 (56, 15, 0 (2))
+Elevador 8: 2 (56, 15, 0 ())
+Elevador 8 finalizou a tarefa 56
+Elevador 8 vai escolher
+Elevador 8 escolheu a tarefa 70
+Elevador 8: 2 (70, 6, 1 (7, 9, 9, 9, 12, 12, 13, 14, 17, 17, 18, 19))
+Elevador 8: 6 (70, 6, 1 (7, 9, 12, 13, 14, 17, 18, 19))
+Elevador 8: 7 (70, 6, 1 (9, 12, 13, 14, 17, 18, 19))
+Elevador 8: 9 (70, 6, 1 (12, 13, 14, 17, 18, 19))
+Elevador 8: 12 (70, 6, 1 (13, 14, 17, 18, 19))
+Elevador 8: 13 (70, 6, 1 (14, 17, 18, 19))
+Elevador 8: 14 (70, 6, 1 (17, 18, 19))
+Elevador 8: 17 (70, 6, 1 (18, 19))
+Elevador 8: 18 (70, 6, 1 (19))
+Elevador 8: 19 (70, 6, 1 ())
+Elevador 8 finalizou a tarefa 70
+Elevador 8 vai escolher
+Elevador 8 morreu

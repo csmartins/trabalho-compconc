@@ -1,13 +1,15 @@
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 
- * @author Patrícia S. Ghiraldelli e Carlos Eduardo S. Martisns
- * 
  * Essa classe funciona como um monitor, contendo todos os métodos com acessos às variáveis 
  * compartilhadas pelos elevadores (threads).
- *
+ * 
+ * @author Patrícia S. Ghiraldelli e Carlos Eduardo S. Martisns
  */
 
 public class MonitorDeTarefas 
@@ -22,8 +24,11 @@ public class MonitorDeTarefas
 	private boolean criandoTarefas;
 	
 	/**
-	 * Método responsável por iniciar o monitor, instanciando variáveis e recebendo o arquivo de tarefas
+	 * Método responsável por iniciar o monitor, instanciando variáveis e recebendo o arquivo de tarefas.
+	 * 
 	 * @param tarefas é o vetor de tarefas já lidas no arquivo de entrada 
+	 * 
+	 * @see MonitorDeTarefas#criarTarefas() criarTarefas
 	 */
 	public void iniciarMonitor(String[] tarefas)
 	{
@@ -38,9 +43,9 @@ public class MonitorDeTarefas
 	 * A cada tarefa criada é dado um notify para acordar possíveis elevadores que estejam aguardando
 	 * a criação de tarefas.
 	 * 
-	 * @see tratarTarefas()
+	 * @see MonitorDeTarefas#tratarTarefas(String, Tarefa) tratarTarefas
 	 */
-	private void criarTarefas() 
+	public void criarTarefas() 
 	{
 		criandoTarefas = true;
 		for(int i = 0; i < tarefasBrutas.length; i++)
@@ -59,15 +64,16 @@ public class MonitorDeTarefas
 	}
 
 	/**
+	 * Método responsável por instanciar o objeto Tarefa e tratá-los, excluindo repetições e ordenando corretamente.
+	 * 
 	 * @param tarefaBruta É a string referente a uma linha lida no arquivo de entrada, portanto uma posição do 
 	 * vetor de tarefas recebido no  método iniciaMonitor
 	 * @param tarefa É o objeto criado Tarefa que receberá as informações da tarefaBruta
-	 * @see ordenarRequisicoes
-	 * @see excluirRepeticoes
 	 * 
-	 * Método responsável por instanciar o objeto Tarefa e tratá-los, excluindo repetições e ordenando corretamente
+	 * @see MonitorDeTarefas#ordenarRequisicoes(String[], int) ordenarRequisicoes
+	 * @see MonitorDeTarefas#excluirRepeticoes(String[], List, Tarefa) excluirRepeticoes
 	 */
-	private void tratarTarefas(String tarefaBruta, Tarefa tarefa)
+	public void tratarTarefas(String tarefaBruta, Tarefa tarefa)
 	{
 		String [] separado = tarefaBruta.split(" ");
 		tarefa.setAndarDeInicio(Integer.parseInt(separado[0]));
@@ -87,10 +93,12 @@ public class MonitorDeTarefas
 	 * Método responsável por ordenar as requisições de uma tarefa de acordo com o seu sentido 
 	 * (crescente caso o sentido seja subindo, decrescente caso o sentido seja descendo).
 	 * Percorre o vetor de requisições comparando uma posição com a sua posterior e testando a condição dada 
-	 * pelo método trocarPosicao 
+	 * pelo método trocarPosicao.
+	 *  
 	 * @param separado vetor de string em que cada posição corresponde a uma requisição
 	 * @param sentido
-	 * @see TrocarPosicao
+	 * 
+	 * @see MonitorDeTarefas#trocarPosicao(int, int, int, String[]) trocarPosicao
 	 */
 	public void ordenarRequisicoes(String[] separado, int sentido)
 	{
@@ -112,10 +120,12 @@ public class MonitorDeTarefas
 	 * Método que, caso o sentido seja de subida, verifica se o valor inteiro da requisição avaliada é maior que o 
 	 * da sua posterior, e então retorna true. Caso o sentido seja de descida e o valor inteiro da posição avaliada
 	 * seja menor que o da sua posterior, então retorna true. Caso contrário retorna false.
+	 * 
 	 * @param i posição sendo avaliada 
 	 * @param j posição posterior a avaliada
 	 * @param sentido sentido da tarefa (sobe ou desce)
 	 * @param separado vetor de string contendo em cada posição uma requisição
+	 * 
 	 * @return boolean que diz se é ou não necessário trocar as posições (avaliada e sua posterior)
 	 */
 	public boolean trocarPosicao(int i,int j, int sentido, String[] separado)
@@ -140,6 +150,7 @@ public class MonitorDeTarefas
 	 * Método responsável por inserir os valores inteiros das requisições numa lista de inteiros, não permitindo repetições de valores, e
 	 * também por setar o valor da requisição bruta da tarefa antes de convertê-la para inteiro. 
 	 * Antes de adicionar um inteiro na lista de requisições é verificado se já existe um igual. Caso exista o mesmo não é adicionado.
+	 * 
 	 * @param separado vetor de string que possui, em cada posição, uma requisição
 	 * @param requisicoes lista de inteiros a ser preenchida com os valores inteiros das strings de requisições
 	 * @param tarefa tarefa que está sendo criada
@@ -162,7 +173,9 @@ public class MonitorDeTarefas
 	 * Método responsável por escolher um elevador a partir de uma tarefa. Com o andar de início da tarefa percorremos a lista de elevadores esperando para comparar com o 
 	 * andar em que o elevador se encontra. Caso o andar de início da tarefa seja igual ao do elevador, esse será o eleito. Caso contrário, será escolhido o melhor elevador
 	 * a partir da diferença entre o andar de início da tarefa e o andar atual do elevador. O mais próximo será escolhido. 
+	 * 
 	 * @param elevadoresEsperando lista de elevadores bloqueados devido ao fato de nenhuma tarefa ter sido criada ainda 
+	 * 
 	 * @return inteiro com o id do elevador escolhido
 	 */
 	public int tarefaEscolheElevador(List<Elevador> elevadoresEsperando)
@@ -191,10 +204,16 @@ public class MonitorDeTarefas
 	 * Método responsável por escolher a melhor tarefa para um elevador. A partir do andar em que o elevador se encontra, o comparamos com o andar de início da tarefa.
 	 * Caso sejam iguais, essa tarefa será escolhida. Caso contrário, escolheremos a tarefa cuja diferença entre o andar de início da tarefa e o andar atual do elevador seja menor.
 	 * Ou seja, a tarefa cujo andar de início esteja mais perto do elevador.
+	 * 
 	 * @param elevador 
+	 * 
 	 * @return tarefa que esteja mais próxima do elevador
+	 * 
+	 * @throws IOException 
+	 * 
+	 * @see MonitorDeTarefas#escreverNoArquivo(String, int) escreverNoArquivo
 	 */
-	public Tarefa elevadorEscolheTarefa(Elevador elevador)
+	public Tarefa elevadorEscolheTarefa(Elevador elevador) throws IOException
 	{
 		Tarefa candidataTarefa = new Tarefa(40);
 		int andarTarefa;
@@ -209,7 +228,10 @@ public class MonitorDeTarefas
 			{
 				candidataTarefa = listaDeTarefas.get(tarefa);
 				listaDeTarefas.remove(candidataTarefa);
+									
 				System.out.println("Elevador "+elevador.id+" escolheu a tarefa "+candidataTarefa.getIdTarefa());
+				escreverNoArquivo("Elevador "+elevador.id+" escolheu a tarefa "+candidataTarefa.getIdTarefa(), elevador.id);
+				
 				return candidataTarefa;
 			}
 			
@@ -233,6 +255,7 @@ public class MonitorDeTarefas
 		}
 		
 		System.out.println("Elevador "+elevador.id+" escolheu a tarefa "+candidataTarefa.getIdTarefa());
+		escreverNoArquivo("Elevador "+elevador.id+" escolheu a tarefa "+candidataTarefa.getIdTarefa(), elevador.id);
 		
 		listaDeTarefas.remove(candidataTarefa);
 		return candidataTarefa;
@@ -244,12 +267,18 @@ public class MonitorDeTarefas
 	 * acabado, é retornado null para que a thread termine sua execução. Caso a lista esteja vazia, mas a criação de tarefas esteja
 	 * em andamento, a thread é bloqueada. Caso haja menos tarefas do que elevador é chamado o método tarefaEscolheElevador. Caso contrário
 	 * é chamado o elevadorEscolheTarefa.
+	 * 
 	 * @param elevador
+	 * 
 	 * @return Null, caso haja erro ou as tarefas já tenham acabado. Tarefa com a tarefa mais adequada à situação.
-	 * @see tarefaEscolheElevador
-	 * @see elevadorEscolheTarefa
+	 * 
+	 * @throws IOException 
+	 * 
+	 * @see MonitorDeTarefas#tarefaEscolheElevador(List) tarefaEscolheElevador
+	 * @see MonitorDeTarefas#elevadorEscolheTarefa(Elevador) elevadorEscolheTarefa
+	 * @see MonitorDeTarefas#escreverNoArquivo(String, int) escreverNoArquivo
 	 */
-	public synchronized Tarefa escolherTarefa(Elevador elevador) 
+	public synchronized Tarefa escolherTarefa(Elevador elevador) throws IOException 
 	{		
 		Tarefa candidataTarefa = null;
 		List <Elevador> elevadoresEsperando = new ArrayList<Elevador>();
@@ -286,18 +315,55 @@ public class MonitorDeTarefas
 			
 		} catch(Exception e){
 			System.out.println("Deu erro");
+			escreverNoArquivo("Deu erro", elevador.id);
 		}
 		return null;
 	}
 	
 	/**
 	 * Método responsável por notificar as threads que estejam bloqueadas que o elevador em questão finalizou sua tarefa.
+	 * 
 	 * @param id id do elevador que executou tal tarefa
 	 * @param idTarefa id da tarefa que acabou de ser executada
+	 * 
+	 * @throws IOException
+	 * 
+	 * @see MonitorDeTarefas#escreverNoArquivo(String, int) escreverNoArquivo 
 	 */
-	public synchronized void finalizaTarefa(int id, int idTarefa)
+	public synchronized void finalizarTarefa(int id, int idTarefa) throws IOException
 	{
 		System.out.println("Elevador "+id+" finalizou a tarefa "+idTarefa);
+		escreverNoArquivo("Elevador "+id+" finalizou a tarefa "+idTarefa, id);
 		this.notify();
+	}
+	
+	/**
+	 * Método responsável por escrever no arquivo de log
+	 * 
+	 * @param string string de log a ser escrita no arquivo
+	 * @param idElevador id do elevador que está gerando o log
+	 * 
+	 * @throws IOException
+	 */
+	public synchronized void escreverNoArquivo(String string, int idElevador) throws IOException 
+	{
+		
+		File diretorioDeSaidas = new File("log");
+		File [] saidas = diretorioDeSaidas.listFiles();
+		
+		for(File file : saidas)
+		{
+			if(file.getName().equals("logExecucaoElevador "+idElevador+".txt"))
+			{			
+				FileWriter fileWriter = new FileWriter(file, true);
+				BufferedWriter buffWriter = new BufferedWriter(fileWriter);
+				
+				buffWriter.write(string+"\n");
+				
+				buffWriter.close();
+				
+				fileWriter.close();
+			}
+		}
 	}
 }

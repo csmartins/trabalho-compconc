@@ -1,0 +1,10 @@
+--Cria a thread 1
+Elevador 1 começou no andar 5
+Elevador 1 vai escolher
+Elevador 1 escolheu a tarefa 4
+Elevador 1: 5 (4, 2, 0 (1))
+Elevador 1: 2 (4, 2, 0 (1))
+Elevador 1: 1 (4, 2, 0 ())
+Elevador 1 finalizou a tarefa 4
+Elevador 1 vai escolher
+Elevador 1 morreu

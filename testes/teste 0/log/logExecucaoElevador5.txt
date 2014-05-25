@@ -1,0 +1,173 @@
+--Cria a thread 5
+
+Elevador 5 começou no andar 10
+Elevador 5 vai escolher
+Elevador 5 escolheu a tarefa 14
+Elevador 5: 10 (14, 10, 0 (9, 8, 8, 8, 7, 7, 3, 3, 3, 2, 1))
+Elevador 5: 10 (14, 10, 0 (9, 8, 7, 3, 2, 1))
+Elevador 5: 9 (14, 10, 0 (8, 7, 3, 2, 1))
+Elevador 5: 8 (14, 10, 0 (7, 3, 2, 1))
+Elevador 5: 7 (14, 10, 0 (3, 2, 1))
+Elevador 5: 3 (14, 10, 0 (2, 1))
+Elevador 5: 2 (14, 10, 0 (1))
+Elevador 5: 1 (14, 10, 0 ())
+Elevador 5 finalizou a tarefa 14
+Elevador 5 vai escolher
+Elevador 5 escolheu a tarefa 35
+Elevador 5: 1 (35, 1, 0 (0, 0, 0))
+Elevador 5: 1 (35, 1, 0 (0))
+Elevador 5: 0 (35, 1, 0 ())
+Elevador 5 finalizou a tarefa 35
+Elevador 5 vai escolher
+Elevador 5 escolheu a tarefa 28
+Elevador 5: 0 (28, 0, 1 (12))
+Elevador 5: 0 (28, 0, 1 (12))
+Elevador 5: 12 (28, 0, 1 ())
+Elevador 5 finalizou a tarefa 28
+Elevador 5 vai escolher
+Elevador 5 escolheu a tarefa 6
+Elevador 5: 12 (6, 12, 1 (13, 15, 17))
+Elevador 5: 12 (6, 12, 1 (13, 15, 17))
+Elevador 5: 13 (6, 12, 1 (15, 17))
+Elevador 5: 15 (6, 12, 1 (17))
+Elevador 5: 17 (6, 12, 1 ())
+Elevador 5 finalizou a tarefa 6
+Elevador 5 vai escolher
+Elevador 5 escolheu a tarefa 3
+Elevador 5: 17 (3, 17, 0 (15, 14, 12, 4))
+Elevador 5: 17 (3, 17, 0 (15, 14, 12, 4))
+Elevador 5: 15 (3, 17, 0 (14, 12, 4))
+Elevador 5: 14 (3, 17, 0 (12, 4))
+Elevador 5: 12 (3, 17, 0 (4))
+Elevador 5: 4 (3, 17, 0 ())
+Elevador 5 finalizou a tarefa 3
+Elevador 5 vai escolher
+Elevador 5 escolheu a tarefa 2
+Elevador 5: 4 (2, 4, 0 (0))
+Elevador 5: 4 (2, 4, 0 (0))
+Elevador 5: 0 (2, 4, 0 ())
+Elevador 5 finalizou a tarefa 2
+Elevador 5 vai escolher
+Elevador 5 escolheu a tarefa 63
+Elevador 5: 0 (63, 0, 1 (2, 2, 5, 7, 8, 9, 9, 12, 12, 13, 15, 16))
+Elevador 5: 0 (63, 0, 1 (2, 5, 7, 8, 9, 12, 13, 15, 16))
+Elevador 5: 2 (63, 0, 1 (5, 7, 8, 9, 12, 13, 15, 16))
+Elevador 5: 5 (63, 0, 1 (7, 8, 9, 12, 13, 15, 16))
+Elevador 5: 7 (63, 0, 1 (8, 9, 12, 13, 15, 16))
+Elevador 5: 8 (63, 0, 1 (9, 12, 13, 15, 16))
+Elevador 5: 9 (63, 0, 1 (12, 13, 15, 16))
+Elevador 5: 12 (63, 0, 1 (13, 15, 16))
+Elevador 5: 13 (63, 0, 1 (15, 16))
+Elevador 5: 15 (63, 0, 1 (16))
+Elevador 5: 16 (63, 0, 1 ())
+Elevador 5 finalizou a tarefa 63
+Elevador 5 vai escolher
+Elevador 5 escolheu a tarefa 89
+Elevador 5: 16 (89, 12, 1 (13, 14, 14, 15, 16, 18, 19, 20))
+Elevador 5: 12 (89, 12, 1 (13, 14, 15, 16, 18, 19, 20))
+Elevador 5: 13 (89, 12, 1 (14, 15, 16, 18, 19, 20))
+Elevador 5: 14 (89, 12, 1 (15, 16, 18, 19, 20))
+Elevador 5: 15 (89, 12, 1 (16, 18, 19, 20))
+Elevador 5: 16 (89, 12, 1 (18, 19, 20))
+Elevador 5: 18 (89, 12, 1 (19, 20))
+Elevador 5: 19 (89, 12, 1 (20))
+Elevador 5: 20 (89, 12, 1 ())
+Elevador 5 finalizou a tarefa 89
+Elevador 5 vai escolher
+Elevador 5 escolheu a tarefa 93
+Elevador 5: 20 (93, 12, 1 (13, 14, 15, 15, 18, 18, 18, 19, 19, 19))
+Elevador 5: 12 (93, 12, 1 (13, 14, 15, 18, 19))
+Elevador 5: 13 (93, 12, 1 (14, 15, 18, 19))
+Elevador 5: 14 (93, 12, 1 (15, 18, 19))
+Elevador 5: 15 (93, 12, 1 (18, 19))
+Elevador 5: 18 (93, 12, 1 (19))
+Elevador 5: 19 (93, 12, 1 ())
+Elevador 5 finalizou a tarefa 93
+Elevador 5 vai escolher
+Elevador 5 escolheu a tarefa 54
+Elevador 5: 19 (54, 11, 1 (12, 14, 15, 16, 17, 17, 18))
+Elevador 5: 11 (54, 11, 1 (12, 14, 15, 16, 17, 18))
+Elevador 5: 12 (54, 11, 1 (14, 15, 16, 17, 18))
+Elevador 5: 14 (54, 11, 1 (15, 16, 17, 18))
+Elevador 5: 15 (54, 11, 1 (16, 17, 18))
+Elevador 5: 16 (54, 11, 1 (17, 18))
+Elevador 5: 17 (54, 11, 1 (18))
+Elevador 5: 18 (54, 11, 1 ())
+Elevador 5 finalizou a tarefa 54
+Elevador 5 vai escolher
+Elevador 5 escolheu a tarefa 94
+Elevador 5: 18 (94, 11, 0 (5, 5, 5, 0))
+Elevador 5: 11 (94, 11, 0 (5, 0))
+Elevador 5: 5 (94, 11, 0 (0))
+Elevador 5: 0 (94, 11, 0 ())
+Elevador 5 finalizou a tarefa 94
+Elevador 5 vai escolher
+Elevador 5 escolheu a tarefa 95
+Elevador 5: 0 (95, 11, 1 (14, 17, 19))
+Elevador 5: 11 (95, 11, 1 (14, 17, 19))
+Elevador 5: 14 (95, 11, 1 (17, 19))
+Elevador 5: 17 (95, 11, 1 (19))
+Elevador 5: 19 (95, 11, 1 ())
+Elevador 5 finalizou a tarefa 95
+Elevador 5 vai escolher
+Elevador 5 escolheu a tarefa 97
+Elevador 5: 19 (97, 11, 1 (12, 13, 17, 17, 19))
+Elevador 5: 11 (97, 11, 1 (12, 13, 17, 19))
+Elevador 5: 12 (97, 11, 1 (13, 17, 19))
+Elevador 5: 13 (97, 11, 1 (17, 19))
+Elevador 5: 17 (97, 11, 1 (19))
+Elevador 5: 19 (97, 11, 1 ())
+Elevador 5 finalizou a tarefa 97
+Elevador 5 vai escolher
+Elevador 5 morreu
+--Cria a thread 5
+Elevador 5 começou no andar 10
+Elevador 5 vai escolher
+Elevador 5 escolheu a tarefa 14
+Elevador 5: 10 (14, 10, 0 (9, 8, 8, 8, 7, 7, 3, 3, 3, 2, 1))
+Elevador 5: 10 (14, 10, 0 (9, 8, 7, 3, 2, 1))
+Elevador 5: 9 (14, 10, 0 (8, 7, 3, 2, 1))
+Elevador 5: 8 (14, 10, 0 (7, 3, 2, 1))
+Elevador 5: 7 (14, 10, 0 (3, 2, 1))
+Elevador 5: 3 (14, 10, 0 (2, 1))
+Elevador 5: 2 (14, 10, 0 (1))
+Elevador 5: 1 (14, 10, 0 ())
+Elevador 5 finalizou a tarefa 14
+Elevador 5 vai escolher
+Elevador 5 escolheu a tarefa 24
+Elevador 5: 1 (24, 2, 0 (1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0))
+Elevador 5: 2 (24, 2, 0 (1, 0))
+Elevador 5: 1 (24, 2, 0 (0))
+Elevador 5: 0 (24, 2, 0 ())
+Elevador 5 finalizou a tarefa 24
+Elevador 5 vai escolher
+Elevador 5 escolheu a tarefa 73
+Elevador 5: 0 (73, 2, 0 (1, 0))
+Elevador 5: 2 (73, 2, 0 (1, 0))
+Elevador 5: 1 (73, 2, 0 (0))
+Elevador 5: 0 (73, 2, 0 ())
+Elevador 5 finalizou a tarefa 73
+Elevador 5 vai escolher
+Elevador 5 escolheu a tarefa 99
+Elevador 5: 0 (99, 2, 1 (5, 5, 6, 8, 9, 11, 14, 19, 19))
+Elevador 5: 2 (99, 2, 1 (5, 6, 8, 9, 11, 14, 19))
+Elevador 5: 5 (99, 2, 1 (6, 8, 9, 11, 14, 19))
+Elevador 5: 6 (99, 2, 1 (8, 9, 11, 14, 19))
+Elevador 5: 8 (99, 2, 1 (9, 11, 14, 19))
+Elevador 5: 9 (99, 2, 1 (11, 14, 19))
+Elevador 5: 11 (99, 2, 1 (14, 19))
+Elevador 5: 14 (99, 2, 1 (19))
+Elevador 5: 19 (99, 2, 1 ())
+Elevador 5 finalizou a tarefa 99
+Elevador 5 vai escolher
+Elevador 5 escolheu a tarefa 27
+Elevador 5: 19 (27, 20, 0 (18, 17, 15, 2, 0))
+Elevador 5: 20 (27, 20, 0 (18, 17, 15, 2, 0))
+Elevador 5: 18 (27, 20, 0 (17, 15, 2, 0))
+Elevador 5: 17 (27, 20, 0 (15, 2, 0))
+Elevador 5: 15 (27, 20, 0 (2, 0))
+Elevador 5: 2 (27, 20, 0 (0))
+Elevador 5: 0 (27, 20, 0 ())
+Elevador 5 finalizou a tarefa 27
+Elevador 5 vai escolher
+Elevador 5 morreu

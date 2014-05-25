@@ -1,0 +1,11 @@
+--Cria a thread 0
+Elevador 0 começou no andar 0
+Elevador 0 vai escolher
+Elevador 0 escolheu a tarefa 3
+Elevador 0: 0 (3, 4, 1 (5, 5, 6))
+Elevador 0: 4 (3, 4, 1 (5, 6))
+Elevador 0: 5 (3, 4, 1 (6))
+Elevador 0: 6 (3, 4, 1 ())
+Elevador 0 finalizou a tarefa 3
+Elevador 0 vai escolher
+Elevador 0 morreu

@@ -1,0 +1,36 @@
+--Cria a thread 7
+Elevador 7 começou no andar 12
+Elevador 7 vai escolher
+Elevador 7 escolheu a tarefa 22
+Elevador 7: 12 (22, 12, 0 (11, 9, 8, 8, 7, 7, 6, 6, 3, 0))
+Elevador 7: 12 (22, 12, 0 (11, 9, 8, 7, 6, 3, 0))
+Elevador 7: 11 (22, 12, 0 (9, 8, 7, 6, 3, 0))
+Elevador 7: 9 (22, 12, 0 (8, 7, 6, 3, 0))
+Elevador 7: 8 (22, 12, 0 (7, 6, 3, 0))
+Elevador 7: 7 (22, 12, 0 (6, 3, 0))
+Elevador 7: 6 (22, 12, 0 (3, 0))
+Elevador 7: 3 (22, 12, 0 (0))
+Elevador 7: 0 (22, 12, 0 ())
+Elevador 7 finalizou a tarefa 22
+Elevador 7 vai escolher
+Elevador 7 escolheu a tarefa 10
+Elevador 7: 0 (10, 1, 0 (0, 0, 0, 0, 0, 0, 0, 0, 0, 0))
+Elevador 7: 1 (10, 1, 0 (0))
+Elevador 7: 0 (10, 1, 0 ())
+Elevador 7 finalizou a tarefa 10
+Elevador 7 vai escolher
+Elevador 7 escolheu a tarefa 16
+Elevador 7: 0 (16, 2, 1 (6, 11, 13))
+Elevador 7: 2 (16, 2, 1 (6, 11, 13))
+Elevador 7: 6 (16, 2, 1 (11, 13))
+Elevador 7: 11 (16, 2, 1 (13))
+Elevador 7: 13 (16, 2, 1 ())
+Elevador 7 finalizou a tarefa 16
+Elevador 7 vai escolher
+Elevador 7 escolheu a tarefa 21
+Elevador 7: 13 (21, 13, 0 (6))
+Elevador 7: 13 (21, 13, 0 (6))
+Elevador 7: 6 (21, 13, 0 ())
+Elevador 7 finalizou a tarefa 21
+Elevador 7 vai escolher
+Elevador 7 morreu

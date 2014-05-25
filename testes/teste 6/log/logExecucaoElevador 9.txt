@@ -1,0 +1,34 @@
+--Cria a thread 9
+Elevador 9 começou no andar 7
+Elevador 9 vai escolher
+Elevador 9 escolheu a tarefa 3
+Elevador 9: 7 (3, 7, 1 (15))
+Elevador 9: 7 (3, 7, 1 (15))
+Elevador 9: 15 (3, 7, 1 ())
+Elevador 9 finalizou a tarefa 3
+Elevador 9 vai escolher
+Elevador 9 escolheu a tarefa 4
+Elevador 9: 15 (4, 16, 0 (15, 9, 8, 4, 1, 0))
+Elevador 9: 16 (4, 16, 0 (15, 9, 8, 4, 1, 0))
+Elevador 9: 15 (4, 16, 0 (9, 8, 4, 1, 0))
+Elevador 9: 9 (4, 16, 0 (8, 4, 1, 0))
+Elevador 9: 8 (4, 16, 0 (4, 1, 0))
+Elevador 9: 4 (4, 16, 0 (1, 0))
+Elevador 9: 1 (4, 16, 0 (0))
+Elevador 9: 0 (4, 16, 0 ())
+Elevador 9 finalizou a tarefa 4
+Elevador 9 vai escolher
+Elevador 9 escolheu a tarefa 44
+Elevador 9: 0 (44, 4, 0 (0, 0, 0))
+Elevador 9: 4 (44, 4, 0 (0))
+Elevador 9: 0 (44, 4, 0 ())
+Elevador 9 finalizou a tarefa 44
+Elevador 9 vai escolher
+Elevador 9 escolheu a tarefa 42
+Elevador 9: 0 (42, 6, 0 (5, 0))
+Elevador 9: 6 (42, 6, 0 (5, 0))
+Elevador 9: 5 (42, 6, 0 (0))
+Elevador 9: 0 (42, 6, 0 ())
+Elevador 9 finalizou a tarefa 42
+Elevador 9 vai escolher
+Elevador 9 morreu
