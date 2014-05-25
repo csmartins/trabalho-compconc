@@ -1,35 +1,53 @@
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 
+ * @author Patrícia S. Ghiraldelli e Carlos Eduardo S. Martisns
+ * 
+ * Essa classe funciona como um monitor, contendo todos os métodos com acessos às variáveis 
+ * compartilhadas pelos elevadores (threads).
+ *
+ */
 
 public class MonitorDeTarefas 
 {
 	String [] 		  tarefasBrutas;
 	
-	ArrayList<Tarefa> listaDeTarefas; 
+	ArrayList<Tarefa> listaDeTarefas;
 	
 	private final int DESCE = 0;
 	private final int SOBE = 1;
 	
-	private int count;
+	private boolean criandoTarefas;
 	
+	/**
+	 * Método responsável por iniciar o monitor, instanciando variáveis e recebendo o arquivo de tarefas
+	 * @param tarefas é o vetor de tarefas já lidas no arquivo de entrada 
+	 */
 	public void iniciarMonitor(String[] tarefas)
 	{
 		this.listaDeTarefas = new ArrayList<Tarefa>();
 		this.tarefasBrutas = tarefas;
 		this.criarTarefas();
 		
-		this.count= 0;
 	}
 	
+	/**
+	 * Método responsável por instanciar os objetos Tarefa com as informações do arquivo lido.
+	 * A cada tarefa criada é dado um notify para acordar possíveis elevadores que estejam aguardando
+	 * a criação de tarefas.
+	 * 
+	 * @see tratarTarefas()
+	 */
 	private void criarTarefas() 
 	{
+		criandoTarefas = true;
 		for(int i = 0; i < tarefasBrutas.length; i++)
 		{
 			synchronized (this) 
 			{
 				System.out.println("Criando tarefa " + i);
-				
 				Tarefa tarefa = new Tarefa(i);
 				tratarTarefas(tarefasBrutas[i], tarefa);
 				listaDeTarefas.add(tarefa);
@@ -37,9 +55,18 @@ public class MonitorDeTarefas
 				this.notifyAll();
 			}
 		}
-		
+		this.criandoTarefas = false;
 	}
 
+	/**
+	 * @param tarefaBruta É a string referente a uma linha lida no arquivo de entrada, portanto uma posição do 
+	 * vetor de tarefas recebido no  método iniciaMonitor
+	 * @param tarefa É o objeto criado Tarefa que receberá as informações da tarefaBruta
+	 * @see ordenarRequisicoes
+	 * @see excluirRepeticoes
+	 * 
+	 * Método responsável por instanciar o objeto Tarefa e tratá-los, excluindo repetições e ordenando corretamente
+	 */
 	private void tratarTarefas(String tarefaBruta, Tarefa tarefa)
 	{
 		String [] separado = tarefaBruta.split(" ");
@@ -56,6 +83,15 @@ public class MonitorDeTarefas
 		
 	}
 
+	/**
+	 * Método responsável por ordenar as requisições de uma tarefa de acordo com o seu sentido 
+	 * (crescente caso o sentido seja subindo, decrescente caso o sentido seja descendo).
+	 * Percorre o vetor de requisições comparando uma posição com a sua posterior e testando a condição dada 
+	 * pelo método trocarPosicao 
+	 * @param separado vetor de string em que cada posição corresponde a uma requisição
+	 * @param sentido
+	 * @see TrocarPosicao
+	 */
 	public void ordenarRequisicoes(String[] separado, int sentido)
 	{
 		String aux = "";
@@ -72,6 +108,16 @@ public class MonitorDeTarefas
 		}
 	}
 	
+	/**
+	 * Método que, caso o sentido seja de subida, verifica se o valor inteiro da requisição avaliada é maior que o 
+	 * da sua posterior, e então retorna true. Caso o sentido seja de descida e o valor inteiro da posição avaliada
+	 * seja menor que o da sua posterior, então retorna true. Caso contrário retorna false.
+	 * @param i posição sendo avaliada 
+	 * @param j posição posterior a avaliada
+	 * @param sentido sentido da tarefa (sobe ou desce)
+	 * @param separado vetor de string contendo em cada posição uma requisição
+	 * @return boolean que diz se é ou não necessário trocar as posições (avaliada e sua posterior)
+	 */
 	public boolean trocarPosicao(int i,int j, int sentido, String[] separado)
 	{
 		Integer sepi = Integer.decode(separado[i]);
@@ -90,13 +136,21 @@ public class MonitorDeTarefas
 		}
 	}
 
+	/**
+	 * Método responsável por inserir os valores inteiros das requisições numa lista de inteiros, não permitindo repetições de valores, e
+	 * também por setar o valor da requisição bruta da tarefa antes de convertê-la para inteiro. 
+	 * Antes de adicionar um inteiro na lista de requisições é verificado se já existe um igual. Caso exista o mesmo não é adicionado.
+	 * @param separado vetor de string que possui, em cada posição, uma requisição
+	 * @param requisicoes lista de inteiros a ser preenchida com os valores inteiros das strings de requisições
+	 * @param tarefa tarefa que está sendo criada
+	 */
 	public void excluirRepeticoes(String[] separado, List<Integer> requisicoes, Tarefa tarefa)
 	{
 			tarefa.setRequisicaoBruta(new ArrayList<Integer>());
 			for(int i =3; i< separado.length; i++)
 			{
 				Integer elemento = Integer.decode(separado[i]);
-				tarefa.getRequisicaoBruta().add(elemento); //seta o vetor da string bruta antes de remover repeticao
+				tarefa.getRequisicaoBruta().add(elemento); 
 				if(!requisicoes.contains(elemento))
 				{
 					requisicoes.add(elemento);
@@ -104,67 +158,129 @@ public class MonitorDeTarefas
 		}	
 	}
 
+	/**
+	 * Método responsável por escolher um elevador a partir de uma tarefa. Com o andar de início da tarefa percorremos a lista de elevadores esperando para comparar com o 
+	 * andar em que o elevador se encontra. Caso o andar de início da tarefa seja igual ao do elevador, esse será o eleito. Caso contrário, será escolhido o melhor elevador
+	 * a partir da diferença entre o andar de início da tarefa e o andar atual do elevador. O mais próximo será escolhido. 
+	 * @param elevadoresEsperando lista de elevadores bloqueados devido ao fato de nenhuma tarefa ter sido criada ainda 
+	 * @return inteiro com o id do elevador escolhido
+	 */
+	public int tarefaEscolheElevador(List<Elevador> elevadoresEsperando)
+	{
+		int idElevadorEscolhido = 0;
+		int distancia = 0;
+		int aux;
+		
+		for(Elevador e: elevadoresEsperando){
+			if(listaDeTarefas.get(0).getAndarDeInicio() == e.id){
+				idElevadorEscolhido = e.id;
+				break;
+			}
+			else{
+				aux= distancia;
+				distancia = Math.abs(e.andarAtual - listaDeTarefas.get(0).getAndarDeInicio());
+				if(aux < distancia) distancia = aux;
+				else idElevadorEscolhido =  (int) e.getId();
+			}
+		}
+		
+		return idElevadorEscolhido;
+	}
+	
+	/**
+	 * Método responsável por escolher a melhor tarefa para um elevador. A partir do andar em que o elevador se encontra, o comparamos com o andar de início da tarefa.
+	 * Caso sejam iguais, essa tarefa será escolhida. Caso contrário, escolheremos a tarefa cuja diferença entre o andar de início da tarefa e o andar atual do elevador seja menor.
+	 * Ou seja, a tarefa cujo andar de início esteja mais perto do elevador.
+	 * @param elevador 
+	 * @return tarefa que esteja mais próxima do elevador
+	 */
+	public Tarefa elevadorEscolheTarefa(Elevador elevador)
+	{
+		Tarefa candidataTarefa = new Tarefa(40);
+		int andarTarefa;
+		int menorDistancia = 0;
+		int distanciaAtual;
+		
+		for(int tarefa = 0; tarefa < listaDeTarefas.size(); tarefa++)
+		{
+			andarTarefa = listaDeTarefas.get(tarefa).getAndarDeInicio();
+			
+			if(andarTarefa == elevador.andarAtual)
+			{
+				candidataTarefa = listaDeTarefas.get(tarefa);
+				listaDeTarefas.remove(candidataTarefa);
+				System.out.println("Elevador "+elevador.id+" escolheu a tarefa "+candidataTarefa.getIdTarefa());
+				return candidataTarefa;
+			}
+			
+			else
+			{
+				distanciaAtual = Math.abs(elevador.andarAtual - listaDeTarefas.get(tarefa).getAndarDeInicio());
+				if(tarefa == 0)
+				{
+					candidataTarefa = listaDeTarefas.get(0);
+					menorDistancia = distanciaAtual;
+				}
+				else
+				{
+					if(menorDistancia > distanciaAtual)
+					{							
+						candidataTarefa = listaDeTarefas.get(tarefa);
+						menorDistancia = distanciaAtual;
+					}
+				}
+			}		
+		}
+		
+		System.out.println("Elevador "+elevador.id+" escolheu a tarefa "+candidataTarefa.getIdTarefa());
+		
+		listaDeTarefas.remove(candidataTarefa);
+		return candidataTarefa;
 
-	public synchronized Tarefa escolherTarefa(Integer andarAtual, int idElevador) 
+	}
+	
+	/**
+	 * Método responsável por monitor a escolha de tarefa. Caso a lista de tarefa esteja vazia e a criação das tarefas já tenha
+	 * acabado, é retornado null para que a thread termine sua execução. Caso a lista esteja vazia, mas a criação de tarefas esteja
+	 * em andamento, a thread é bloqueada. Caso haja menos tarefas do que elevador é chamado o método tarefaEscolheElevador. Caso contrário
+	 * é chamado o elevadorEscolheTarefa.
+	 * @param elevador
+	 * @return Null, caso haja erro ou as tarefas já tenham acabado. Tarefa com a tarefa mais adequada à situação.
+	 * @see tarefaEscolheElevador
+	 * @see elevadorEscolheTarefa
+	 */
+	public synchronized Tarefa escolherTarefa(Elevador elevador) 
 	{		
 		Tarefa candidataTarefa = null;
+		List <Elevador> elevadoresEsperando = new ArrayList<Elevador>();
+		int idElevadorEscolhido;
 		
 		try
 		{
-			if(listaDeTarefas.isEmpty())
+			if(listaDeTarefas.isEmpty() && this.criandoTarefas == false)
 			{
+				return null;
+			}
+			while(listaDeTarefas.isEmpty() && this.criandoTarefas == true)
+			{
+				elevadoresEsperando.add(elevador);
 				wait();
 			}
 			
-			while(count > 0)
+			while((listaDeTarefas.size() < elevadoresEsperando.size()) && this.criandoTarefas)
 			{
-				System.out.println("Elevador "+idElevador+" bloqueado");
-				wait();
-			}
-
-			++count;
-			int andarTarefa;
-			int menorDistancia = 0;
-			int distanciaAtual;
-			candidataTarefa = new Tarefa(40);
-			
-			for(int tarefa = 0; tarefa < listaDeTarefas.size(); tarefa++)
-			{
-				andarTarefa = listaDeTarefas.get(tarefa).getAndarDeInicio();
-				
-				if(andarTarefa == andarAtual)
-				{
-					candidataTarefa = listaDeTarefas.get(tarefa);
-					listaDeTarefas.remove(candidataTarefa);
-					System.out.println("Elevador "+idElevador+" escolheu a tarefa "+candidataTarefa.getIdTarefa());
-					--count;
+				idElevadorEscolhido = tarefaEscolheElevador(elevadoresEsperando);
+				if(elevador.getId() != idElevadorEscolhido){
+					wait();
+				}
+				else{
+					candidataTarefa = listaDeTarefas.get(0);
+					elevadoresEsperando.remove(elevador);
 					return candidataTarefa;
 				}
-				
-				else
-				{
-					distanciaAtual = Math.abs(andarAtual - listaDeTarefas.get(tarefa).getAndarDeInicio());
-					if(tarefa == 0)
-					{
-						candidataTarefa = listaDeTarefas.get(0);
-						menorDistancia = distanciaAtual;
-					}
-					else
-					{
-						if(menorDistancia > distanciaAtual)
-						{							
-							candidataTarefa = listaDeTarefas.get(tarefa);
-							menorDistancia = distanciaAtual;
-						}
-					}
-				}		
 			}
 			
-			System.out.println("Elevador "+idElevador+" escolheu a tarefa "+candidataTarefa.getIdTarefa());
-			
-			listaDeTarefas.remove(candidataTarefa);
-			
-			--count;
+			candidataTarefa = elevadorEscolheTarefa(elevador);
 			
 			return candidataTarefa;
 			
@@ -174,6 +290,11 @@ public class MonitorDeTarefas
 		return null;
 	}
 	
+	/**
+	 * Método responsável por notificar as threads que estejam bloqueadas que o elevador em questão finalizou sua tarefa.
+	 * @param id id do elevador que executou tal tarefa
+	 * @param idTarefa id da tarefa que acabou de ser executada
+	 */
 	public synchronized void finalizaTarefa(int id, int idTarefa)
 	{
 		System.out.println("Elevador "+id+" finalizou a tarefa "+idTarefa);

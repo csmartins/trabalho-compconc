@@ -1,5 +1,11 @@
 import java.util.List;
 
+/**
+ * 
+ * Classe responsável por armazenar informações da tarefa.
+ * @author Patrícia S. Ghiraldelli e Carlos Eduardo S. Martins
+ *
+ */
 public class Tarefa 
 {
 	private Integer 	  andarDeInicio;

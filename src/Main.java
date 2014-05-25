@@ -14,6 +14,12 @@ public class Main {
 	
 	static MonitorDeTarefas central;
 
+	/**
+	 * Método responsável por ler e armazenar cada linha do arquivo de entrada em um vetor de strings, ou em variáveis
+	 * de tipos relacionados a seus campos. Inteiro para número de andares, número de elevador e número máximo de usuários.
+	 * 
+	 * @param caminhoArq
+	 */
 	public static void lerArquivo(String caminhoArq){
 		
 		String[] separados = null;
@@ -58,6 +64,14 @@ public class Main {
 
 	}
 	
+	/**
+	 * 
+	 * Método responsável por chamar a leitura do arquivo, criar as threads, iniciá-las, iniciar a criação de tarefas e,
+	 * por fim, esperar pelo fim de todas as threads para finalizar o programa.
+	 * @see leArquivo
+	 * @see iniciaMonitor
+	 * @param args
+	 */
 	public static void main(String[] args) 
 	{
 		
