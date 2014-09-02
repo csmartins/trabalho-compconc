@@ -82,7 +82,7 @@ public class Main {
 	{
 		
 		/*lê arquivos e salva nas variáveis as infos necessárias*/
-		lerArquivo("entrada.txt");
+		lerArquivo("C:/Users/Ed/Desktop/trabalho-compconc/entrada.txt");
 		
 		criarArquivosDeSaida(numElevadores);
 		

@@ -29,7 +29,7 @@ public class Elevador extends Thread{
 	 */
 	public Elevador(int id, int andarDeInicio, MonitorDeTarefas monitor) 
 	{
-		this.id =id;
+		this.id = id;
 		this.andarDeInicio = andarDeInicio;
 		this.andarAtual = andarDeInicio;
 		this.monitor = monitor;
